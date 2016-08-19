@@ -184,10 +184,6 @@ function AngelArena:InitGameMode()
     LinkLuaModifier( "modifier_stop",				'modifiers/modifier_stop', 				LUA_MODIFIER_MOTION_NONE )
 	LinkLuaModifier( "modifier_medical_tractate",	'modifiers/modifier_medical_tractate', 	LUA_MODIFIER_MOTION_NONE )
 	LinkLuaModifier( "modifier_boss_power",			'modifiers/modifier_boss_power', 		LUA_MODIFIER_MOTION_NONE )
-	LinkLuaModifier( "modifier_yarik",				'modifiers/modifier_yarik', 			LUA_MODIFIER_MOTION_NONE )
-	LinkLuaModifier( "modifier_reflect",			'modifiers/modifier_reflect', 			LUA_MODIFIER_MOTION_NONE )
-	LinkLuaModifier( "modifier_grin",				'modifiers/modifier_grin', 				LUA_MODIFIER_MOTION_NONE )
-	LinkLuaModifier( "modifier_crydes",				'modifiers/modifier_crydes', 			LUA_MODIFIER_MOTION_NONE )
 	LinkLuaModifier( "modifier_godmode",			'modifiers/modifier_godmode', 			LUA_MODIFIER_MOTION_NONE )
 
 	--################################## RUNES MODIFIERS ############################################### --
