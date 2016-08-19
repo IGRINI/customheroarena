@@ -1,0 +1,2749 @@
+"Spells" {
+
+	"0000" // Do not change this, it is registered by flash as the skill that buys points (the skill is not added to the player)
+	{
+		"_ID"			"0000" // Do not change this, flash registers it as the skill that buys points (the skill is not added to the player)
+		"_name"			"spell_shop_ui_point" 
+		"_texture"		"spell_shop_ui_point" // if you want to have a custom texture for your skill point
+		"_isSellable"	"true" // do not change tis
+		"_isOwned"		"false" // do not change this
+		"_cost"			"0" // this is the cost of the skill point
+		"_sellFactor"	"0.67" // this is the sell factor of the skill point (sells for _sellFactor x _cost)
+		"_upgFactor"	"1"  // do not change this
+		"_curLvl"		"0" // do not change this
+		"_maxLvl"		"1" // do not change this
+		"_isUpg"		"false" // do not change this
+		"_pntCost"		"0" // do not change this
+		"_pntSellFac"	"1" // do not change this
+		"_pntIncrement"	"0" // do not change this
+		"_pntIncLvl"	"0" // do not change this
+	}
+	
+	// everything other than _ID can be defaulted in the spells_default.txt
+	// if you dont set _texture, it is defaulted to _name
+
+	"0001" // keep this the same as the _ID, keep it unique and in "XXXX" format. it's also the order in which your spells will show up
+	{
+		"_ID"			"0001" // see comment above
+		"_name"			"abaddon_death_coil" // the name of the ability recognized by Lua
+		"_texture"		"abaddon_death_coil" // the texture of the ability inside images/spellicons/
+		"_isSellable"	"true" // if you can sell the ability
+		"_isOwned"		"false" // if the ability is owned by the player. you might want to set this to false
+		"_cost"			"1200" // the gold cost of the ability
+		"_sellFactor"	"0.5" // how much the ability sells for (_sellFactor x _cost) x _curLvl
+		"_upgFactor"	"30.0" // the factor for increasing gold cost on upgrade (lvl 1 is _cost, lvl 2+ is _upgFactor * _cost)
+		"_curLvl"		"0" // the current level of the ability for the player.. you might want to set this to 0
+		"_maxLvl"		"7" // the max lvl of the ability
+		"_isUpg"		"true" // if you can upgrade the ability (skill it up)
+		"_pntCost"		"1" // how much skillpoints the ability costs
+		"_pntSellFac"	"1" // the sell factor of the skillpoint cost (it will be sold for minimum 1 skillpoint)
+		"_pntIncrement"	"1" // how much the point cost increments every _pntIncLvl
+		"_pntIncLvl"	"3" // if _pntCost == 1, _pntIncrement == 1 and _pntIncLvl == 1, this is how it'll look:
+		// Level: 1 2 3 4
+		// Cost:  1 1 1 2
+	}
+
+
+// Common Spells
+
+	"0002"
+	{
+		"_ID"			"0002"
+		"_name"			"abaddon_aphotic_shield"
+	}
+
+	"0003"
+	{
+		"_ID"			"0003"
+		"_name"			"abaddon_frostmourne"
+	}
+
+	"0004"
+	{
+		"_ID"			"0004"
+		"_name"			"abyssal_underlord_atrophy_aura"
+	}
+
+	"0005"
+	{
+		"_ID"			"0005"
+		"_name"			"abyssal_underlord_firestorm"
+	}
+
+	"0006"
+	{
+		"_ID"			"0006"
+		"_name"			"abyssal_underlord_pit_of_malice"
+	}
+
+	"0007"
+	{
+		"_ID"			"0007"
+		"_name"			"alchemist_acid_spray"
+	}
+
+	"0008"
+	{
+		"_ID"			"0008"
+		"_name"			"alchemist_goblins_greed"
+	}
+
+	"0009"
+	{
+		"_ID"			"0009"
+		"_name"			"alchemist_unstable_concoction"
+	}
+
+	"0010"
+	{
+		"_ID"			"0010"
+		"_name"			"ancient_apparition_chilling_touch"
+	}
+
+	"0011"
+	{
+		"_ID"			"0011"
+		"_name"			"ancient_apparition_cold_feet"
+	}
+
+	"0012"
+	{
+		"_ID"			"0012"
+		"_name"			"ancient_apparition_ice_vortex"
+	}
+
+	"0013"
+	{
+		"_ID"			"0013"
+		"_name"			"antimage_blink"
+	}
+
+	"0014"
+	{
+		"_ID"			"0014"
+		"_name"			"antimage_mana_break"
+	}
+
+	"0015"
+	{
+		"_ID"			"0015"
+		"_name"			"antimage_spell_shield"
+	}
+
+	"0016"
+	{
+		"_ID"			"0016"
+		"_name"			"axe_battle_hunger"
+	}
+
+	"0017"
+	{
+		"_ID"			"0017"
+		"_name"			"axe_berserkers_call"
+	}
+
+	"0018"
+	{
+		"_ID"			"0018"
+		"_name"			"axe_counter_helix"
+	}
+
+	"0019"
+	{
+		"_ID"			"0019"
+		"_name"			"bane_brain_sap"
+	}
+
+	"0020"
+	{
+		"_ID"			"0020"
+		"_name"			"bane_enfeeble"
+	}
+
+	"0021"
+	{
+		"_ID"			"0021"
+		"_name"			"bane_nightmare"
+	}
+
+	"0022"
+	{
+		"_ID"			"0022"
+		"_name"			"batrider_firefly"
+	}
+
+	"0023"
+	{
+		"_ID"			"0023"
+		"_name"			"batrider_flamebreak"
+	}
+
+	"0024"
+	{
+		"_ID"			"0024"
+		"_name"			"batrider_sticky_napalm"
+	}
+
+	"0025"
+	{
+		"_ID"			"0025"
+		"_name"			"beastmaster_inner_beast"
+	}
+
+	"0026"
+	{
+		"_ID"			"0026"
+		"_name"			"beastmaster_wild_axes"
+	}
+
+	"0027"
+	{
+		"_ID"			"0027"
+		"_name"			"bloodseeker_bloodrage"
+	}
+
+	"0028"
+	{
+		"_ID"			"0028"
+		"_name"			"bloodseeker_blood_bath"
+	}
+
+	"0029"
+	{
+		"_ID"			"0029"
+		"_name"			"bloodseeker_thirst"
+	}
+
+	"0030"
+	{
+		"_ID"			"0030"
+		"_name"			"bounty_hunter_jinada"
+	}
+
+	"0031"
+	{
+		"_ID"			"0031"
+		"_name"			"bounty_hunter_shuriken_toss"
+	}
+
+	"0032"
+	{
+		"_ID"			"0032"
+		"_name"			"bounty_hunter_wind_walk"
+	}
+
+	"0033"
+	{
+		"_ID"			"0033"
+		"_name"			"brewmaster_drunken_brawler"
+	}
+
+	"0034"
+	{
+		"_ID"			"0034"
+		"_name"			"brewmaster_drunken_haze"
+	}
+
+	"0035"
+	{
+		"_ID"			"0035"
+		"_name"			"brewmaster_thunder_clap"
+	}
+
+	"0036"
+	{
+		"_ID"			"0036"
+		"_name"			"bristleback_bristleback"
+	}
+
+	"0037"
+	{
+		"_ID"			"0037"
+		"_name"			"bristleback_quill_spray"
+	}
+
+	"0038"
+	{
+		"_ID"			"0038"
+		"_name"			"bristleback_viscous_nasal_goo"
+	}
+
+	"0039"
+	{
+		"_ID"			"0039"
+		"_name"			"broodmother_incapacitating_bite"
+	}
+
+	"0040"
+	{
+		"_ID"			"0040"
+		"_name"			"broodmother_spawn_spiderlings"
+	}
+
+	"0041"
+	{
+		"_ID"			"0041"
+		"_name"			"centaur_double_edge"
+	}
+
+	"0042"
+	{
+		"_ID"			"0042"
+		"_name"			"centaur_hoof_stomp"
+	}
+
+	"0043"
+	{
+		"_ID"			"0043"
+		"_name"			"centaur_return"
+	}
+
+	"0044"
+	{
+		"_ID"			"0044"
+		"_name"			"chaos_knight_chaos_bolt"
+	}
+
+	"0045"
+	{
+		"_ID"			"0045"
+		"_name"			"chaos_knight_chaos_strike"
+	}
+
+	"0046"
+	{
+		"_ID"			"0046"
+		"_name"			"chaos_knight_reality_rift"
+	}
+
+	"0047"
+	{
+		"_ID"			"0047"
+		"_name"			"clinkz_searing_arrows"
+	}
+
+	"0048"
+	{
+		"_ID"			"0048"
+		"_name"			"clinkz_strafe"
+	}
+
+	"0049"
+	{
+		"_ID"			"0049"
+		"_name"			"clinkz_wind_walk"
+	}
+
+	"0050"
+	{
+		"_ID"			"0050"
+		"_name"			"crystal_maiden_brilliance_aura"
+	}
+
+	"0051"
+	{
+		"_ID"			"0051"
+		"_name"			"crystal_maiden_crystal_nova"
+	}
+
+	"0052"
+	{
+		"_ID"			"0052"
+		"_name"			"crystal_maiden_frostbite"
+	}
+
+	"0053"
+	{
+		"_ID"			"0053"
+		"_name"			"dark_seer_ion_shell"
+	}
+
+	"0054"
+	{
+		"_ID"			"0054"
+		"_name"			"dark_seer_surge"
+	}
+
+	"0055"
+	{
+		"_ID"			"0055"
+		"_name"			"dark_seer_vacuum"
+	}
+
+	"0056"
+	{
+		"_ID"			"0056"
+		"_name"			"dazzle_poison_touch"
+	}
+
+	"0057"
+	{
+		"_ID"			"0057"
+		"_name"			"dazzle_shadow_wave"
+	}
+
+	"0058"
+	{
+		"_ID"			"0058"
+		"_name"			"dazzle_shallow_grave"
+	}
+
+	"0059"
+	{
+		"_ID"			"0059"
+		"_name"			"death_prophet_carrion_swarm"
+	}
+
+	"0060"
+	{
+		"_ID"			"0060"
+		"_name"			"death_prophet_silence"
+	}
+
+	"0061"
+	{
+		"_ID"			"0061"
+		"_name"			"death_prophet_witchcraft"
+	}
+
+	"0062"
+	{
+		"_ID"			"0062"
+		"_name"			"disruptor_glimpse"
+	}
+
+	"0063"
+	{
+		"_ID"			"0063"
+		"_name"			"disruptor_kinetic_field"
+	}
+
+	"0064"
+	{
+		"_ID"			"0064"
+		"_name"			"disruptor_thunder_strike"
+	}
+
+	"0065"
+	{
+		"_ID"			"0065"
+		"_name"			"doom_bringer_lvl_death"
+	}
+
+	"0066"
+	{
+		"_ID"			"0066"
+		"_name"			"doom_bringer_scorched_earth"
+	}
+
+	"0067"
+	{
+		"_ID"			"0067"
+		"_name"			"dragon_knight_breathe_fire"
+	}
+
+	"0068"
+	{
+		"_ID"			"0068"
+		"_name"			"dragon_knight_dragon_blood"
+	}
+
+	"0069"
+	{
+		"_ID"			"0069"
+		"_name"			"dragon_knight_dragon_tail"
+	}
+
+	"0070"
+	{
+		"_ID"			"0070"
+		"_name"			"drow_ranger_frost_arrows"
+	}
+
+	"0071"
+	{
+		"_ID"			"0071"
+		"_name"			"drow_ranger_silence"
+	}
+
+	"0072"
+	{
+		"_ID"			"0072"
+		"_name"			"drow_ranger_trueshot"
+	}
+
+	"0073"
+	{
+		"_ID"			"0073"
+		"_name"			"earthshaker_aftershock"
+	}
+
+	"0074"
+	{
+		"_ID"			"0074"
+		"_name"			"earthshaker_enchant_totem"
+	}
+
+	"0075"
+	{
+		"_ID"			"0075"
+		"_name"			"earthshaker_fissure"
+	}
+
+	"0076"
+	{
+		"_ID"			"0076"
+		"_name"			"earth_spirit_boulder_smash"
+	}
+
+	"0077"
+	{
+		"_ID"			"0077"
+		"_name"			"earth_spirit_geomagnetic_grip"
+	}
+
+	"0078"
+	{
+		"_ID"			"0078"
+		"_name"			"earth_spirit_rolling_boulder"
+	}
+
+	"0079"
+	{
+		"_ID"			"0079"
+		"_name"			"elder_titan_ancestral_spirit"
+	}
+
+	"0080"
+	{
+		"_ID"			"0080"
+		"_name"			"elder_titan_echo_stomp"
+	}
+
+	"0081"
+	{
+		"_ID"			"0081"
+		"_name"			"elder_titan_natural_order"
+	}
+
+	"0082"
+	{
+		"_ID"			"0082"
+		"_name"			"ember_spirit_flame_guard"
+	}
+
+	"0083"
+	{
+		"_ID"			"0083"
+		"_name"			"ember_spirit_searing_chains"
+	}
+
+	"0084"
+	{
+		"_ID"			"0084"
+		"_name"			"ember_spirit_sleight_of_fist"
+	}
+
+	"0085"
+	{
+		"_ID"			"0085"
+		"_name"			"enchantress_natures_attendants"
+	}
+
+	"0086"
+	{
+		"_ID"			"0086"
+		"_name"			"enchantress_untouchable"
+	}
+
+	"0087"
+	{
+		"_ID"			"0087"
+		"_name"			"enigma_demonic_conversion"
+	}
+
+	"0088"
+	{
+		"_ID"			"0088"
+		"_name"			"enigma_malefice"
+	}
+
+	"0089"
+	{
+		"_ID"			"0089"
+		"_name"			"enigma_midnight_pulse"
+	}
+
+	"0090"
+	{
+		"_ID"			"0090"
+		"_name"			"faceless_void_backtrack"
+	}
+
+	"0091"
+	{
+		"_ID"			"0091"
+		"_name"			"faceless_void_time_lock"
+	}
+
+	"0092"
+	{
+		"_ID"			"0092"
+		"_name"			"faceless_void_time_walk"
+	}
+
+	"0093"
+	{
+		"_ID"			"0093"
+		"_name"			"furion_force_of_nature"
+	}
+
+	"0094"
+	{
+		"_ID"			"0094"
+		"_name"			"furion_sprout"
+	}
+
+	"0095"
+	{
+		"_ID"			"0095"
+		"_name"			"furion_teleportation"
+	}
+
+	"0096"
+	{
+		"_ID"			"0096"
+		"_name"			"gyrocopter_flak_cannon"
+	}
+
+	"0097"
+	{
+		"_ID"			"0097"
+		"_name"			"gyrocopter_homing_missile"
+	}
+
+	"0098"
+	{
+		"_ID"			"0098"
+		"_name"			"gyrocopter_rocket_barrage"
+	}
+
+	"0099"
+	{
+		"_ID"			"0099"
+		"_name"			"huskar_berserkers_blood"
+	}
+
+	"0100"
+	{
+		"_ID"			"0100"
+		"_name"			"huskar_burning_spear"
+	}
+
+	"0101"
+	{
+		"_ID"			"0101"
+		"_name"			"huskar_inner_vitality"
+	}
+
+	"0102"
+	{
+		"_ID"			"0102"
+		"_name"			"jakiro_dual_breath"
+	}
+
+	"0103"
+	{
+		"_ID"			"0103"
+		"_name"			"jakiro_ice_path"
+	}
+
+	"0104"
+	{
+		"_ID"			"0104"
+		"_name"			"jakiro_liquid_fire"
+	}
+
+	"0105"
+	{
+		"_ID"			"0105"
+		"_name"			"juggernaut_blade_dance"
+	}
+
+	"0106"
+	{
+		"_ID"			"0106"
+		"_name"			"juggernaut_blade_fury"
+	}
+
+	"0107"
+	{
+		"_ID"			"0107"
+		"_name"			"juggernaut_healing_ward"
+	}
+
+	"0108"
+	{
+		"_ID"			"0108"
+		"_name"			"keeper_of_the_light_chakra_magic"
+	}
+
+	"0109"
+	{
+		"_ID"			"0109"
+		"_name"			"keeper_of_the_light_illuminate"
+	}
+
+	"0110"
+	{
+		"_ID"			"0110"
+		"_name"			"keeper_of_the_light_mana_leak"
+	}
+
+	"0111"
+	{
+		"_ID"			"0111"
+		"_name"			"keeper_of_the_light_spirit_form"
+	}
+
+	"0112"
+	{
+		"_ID"			"0112"
+		"_name"			"kunkka_tidebringer"
+	}
+
+	"0113"
+	{
+		"_ID"			"0113"
+		"_name"			"kunkka_torrent"
+	}
+
+	"0114"
+	{
+		"_ID"			"0114"
+		"_name"			"kunkka_x_marks_the_spot"
+	}
+
+	"0115"
+	{
+		"_ID"			"0115"
+		"_name"			"legion_commander_moment_of_courage"
+	}
+
+	"0116"
+	{
+		"_ID"			"0116"
+		"_name"			"legion_commander_overwhelming_odds"
+	}
+
+	"0117"
+	{
+		"_ID"			"0117"
+		"_name"			"legion_commander_press_the_attack"
+	}
+
+	"0118"
+	{
+		"_ID"			"0118"
+		"_name"			"leshrac_diabolic_edict"
+	}
+
+	"0119"
+	{
+		"_ID"			"0119"
+		"_name"			"leshrac_lightning_storm"
+	}
+
+	"0120"
+	{
+		"_ID"			"0120"
+		"_name"			"leshrac_split_earth"
+	}
+
+	"0121"
+	{
+		"_ID"			"0121"
+		"_name"			"lich_dark_ritual"
+	}
+
+	"0122"
+	{
+		"_ID"			"0122"
+		"_name"			"lich_frost_armor"
+	}
+
+	"0123"
+	{
+		"_ID"			"0123"
+		"_name"			"lich_frost_nova"
+	}
+
+	"0124"
+	{
+		"_ID"			"0124"
+		"_name"			"life_stealer_feast"
+	}
+
+	"0125"
+	{
+		"_ID"			"0125"
+		"_name"			"life_stealer_open_wounds"
+	}
+
+	"0126"
+	{
+		"_ID"			"0126"
+		"_name"			"life_stealer_rage"
+	}
+
+	"0127"
+	{
+		"_ID"			"0127"
+		"_name"			"lina_dragon_slave"
+	}
+
+	"0128"
+	{
+		"_ID"			"0128"
+		"_name"			"lina_fiery_soul"
+	}
+
+	"0129"
+	{
+		"_ID"			"0129"
+		"_name"			"lina_light_strike_array"
+	}
+
+	"0130"
+	{
+		"_ID"			"0130"
+		"_name"			"lion_impale"
+	}
+
+	"0131"
+	{
+		"_ID"			"0131"
+		"_name"			"lion_mana_drain"
+	}
+
+	"0132"
+	{
+		"_ID"			"0132"
+		"_name"			"lion_voodoo"
+	}
+
+	"0133"
+	{
+		"_ID"			"0133"
+		"_name"			"lone_druid_rabid"
+	}
+
+	"0134"
+	{
+		"_ID"			"0134"
+		"_name"			"lone_druid_spirit_bear"
+	}
+
+	"0135"
+	{
+		"_ID"			"0135"
+		"_name"			"lone_druid_synergy"
+	}
+
+	"0136"
+	{
+		"_ID"			"0136"
+		"_name"			"luna_lucent_beam"
+	}
+
+	"0137"
+	{
+		"_ID"			"0137"
+		"_name"			"luna_lunar_blessing"
+	}
+
+	"0138"
+	{
+		"_ID"			"0138"
+		"_name"			"luna_moon_glaive"
+	}
+
+	"0139"
+	{
+		"_ID"			"0139"
+		"_name"			"lycan_feral_impulse"
+	}
+
+	"0140"
+	{
+		"_ID"			"0140"
+		"_name"			"lycan_howl"
+	}
+
+	"0141"
+	{
+		"_ID"			"0141"
+		"_name"			"lycan_summon_wolves"
+	}
+
+	"0142"
+	{
+		"_ID"			"0142"
+		"_name"			"magnataur_empower"
+	}
+
+	"0143"
+	{
+		"_ID"			"0143"
+		"_name"			"magnataur_shockwave"
+	}
+
+	"0144"
+	{
+		"_ID"			"0144"
+		"_name"			"magnataur_skewer"
+	}
+
+	"0145"
+	{
+		"_ID"			"0145"
+		"_name"			"medusa_mana_shield"
+	}
+
+	"0146"
+	{
+		"_ID"			"0146"
+		"_name"			"medusa_mystic_snake"
+	}
+
+	"0147"
+	{
+		"_ID"			"0147"
+		"_name"			"medusa_split_shot"
+	}
+
+	"0148"
+	{
+		"_ID"			"0148"
+		"_name"			"meepo_earthbind"
+	}
+
+	"0149"
+	{
+		"_ID"			"0149"
+		"_name"			"meepo_geostrike"
+	}
+
+	"0150"
+	{
+		"_ID"			"0150"
+		"_name"			"meepo_poof"
+	}
+
+	"0151"
+	{
+		"_ID"			"0151"
+		"_name"			"mirana_arrow"
+	}
+
+	"0152"
+	{
+		"_ID"			"0152"
+		"_name"			"mirana_leap"
+	}
+
+	"0153"
+	{
+		"_ID"			"0153"
+		"_name"			"mirana_starfall"
+	}
+
+	"0154"
+	{
+		"_ID"			"0154"
+		"_name"			"morphling_adaptive_strike"
+	}
+
+	"0155"
+	{
+		"_ID"			"0155"
+		"_name"			"morphling_morph_agi"
+	}
+
+	"0156"
+	{
+		"_ID"			"0156"
+		"_name"			"morphling_morph_str"
+	}
+
+	"0157"
+	{
+		"_ID"			"0157"
+		"_name"			"morphling_waveform"
+	}
+
+	"0158"
+	{
+		"_ID"			"0158"
+		"_name"			"naga_siren_ensnare"
+	}
+
+	"0159"
+	{
+		"_ID"			"0159"
+		"_name"			"naga_siren_mirror_image"
+	}
+
+	"0160"
+	{
+		"_ID"			"0160"
+		"_name"			"naga_siren_rip_tide"
+	}
+
+	"0161"
+	{
+		"_ID"			"0161"
+		"_name"			"necrolyte_death_pulse"
+	}
+
+	"0162"
+	{
+		"_ID"			"0162"
+		"_name"			"necrolyte_heartstopper_aura"
+	}
+
+	"0163"
+	{
+		"_ID"			"0163"
+		"_name"			"necrolyte_sadist"
+	}
+
+	"0164"
+	{
+		"_ID"			"0164"
+		"_name"			"nevermore_dark_lord"
+	}
+
+	"0165"
+	{
+		"_ID"			"0165"
+		"_name"			"nevermore_necromastery"
+	}
+
+	"0166"
+	{
+		"_ID"			"0166"
+		"_name"			"night_stalker_crippling_fear"
+	}
+
+	"0167"
+	{
+		"_ID"			"0167"
+		"_name"			"night_stalker_hunter_in_the_night"
+	}
+
+	"0168"
+	{
+		"_ID"			"0168"
+		"_name"			"night_stalker_void"
+	}
+
+	"0169"
+	{
+		"_ID"			"0169"
+		"_name"			"nyx_assassin_impale"
+	}
+
+	"0170"
+	{
+		"_ID"			"0170"
+		"_name"			"nyx_assassin_mana_burn"
+	}
+
+	"0171"
+	{
+		"_ID"			"0171"
+		"_name"			"nyx_assassin_spiked_carapace"
+	}
+
+	"0172"
+	{
+		"_ID"			"0172"
+		"_name"			"obsidian_destroyer_arcane_orb"
+	}
+
+	"0173"
+	{
+		"_ID"			"0173"
+		"_name"			"obsidian_destroyer_astral_imprisonment"
+	}
+
+	"0174"
+	{
+		"_ID"			"0174"
+		"_name"			"obsidian_destroyer_essence_aura"
+	}
+
+	"0175"
+	{
+		"_ID"			"0175"
+		"_name"			"ogre_magi_bloodlust"
+	}
+
+	"0176"
+	{
+		"_ID"			"0176"
+		"_name"			"ogre_magi_fireblast"
+	}
+
+	"0177"
+	{
+		"_ID"			"0177"
+		"_name"			"ogre_magi_ignite"
+	}
+
+	"0178"
+	{
+		"_ID"			"0178"
+		"_name"			"omniknight_degen_aura"
+	}
+
+	"0179"
+	{
+		"_ID"			"0179"
+		"_name"			"omniknight_purification"
+	}
+
+	"0180"
+	{
+		"_ID"			"0180"
+		"_name"			"omniknight_repel"
+	}
+
+	"0181"
+	{
+		"_ID"			"0181"
+		"_name"			"oracle_fates_edict"
+	}
+
+	"0182"
+	{
+		"_ID"			"0182"
+		"_name"			"oracle_fortunes_end"
+	}
+
+	"0183"
+	{
+		"_ID"			"0183"
+		"_name"			"oracle_purifying_flames"
+	}
+
+	"0184"
+	{
+		"_ID"			"0184"
+		"_name"			"phantom_assassin_blur"
+	}
+
+	"0185"
+	{
+		"_ID"			"0185"
+		"_name"			"phantom_assassin_phantom_strike"
+	}
+
+	"0186"
+	{
+		"_ID"			"0186"
+		"_name"			"phantom_assassin_stifling_dagger"
+	}
+
+	"0187"
+	{
+		"_ID"			"0187"
+		"_name"			"phantom_lancer_doppelwalk"
+	}
+
+	"0188"
+	{
+		"_ID"			"0188"
+		"_name"			"phantom_lancer_juxtapose"
+	}
+
+	"0189"
+	{
+		"_ID"			"0189"
+		"_name"			"phantom_lancer_spirit_lance"
+	}
+
+	"0190"
+	{
+		"_ID"			"0190"
+		"_name"			"phoenix_fire_spirits"
+	}
+
+	"0191"
+	{
+		"_ID"			"0191"
+		"_name"			"phoenix_icarus_dive"
+	}
+
+	"0192"
+	{
+		"_ID"			"0192"
+		"_name"			"phoenix_sun_ray"
+	}
+
+	"0193"
+	{
+		"_ID"			"0193"
+		"_name"			"puck_phase_shift"
+	}
+
+	"0194"
+	{
+		"_ID"			"0194"
+		"_name"			"puck_waning_rift"
+	}
+
+	"0195"
+	{
+		"_ID"			"0195"
+		"_name"			"pudge_flesh_heap"
+	}
+
+	"0196"
+	{
+		"_ID"			"0196"
+		"_name"			"pudge_meat_hook"
+	}
+
+	"0197"
+	{
+		"_ID"			"0197"
+		"_name"			"pudge_rot"
+	}
+
+	"0198"
+	{
+		"_ID"			"0198"
+		"_name"			"pugna_decrepify"
+	}
+
+	"0199"
+	{
+		"_ID"			"0199"
+		"_name"			"pugna_nether_blast"
+	}
+
+	"0200"
+	{
+		"_ID"			"0200"
+		"_name"			"pugna_nether_ward"
+	}
+
+	"0201"
+	{
+		"_ID"			"0201"
+		"_name"			"queenofpain_blink"
+	}
+
+	"0202"
+	{
+		"_ID"			"0202"
+		"_name"			"queenofpain_scream_of_pain"
+	}
+
+	"0203"
+	{
+		"_ID"			"0203"
+		"_name"			"queenofpain_shadow_strike"
+	}
+
+	"0204"
+	{
+		"_ID"			"0204"
+		"_name"			"rattletrap_battery_assault"
+	}
+
+	"0205"
+	{
+		"_ID"			"0205"
+		"_name"			"rattletrap_power_cogs"
+	}
+
+	"0206"
+	{
+		"_ID"			"0206"
+		"_name"			"rattletrap_rocket_flare"
+	}
+
+	"0207"
+	{
+		"_ID"			"0207"
+		"_name"			"razor_plasma_field"
+	}
+
+	"0208"
+	{
+		"_ID"			"0208"
+		"_name"			"razor_static_link"
+	}
+
+	"0209"
+	{
+		"_ID"			"0209"
+		"_name"			"razor_unstable_current"
+	}
+
+	"0210"
+	{
+		"_ID"			"0210"
+		"_name"			"riki_backstab"
+	}
+
+	"0211"
+	{
+		"_ID"			"0211"
+		"_name"			"riki_blink_strike"
+	}
+
+	"0212"
+	{
+		"_ID"			"0212"
+		"_name"			"riki_smoke_screen"
+	}
+
+	"0213"
+	{
+		"_ID"			"0213"
+		"_name"			"rubick_fade_bolt"
+	}
+
+	"0214"
+	{
+		"_ID"			"0214"
+		"_name"			"rubick_null_field"
+	}
+
+	"0215"
+	{
+		"_ID"			"0215"
+		"_name"			"rubick_telekinesis"
+	}
+
+	"0216"
+	{
+		"_ID"			"0216"
+		"_name"			"sandking_burrowstrike"
+	}
+
+	"0217"
+	{
+		"_ID"			"0217"
+		"_name"			"sandking_caustic_finale"
+	}
+
+	"0218"
+	{
+		"_ID"			"0218"
+		"_name"			"shadow_demon_disruption"
+	}
+
+	"0219"
+	{
+		"_ID"			"0219"
+		"_name"			"shadow_demon_soul_catcher"
+	}
+
+	"0220"
+	{
+		"_ID"			"0220"
+		"_name"			"shadow_shaman_ether_shock"
+	}
+
+	"0221"
+	{
+		"_ID"			"0221"
+		"_name"			"shadow_shaman_shackles"
+	}
+
+	"0222"
+	{
+		"_ID"			"0222"
+		"_name"			"shadow_shaman_voodoo"
+	}
+
+	"0223"
+	{
+		"_ID"			"0223"
+		"_name"			"shredder_reactive_armor"
+	}
+
+	"0224"
+	{
+		"_ID"			"0224"
+		"_name"			"shredder_timber_chain"
+	}
+
+	"0225"
+	{
+		"_ID"			"0225"
+		"_name"			"shredder_whirling_death"
+	}
+
+	"0226"
+	{
+		"_ID"			"0226"
+		"_name"			"silencer_curse_of_the_silent"
+	}
+
+	"0227"
+	{
+		"_ID"			"0227"
+		"_name"			"silencer_glaives_of_wisdom"
+	}
+
+	"0228"
+	{
+		"_ID"			"0228"
+		"_name"			"silencer_last_word"
+	}
+
+	"0229"
+	{
+		"_ID"			"0229"
+		"_name"			"skeleton_king_hellfire_blast"
+	}
+
+	"0230"
+	{
+		"_ID"			"0230"
+		"_name"			"skeleton_king_mortal_strike"
+	}
+
+	"0231"
+	{
+		"_ID"			"0231"
+		"_name"			"skeleton_king_vampiric_aura"
+	}
+
+	"0232"
+	{
+		"_ID"			"0232"
+		"_name"			"skywrath_mage_ancient_seal"
+	}
+
+	"0233"
+	{
+		"_ID"			"0233"
+		"_name"			"skywrath_mage_arcane_bolt"
+	}
+
+	"0234"
+	{
+		"_ID"			"0234"
+		"_name"			"skywrath_mage_concussive_shot"
+	}
+
+	"0235"
+	{
+		"_ID"			"0235"
+		"_name"			"slardar_bash"
+	}
+
+	"0236"
+	{
+		"_ID"			"0236"
+		"_name"			"slardar_slithereen_crush"
+	}
+
+	"0237"
+	{
+		"_ID"			"0237"
+		"_name"			"slardar_sprint"
+	}
+
+	"0238"
+	{
+		"_ID"			"0238"
+		"_name"			"slark_dark_pact"
+	}
+
+	"0239"
+	{
+		"_ID"			"0239"
+		"_name"			"slark_essence_shift"
+	}
+
+	"0240"
+	{
+		"_ID"			"0240"
+		"_name"			"slark_pounce"
+	}
+
+	"0241"
+	{
+		"_ID"			"0241"
+		"_name"			"sniper_headshot"
+	}
+
+	"0242"
+	{
+		"_ID"			"0242"
+		"_name"			"sniper_shrapnel"
+	}
+
+	"0243"
+	{
+		"_ID"			"0243"
+		"_name"			"sniper_take_aim"
+	}
+
+	"0244"
+	{
+		"_ID"			"0244"
+		"_name"			"spectre_desolate"
+	}
+
+	"0245"
+	{
+		"_ID"			"0245"
+		"_name"			"spectre_dispersion"
+	}
+
+	"0246"
+	{
+		"_ID"			"0246"
+		"_name"			"spirit_breaker_empowering_haste"
+	}
+
+	"0247"
+	{
+		"_ID"			"0247"
+		"_name"			"spirit_breaker_greater_bash"
+	}
+
+	"0248"
+	{
+		"_ID"			"0248"
+		"_name"			"storm_spirit_electric_vortex"
+	}
+
+	"0249"
+	{
+		"_ID"			"0249"
+		"_name"			"storm_spirit_overload"
+	}
+
+	"0250"
+	{
+		"_ID"			"0250"
+		"_name"			"sven_great_cleave"
+	}
+
+	"0251"
+	{
+		"_ID"			"0251"
+		"_name"			"sven_storm_bolt"
+	}
+
+	"0252"
+	{
+		"_ID"			"0252"
+		"_name"			"sven_warcry"
+	}
+
+	"0253"
+	{
+		"_ID"			"0253"
+		"_name"			"techies_land_mines"
+	}
+
+	"0254"
+	{
+		"_ID"			"0254"
+		"_name"			"techies_stasis_trap"
+	}
+
+	"0255"
+	{
+		"_ID"			"0255"
+		"_name"			"techies_suicide"
+	}
+
+	"0256"
+	{
+		"_ID"			"0256"
+		"_name"			"templar_assassin_meld"
+	}
+
+	"0257"
+	{
+		"_ID"			"0257"
+		"_name"			"templar_assassin_psi_blades"
+	}
+
+	"0258"
+	{
+		"_ID"			"0258"
+		"_name"			"templar_assassin_refraction"
+	}
+
+	"0259"
+	{
+		"_ID"			"0259"
+		"_name"			"terrorblade_conjure_image"
+	}
+
+	"0260"
+	{
+		"_ID"			"0260"
+		"_name"			"terrorblade_metamorphosis"
+	}
+
+	"0261"
+	{
+		"_ID"			"0261"
+		"_name"			"terrorblade_reflection"
+	}
+
+	"0262"
+	{
+		"_ID"			"0262"
+		"_name"			"tidehunter_anchor_smash"
+	}
+
+	"0263"
+	{
+		"_ID"			"0263"
+		"_name"			"tidehunter_gush"
+	}
+
+	"0264"
+	{
+		"_ID"			"0264"
+		"_name"			"tidehunter_kraken_shell"
+	}
+
+	"0265"
+	{
+		"_ID"			"0265"
+		"_name"			"tinker_heat_seeking_missile"
+	}
+
+	"0266"
+	{
+		"_ID"			"0266"
+		"_name"			"tinker_laser"
+	}
+
+	"0267"
+	{
+		"_ID"			"0267"
+		"_name"			"tinker_march_of_the_machines"
+	}
+
+	"0268"
+	{
+		"_ID"			"0268"
+		"_name"			"tiny_avalanche"
+	}
+
+	"0269"
+	{
+		"_ID"			"0269"
+		"_name"			"tiny_craggy_exterior"
+	}
+
+	"0270"
+	{
+		"_ID"			"0270"
+		"_name"			"tiny_toss"
+	}
+
+	"0271"
+	{
+		"_ID"			"0271"
+		"_name"			"treant_leech_seed"
+	}
+
+	"0272"
+	{
+		"_ID"			"0272"
+		"_name"			"treant_living_armor"
+	}
+
+	"0273"
+	{
+		"_ID"			"0273"
+		"_name"			"treant_natures_guise"
+	}
+
+	"0274"
+	{
+		"_ID"			"0274"
+		"_name"			"troll_warlord_fervor"
+	}
+
+	"0275"
+	{
+		"_ID"			"0275"
+		"_name"			"troll_warlord_whirling_axes_melee"
+	}
+
+	"0276"
+	{
+		"_ID"			"0276"
+		"_name"			"troll_warlord_whirling_axes_ranged"
+	}
+
+	"0277"
+	{
+		"_ID"			"0277"
+		"_name"			"tusk_frozen_sigil"
+	}
+
+	"0278"
+	{
+		"_ID"			"0278"
+		"_name"			"tusk_ice_shards"
+	}
+
+	"0279"
+	{
+		"_ID"			"0279"
+		"_name"			"tusk_snowball"
+	}
+
+	"0280"
+	{
+		"_ID"			"0280"
+		"_name"			"undying_decay"
+	}
+
+	"0281"
+	{
+		"_ID"			"0281"
+		"_name"			"undying_flesh_golem"
+	}
+
+	"0282"
+	{
+		"_ID"			"0282"
+		"_name"			"undying_soul_rip"
+	}
+
+	"0283"
+	{
+		"_ID"			"0283"
+		"_name"			"ursa_earthshock"
+	}
+
+	"0284"
+	{
+		"_ID"			"0284"
+		"_name"			"ursa_fury_swipes"
+	}
+
+	"0285"
+	{
+		"_ID"			"0285"
+		"_name"			"ursa_overpower"
+	}
+
+	"0286"
+	{
+		"_ID"			"0286"
+		"_name"			"vengefulspirit_command_aura"
+	}
+
+	"0287"
+	{
+		"_ID"			"0287"
+		"_name"			"vengefulspirit_magic_missile"
+	}
+
+	"0288"
+	{
+		"_ID"			"0288"
+		"_name"			"vengefulspirit_wave_of_terror"
+	}
+
+	"0289"
+	{
+		"_ID"			"0289"
+		"_name"			"venomancer_plague_ward"
+	}
+
+	"0290"
+	{
+		"_ID"			"0290"
+		"_name"			"venomancer_poison_sting"
+	}
+
+	"0291"
+	{
+		"_ID"			"0291"
+		"_name"			"venomancer_venomous_gale"
+	}
+
+	"0292"
+	{
+		"_ID"			"0292"
+		"_name"			"viper_corrosive_skin"
+	}
+
+	"0293"
+	{
+		"_ID"			"0293"
+		"_name"			"viper_nethertoxin"
+	}
+
+	"0294"
+	{
+		"_ID"			"0294"
+		"_name"			"viper_poison_attack"
+	}
+
+	"0295"
+	{
+		"_ID"			"0295"
+		"_name"			"visage_gravekeepers_cloak"
+	}
+
+	"0296"
+	{
+		"_ID"			"0296"
+		"_name"			"visage_grave_chill"
+	}
+
+	"0297"
+	{
+		"_ID"			"0297"
+		"_name"			"visage_soul_assumption"
+	}
+
+	"0298"
+	{
+		"_ID"			"0298"
+		"_name"			"warlock_fatal_bonds"
+	}
+
+	"0299"
+	{
+		"_ID"			"0299"
+		"_name"			"warlock_shadow_word"
+	}
+
+	"0300"
+	{
+		"_ID"			"0300"
+		"_name"			"warlock_upheaval"
+	}
+
+	"0301"
+	{
+		"_ID"			"0301"
+		"_name"			"weaver_geminate_attack"
+	}
+
+	"0302"
+	{
+		"_ID"			"0302"
+		"_name"			"weaver_shukuchi"
+	}
+
+	"0303"
+	{
+		"_ID"			"0303"
+		"_name"			"weaver_the_swarm"
+	}
+
+	"0304"
+	{
+		"_ID"			"0304"
+		"_name"			"windrunner_powershot"
+	}
+
+	"0305"
+	{
+		"_ID"			"0305"
+		"_name"			"windrunner_shackleshot"
+	}
+
+	"0306"
+	{
+		"_ID"			"0306"
+		"_name"			"windrunner_windrun"
+	}
+
+	"0307"
+	{
+		"_ID"			"0307"
+		"_name"			"wisp_overcharge"
+	}
+
+	"0308"
+	{
+		"_ID"			"0308"
+		"_name"			"wisp_tether"
+	}
+
+	"0309"
+	{
+		"_ID"			"0309"
+		"_name"			"witch_doctor_maledict"
+	}
+
+	"0310"
+	{
+		"_ID"			"0310"
+		"_name"			"witch_doctor_paralyzing_cask"
+	}
+
+	"0311"
+	{
+		"_ID"			"0311"
+		"_name"			"witch_doctor_voodoo_restoration"
+	}
+
+	"0312"
+	{
+		"_ID"			"0312"
+		"_name"			"zuus_arc_lightning"
+	}
+
+	"0313"
+	{
+		"_ID"			"0313"
+		"_name"			"zuus_lightning_bolt"
+	}
+
+	"0314"
+	{
+		"_ID"			"0314"
+		"_name"			"zuus_static_field"
+	}
+
+
+// ULTIMATES
+
+
+	"0315"
+	{
+		"_ID"			"0315"
+		"_name"			"abaddon_borrowed_time"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0316"
+	{
+		"_ID"			"0316"
+		"_name"			"abyssal_underlord_dark_rift"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0317"
+	{
+		"_ID"			"0317"
+		"_name"			"alchemist_chemical_rage"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0318"
+	{
+		"_ID"			"0318"
+		"_name"			"ancient_apparition_ice_blast"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0319"
+	{
+		"_ID"			"0319"
+		"_name"			"antimage_mana_void"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0320"
+	{
+		"_ID"			"0320"
+		"_name"			"axe_culling_blade"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0321"
+	{
+		"_ID"			"0321"
+		"_name"			"bane_fiends_grip"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0322"
+	{
+		"_ID"			"0322"
+		"_name"			"batrider_flaming_lasso"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0323"
+	{
+		"_ID"			"0323"
+		"_name"			"beastmaster_primal_roar"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0324"
+	{
+		"_ID"			"0324"
+		"_name"			"bloodseeker_rupture"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0325"
+	{
+		"_ID"			"0325"
+		"_name"			"bounty_hunter_track"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0326"
+	{
+		"_ID"			"0326"
+		"_name"			"brewmaster_primal_split"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0327"
+	{
+		"_ID"			"0327"
+		"_name"			"bristleback_warpath"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0328"
+	{
+		"_ID"			"0328"
+		"_name"			"broodmother_insatiable_hunger"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0329"
+	{
+		"_ID"			"0329"
+		"_name"			"centaur_stampede"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0330"
+	{
+		"_ID"			"0330"
+		"_name"			"chaos_knight_phantasm"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0331"
+	{
+		"_ID"			"0331"
+		"_name"			"chen_hand_of_god"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0332"
+	{
+		"_ID"			"0332"
+		"_name"			"zuus_thundergods_wrath"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0333"
+	{
+		"_ID"			"0333"
+		"_name"			"crystal_maiden_freezing_field"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0334"
+	{
+		"_ID"			"0334"
+		"_name"			"dark_seer_wall_of_replica"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0335"
+	{
+		"_ID"			"0335"
+		"_name"			"dazzle_weave"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0336"
+	{
+		"_ID"			"0336"
+		"_name"			"death_prophet_exorcism"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0337"
+	{
+		"_ID"			"0337"
+		"_name"			"disruptor_static_storm"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0338"
+	{
+		"_ID"			"0338"
+		"_name"			"doom_bringer_doom"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0339"
+	{
+		"_ID"			"0339"
+		"_name"			"dragon_knight_elder_dragon_form"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0340"
+	{
+		"_ID"			"0340"
+		"_name"			"drow_ranger_marksmanship"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0341"
+	{
+		"_ID"			"0341"
+		"_name"			"earth_spirit_magnetize"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0342"
+	{
+		"_ID"			"0342"
+		"_name"			"earthshaker_echo_slam"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0343"
+	{
+		"_ID"			"0343"
+		"_name"			"elder_titan_earth_splitter"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0344"
+	{
+		"_ID"			"0344"
+		"_name"			"ember_spirit_activate_fire_remnant"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0345"
+	{
+		"_ID"			"0345"
+		"_name"			"enchantress_impetus"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0346"
+	{
+		"_ID"			"0346"
+		"_name"			"enigma_black_hole"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0347"
+	{
+		"_ID"			"0347"
+		"_name"			"faceless_void_chronosphere"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0348"
+	{
+		"_ID"			"0348"
+		"_name"			"furion_wrath_of_nature"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0349"
+	{
+		"_ID"			"0349"
+		"_name"			"gyrocopter_call_down"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0350"
+	{
+		"_ID"			"0350"
+		"_name"			"huskar_life_break"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0351"
+	{
+		"_ID"			"0351"
+		"_name"			"jakiro_macropyre"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0352"
+	{
+		"_ID"			"0352"
+		"_name"			"juggernaut_omni_slash"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0353"
+	{
+		"_ID"			"0353"
+		"_name"			"kunkka_ghostship"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0354"
+	{
+		"_ID"			"0354"
+		"_name"			"legion_commander_duel"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0355"
+	{
+		"_ID"			"0355"
+		"_name"			"leshrac_pulse_nova"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0356"
+	{
+		"_ID"			"0356"
+		"_name"			"lich_chain_frost"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0357"
+	{
+		"_ID"			"0357"
+		"_name"			"life_stealer_infest"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0358"
+	{
+		"_ID"			"0358"
+		"_name"			"lina_laguna_blade"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0359"
+	{
+		"_ID"			"0359"
+		"_name"			"lion_finger_of_death"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0360"
+	{
+		"_ID"			"0360"
+		"_name"			"lone_druid_true_form"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0361"
+	{
+		"_ID"			"0361"
+		"_name"			"luna_eclipse"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0362"
+	{
+		"_ID"			"0362"
+		"_name"			"lycan_shapeshift"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0363"
+	{
+		"_ID"			"0363"
+		"_name"			"magnataur_reverse_polarity"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0364"
+	{
+		"_ID"			"0364"
+		"_name"			"medusa_stone_gaze"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0365"
+	{
+		"_ID"			"0365"
+		"_name"			"meepo_divided_we_stand"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0366"
+	{
+		"_ID"			"0366"
+		"_name"			"mirana_invis"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0367"
+	{
+		"_ID"			"0367"
+		"_name"			"morphling_replicate"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0368"
+	{
+		"_ID"			"0368"
+		"_name"			"naga_siren_song_of_the_siren"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0369"
+	{
+		"_ID"			"0369"
+		"_name"			"necrolyte_reapers_scythe"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0370"
+	{
+		"_ID"			"0370"
+		"_name"			"nevermore_requiem"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0371"
+	{
+		"_ID"			"0371"
+		"_name"			"night_stalker_darkness"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0372"
+	{
+		"_ID"			"0372"
+		"_name"			"nyx_assassin_vendetta"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0373"
+	{
+		"_ID"			"0373"
+		"_name"			"obsidian_destroyer_sanity_eclipse"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0374"
+	{
+		"_ID"			"0374"
+		"_name"			"ogre_magi_multicast"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0375"
+	{
+		"_ID"			"0375"
+		"_name"			"omniknight_guardian_angel"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0376"
+	{
+		"_ID"			"0376"
+		"_name"			"oracle_false_promise"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0377"
+	{
+		"_ID"			"0377"
+		"_name"			"phantom_assassin_coup_de_grace"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0378"
+	{
+		"_ID"			"0378"
+		"_name"			"phantom_lancer_phantom_edge"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0379"
+	{
+		"_ID"			"0379"
+		"_name"			"phoenix_supernova"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0380"
+	{
+		"_ID"			"0380"
+		"_name"			"puck_dream_coil"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0381"
+	{
+		"_ID"			"0381"
+		"_name"			"pudge_dismember"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0382"
+	{
+		"_ID"			"0382"
+		"_name"			"pugna_life_drain"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0383"
+	{
+		"_ID"			"0383"
+		"_name"			"queenofpain_sonic_wave"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0384"
+	{
+		"_ID"			"0384"
+		"_name"			"rattletrap_hookshot"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0385"
+	{
+		"_ID"			"0385"
+		"_name"			"razor_eye_of_the_storm"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0386"
+	{
+		"_ID"			"0386"
+		"_name"			"riki_permanent_invisibility"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0387"
+	{
+		"_ID"			"0387"
+		"_name"			"rubick_spell_steal"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0388"
+	{
+		"_ID"			"0388"
+		"_name"			"sandking_epicenter"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0389"
+	{
+		"_ID"			"0389"
+		"_name"			"shadow_demon_demonic_purge"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0390"
+	{
+		"_ID"			"0390"
+		"_name"			"shadow_shaman_mass_serpent_ward"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0391"
+	{
+		"_ID"			"0391"
+		"_name"			"shredder_chakram"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0392"
+	{
+		"_ID"			"0392"
+		"_name"			"silencer_global_silence"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0393"
+	{
+		"_ID"			"0393"
+		"_name"			"skeleton_king_reincarnation"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0394"
+	{
+		"_ID"			"0394"
+		"_name"			"skywrath_mage_mystic_flare"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0395"
+	{
+		"_ID"			"0395"
+		"_name"			"slardar_amplify_damage"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0396"
+	{
+		"_ID"			"0396"
+		"_name"			"slark_shadow_dance"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0397"
+	{
+		"_ID"			"0397"
+		"_name"			"sniper_assassinate"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0398"
+	{
+		"_ID"			"0398"
+		"_name"			"spirit_breaker_nether_strike"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0399"
+	{
+		"_ID"			"0399"
+		"_name"			"sven_gods_strength"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0400"
+	{
+		"_ID"			"0400"
+		"_name"			"terrorblade_sunder"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0401"
+	{
+		"_ID"			"0401"
+		"_name"			"tidehunter_ravage"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0402"
+	{
+		"_ID"			"0402"
+		"_name"			"tinker_rearm"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0404"
+	{
+		"_ID"			"0404"
+		"_name"			"treant_overgrowth"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0405"
+	{
+		"_ID"			"0405"
+		"_name"			"troll_warlord_battle_trance"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0406"
+	{
+		"_ID"			"0406"
+		"_name"			"tusk_walrus_punch"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0407"
+	{
+		"_ID"			"0407"
+		"_name"			"undying_tombstone"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0408"
+	{
+		"_ID"			"0408"
+		"_name"			"ursa_enrage"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0409"
+	{
+		"_ID"			"0409"
+		"_name"			"vengefulspirit_nether_swap"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0410"
+	{
+		"_ID"			"0410"
+		"_name"			"venomancer_poison_nova"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0411"
+	{
+		"_ID"			"0411"
+		"_name"			"viper_viper_strike"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0412"
+	{
+		"_ID"			"0412"
+		"_name"			"visage_summon_familiars"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0413"
+	{
+		"_ID"			"0413"
+		"_name"			"warlock_rain_of_chaos"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0414"
+	{
+		"_ID"			"0414"
+		"_name"			"weaver_time_lapse"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0415"
+	{
+		"_ID"			"0415"
+		"_name"			"windrunner_focusfire"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0416"
+	{
+		"_ID"			"0416"
+		"_name"			"wisp_relocate"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+	"0417"
+	{
+		"_ID"			"0417"
+		"_name"			"witch_doctor_death_ward"
+		"_maxLvl"		"3"
+		"_pntCost"		"8"
+	}
+
+
+
+}

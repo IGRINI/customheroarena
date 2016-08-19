@@ -1,0 +1,13 @@
+"CustomUI"
+{
+	"1"
+	{
+	"File"		"SpellShopUI"
+	"Depth"		"12"
+	}
+	"2"
+	{
+		"File"		"PlayerSay"
+		"Depth"		"50"
+	}
+}

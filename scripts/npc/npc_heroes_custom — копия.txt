@@ -1,0 +1,2760 @@
+//Generated using Dota Custom KVScript Files Merger by cris9696
+"DOTAHeroes"
+{
+
+
+	//Start of file abaddon.txt
+	"npc_dota_hero_abaddon"
+		{
+			
+			"Ability1"		"abaddon_death_coil"
+			"Ability2"		"abaddon_aphotic_shield"
+			"Ability3"		"abaddon_frostmourne"
+			"Ability4"		"abaddon_borrowed_time"
+			"Ability5"		"attribute_bonus"
+			
+			"ArmorPhysical"		"1.000000"
+			
+			
+			"AttackDamageMin"		"32"
+			"AttackDamageMax"		"42"
+			"AttackRate"		"1.45"
+			"AttackAnimationPoint"		"0.560000"
+			"AttackAcquisitionRange"		"600"
+			"AttackRange"		"128"
+			"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"23"
+			"AttributeStrengthGain"		"3.0"
+			"AttributeBaseAgility"		"17"
+			"AttributeAgilityGain"		"1.8"
+			"AttributeBaseIntelligence"		"21"
+			"AttributeIntelligenceGain"		"2.0"
+			
+			"MovementSpeed"		"310"
+			"MovementTurnRate"		"0.5"
+		}
+	//End of file abaddon.txt
+
+
+	//Start of file Alchemist.txt
+	"npc_dota_hero_alchemist"
+		{																		
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_alchemist"
+			// Armor
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackDamageMin"				"40"									// Damage range min.
+			"AttackDamageMax"				"60"									// Damage range max.
+			
+			"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"			"25"									// Base strength
+			"AttributeStrengthGain"			"2.5"									// Strength bonus per level.
+			"AttributeBaseAgility"			"24"									// Base agility
+			"AttributeAgilityGain"			"2.5"									// Agility bonus per level.
+			"AttributeBaseIntelligence"		"25"									// Base intelligence
+			"AttributeIntelligenceGain"		"2.4"									// Intelligence bonus per level.
+	
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"295"									// Speed.
+	}
+	//End of file Alchemist.txt
+
+
+	//Start of file ancient_apparation.txt
+	"npc_dota_hero_ancient_apparition"
+		{
+			"ArmorPhysical"		"0"
+	
+			"AttackDamageMin"		"19"
+			"AttackDamageMax"		"29"
+			"AttackRate"		"1.500000"
+			"AttackAnimationPoint"		"0.450000"
+			"AttackAcquisitionRange"		"800"
+			"AttackRange"		"600"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"18"
+			"AttributeStrengthGain"		"1.400000"
+			"AttributeBaseAgility"		"20"
+			"AttributeAgilityGain"		"2.100000"
+			"AttributeBaseIntelligence"		"25"
+			"AttributeIntelligenceGain"		"3.200000"
+			"MovementSpeed"		"305"
+	
+		}
+	//End of file ancient_apparation.txt
+
+
+	//Start of file bane.txt
+	"npc_dota_hero_bane"
+		{
+			"Ability1"		"bane_enfeeble"
+			"Ability2"		"bane_brain_sap"
+			"Ability3"		"bane_nightmare"
+			"Ability4"		"bane_fiends_grip"
+			"Ability5"		"attribute_bonus"
+			"Ability6"		"bane_nightmare_end"
+			"ArmorPhysical"		"1"
+	
+			"AttackDamageMin"		"33"
+			"AttackDamageMax"		"39"
+			"AttackRate"		"1.500000"
+	
+			"AttackRange"		"400"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"22"
+			"AttributeStrengthGain"		"2.400000"
+			"AttributeBaseIntelligence"		"22"
+			"AttributeIntelligenceGain"		"2.800000"
+			"AttributeBaseAgility"		"22"
+			"AttributeAgilityGain"		"2.400000"
+			"MovementSpeed"		"310"
+		}
+	//End of file bane.txt
+
+
+	//Start of file beastmaster.txt
+	"npc_dota_hero_beastmaster"
+		{
+	
+			"ArmorPhysical"		"1"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"		"41"
+			"AttackDamageMax"		"45"
+			"AttackRate"		"1.500000"
+			"AttackAnimationPoint"		"0.300000"
+			"AttackAcquisitionRange"		"600"
+			"AttackRange"		"128"
+			
+			"ProjectileSpeed"		"0"
+			"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"23"
+			"AttributeStrengthGain"		"2.400000"
+			"AttributeBaseIntelligence"		"16"
+			"AttributeIntelligenceGain"		"1.900000"
+			"AttributeBaseAgility"		"18"
+			"AttributeAgilityGain"		"1.800000"
+			"MovementSpeed"		"310"
+			"MovementTurnRate"		"0.400000"
+			
+		}
+	//End of file beastmaster.txt
+
+
+	//Start of file bounty_hunter.txt
+	"npc_dota_hero_bounty_hunter"
+		{
+	
+			"Ability1"		"bounty_hunter_shuriken_toss"
+			"Ability2"		"bounty_hunter_jinada"
+			"Ability3"		"bounty_hunter_wind_walk"
+			"Ability4"		"bounty_hunter_track"
+			"ArmorPhysical"		"3"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"		"24"
+			"AttackDamageMax"		"38"
+			"AttackRate"		"1.40000"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"17"
+			"AttributeStrengthGain"		"1.800000"
+			"AttributeBaseAgility"		"21"
+			"AttributeAgilityGain"		"3.500000"
+			"AttributeBaseIntelligence"		"19"
+			"AttributeIntelligenceGain"		"2.400000"
+			"MovementSpeed"		"315"
+		}
+	//End of file bounty_hunter.txt
+
+
+	//Start of file brewmaster.txt
+	"npc_dota_hero_brewmaster"
+		{
+			"ArmorPhysical"		"1.000000"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"		"29"
+			"AttackDamageMax"		"36"
+			"AttackRate"		"1.500000"
+		}
+	//End of file brewmaster.txt
+
+
+	//Start of file Brood.txt
+	"npc_dota_hero_broodmother"
+		{																		
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_broodmother"
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"-1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackDamageMin"			"30"									// Damage range min.
+			"AttackDamageMax"			"35"									// Damage range max.	
+	
+			"AttackRate"				"1.5"
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"20"									// Base strength
+			"AttributeStrengthGain"		"2.5"									// Strength bonus per level.
+			"AttributeBaseAgility"		"20"									// Base agility
+			"AttributeAgilityGain"		"3.0"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"20"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.5"									// Intelligence bonus per level.
+			"MovementSpeed"				"300"									// Speed.
+	}
+	//End of file Brood.txt
+
+
+	//Start of file Califax.txt
+	"npc_hero_califax"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_chen"
+			"Team"						"Bad"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AbilityLayout"				"5"
+			"Ability1"					"angel_arena_shadow_dagger"				// Ability 1
+			"Ability2"					"ursa_fury_swipes"				// Ability 2
+			"Ability3"					"angel_arena_archer_aura"					// Ability 3
+			"Ability4"					"angel_arena_transmute"					// Ability 4
+			"Ability5"					""
+			"Ability6"					"attribute_bonus"
+			"Ability7"					""
+			"Ability8"					""
+			
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"-1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"			"36"									// Damage range min.
+			"AttackDamageMax"			"40"									// Damage range max.	
+			
+			"AttackRate"				"1.45"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"									// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"620"									// Range within a target can be acquired.
+			"AttackRange"				"580"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			"particles/units/heroes/hero_chen/chen_base_attack.vpcf"										// Particle system model for projectile.
+			"ProjectileSpeed"			"900"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"17"									// Base strength
+			"AttributeStrengthGain"		"1.8"									// Strength bonus per level.
+			"AttributeBaseAgility"		"12"									// Base agility
+			"AttributeAgilityGain"		"1.8"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"20"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.8"									// Intelligence bonus per level.
+			
+			"StatusHealth" 				"118" 
+			"StatusHealthRegen" 		"1.0" 
+			"StatusMana" 				"210" 
+			"StatusManaRegen" 			"4.2" 
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"295"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Califax.txt
+
+
+	//Start of file centaur.txt
+	"npc_dota_hero_centaur"
+		{
+			"AttackRate"		"1.5"
+			"AttackAnimationPoint"		"0.300000"
+			"AttackAcquisitionRange"		"600"
+			"AttackRange"		"128"
+			"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"23"
+			"AttributeStrengthGain"		"3.800000"
+			"AttributeBaseIntelligence"		"15"
+			"AttributeIntelligenceGain"		"1.800000"
+			"AttributeBaseAgility"		"15"
+			"AttributeAgilityGain"		"2.400000"
+			"VisionDaytimeRange"		"1800"
+			"MovementSpeed"		"300"
+		}
+	//End of file centaur.txt
+
+
+	//Start of file clockwerk.txt
+	"npc_dota_hero_rattletrap"
+		{
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"		"31"
+			"AttackDamageMax"		"33"
+			"AttackRate"		"1.500000"
+			"AttackAnimationPoint"		"0.330000"
+			"AttackAcquisitionRange"		"600"
+			"AttackRange"		"128"
+			"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"24"
+			"AttributeStrengthGain"		"2.900000"
+			"AttributeBaseAgility"		"13"
+			"AttributeAgilityGain"		"2.500000"
+			"AttributeBaseIntelligence"		"17"
+			"AttributeIntelligenceGain"		"1.300000"
+			"MovementSpeed"		"315"
+		}
+	//End of file clockwerk.txt
+
+
+	//Start of file crystal_maiden.txt
+	"npc_dota_hero_crystal_maiden"
+		{
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"Ability1"		"crystal_maiden_crystal_nova"
+			"Ability2"		"crystal_maiden_frostbite"
+			"Ability3"		"crystal_maiden_brilliance_aura"
+			"Ability4"		"crystal_maiden_freezing_field"
+	 
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"		"1"
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"		"19"
+			"AttackDamageMax"		"25"
+			"AttackRate"		"1.500000"
+	
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"16"
+			"AttributeStrengthGain"		"1.700000"
+			"AttributeBaseIntelligence"		"16"
+			"AttributeIntelligenceGain"		"2.900000"
+			"AttributeBaseAgility"		"16"
+			"AttributeAgilityGain"		"2.200000"
+			"MovementSpeed"		"300"
+		}
+	//End of file crystal_maiden.txt
+
+
+	//Start of file darkseer.txt
+	"npc_dota_hero_dark_seer"
+		{
+			"Ability1"		"dark_seer_vacuum"
+			"Ability2"		"dark_seer_ion_shell"
+			"Ability3"		"dark_seer_surge"
+			"Ability4"		"dark_seer_wall_of_replica"
+	
+			"AttackDamageMin"		"31"
+			"AttackDamageMax"		"37"
+			"AttackRate"		"1.450000"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"22"
+			"AttributeStrengthGain"		"2.300000"
+			"AttributeBaseAgility"		"18"
+			"AttributeAgilityGain"		"2.200000"
+			"AttributeBaseIntelligence"		"25"
+			"AttributeIntelligenceGain"		"2.900000"
+			"MovementSpeed"		"300"
+			
+		}
+	//End of file darkseer.txt
+
+
+	//Start of file Darkterror.txt
+	"npc_hero_darkterror"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_clinkz"
+			"Team"						"Bad"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"Ability1"					"angel_arena_curse"					// Ability 1
+			"Ability2"					"angel_arena_envenomed"				// Ability 2
+			"Ability3"					"angel_arena_archer_aura"			// Ability 3
+			"Ability4"					"angel_arena_darkrage"				// Ability 4
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"			"39"									// Damage range min.
+			"AttackDamageMax"			"44"									// Damage range max.	
+			
+			"AttackRate"				"1.45"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"										// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"620"									// Range within a target can be acquired.
+			"AttackRange"				"600"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			"particles/units/heroes/hero_clinkz/clinkz_base_attack.vpcf"										// Particle system model for projectile.
+			"ProjectileSpeed"			"900"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"18"									// Base strength
+			"AttributeStrengthGain"		"2.3"									// Strength bonus per level.
+			"AttributeBaseAgility"		"21"									// Base agility
+			"AttributeAgilityGain"		"2.8"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"15"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.0"									// Intelligence bonus per level
+			
+			"StatusHealth" "100" 
+			"StatusHealthRegen" "1.0" 
+			"StatusMana" "100" 
+			"StatusManaRegen" "4.6" 
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"305"									// Speed.
+	
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Darkterror.txt
+
+
+	//Start of file dazzle.txt
+	"npc_dota_hero_dazzle"
+		{
+	
+			"Ability1"		"dazzle_poison_touch"
+			"Ability2"		"dazzle_shallow_grave"
+			"Ability3"		"dazzle_shadow_wave"
+			"Ability4"		"dazzle_weave"
+	
+			"AttackDamageMin"		"14"
+			"AttackDamageMax"		"32"
+			"AttackRate"		"1.450000"
+			"AttackAnimationPoint"		"0.300000"
+			"AttackAcquisitionRange"		"800"
+			"AttackRange"		"550"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"16"
+			"AttributeStrengthGain"		"1.90000"
+			"AttributeBaseIntelligence"		"27"
+			"AttributeIntelligenceGain"		"3.400000"
+			"AttributeBaseAgility"		"21"
+			"AttributeAgilityGain"		"2.000000"
+			"MovementSpeed"		"305"
+		}
+	//End of file dazzle.txt
+
+
+	//Start of file death_prophet.txt
+		"npc_dota_hero_death_prophet"
+		{
+		
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AbilityLayout"			"5"
+			"Ability1"				"death_prophet_carrion_swarm"
+			"Ability2"				"death_prophet_silence"
+			"Ability3"				"death_prophet_spirit_siphon"
+			"Ability4"				"death_prophet_exorcism"
+			"Ability5"				"attribute_bonus"
+	
+			"AttackRate"			"1.4"
+			"MovementSpeed"			"310"
+			
+			"AttributeBaseStrength"		"19"
+			"AttributeStrengthGain"		"2.2"
+			"AttributeBaseAgility"		"16"
+			"AttributeAgilityGain"		"2.6"
+			"AttributeBaseIntelligence"		"20"
+			"AttributeIntelligenceGain"		"3.2"
+		}
+	//End of file death_prophet.txt
+
+
+	//Start of file disruptor.txt
+	"npc_dota_hero_disruptor"
+		{
+			"ArmorPhysical"		"0.000000"
+	
+			"AttackDamageMin"		"27"
+			"AttackDamageMax"		"31"
+			"AttackRate"		"1.500000"
+	
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"19"
+			"AttributeStrengthGain"		"2.300000"
+			"AttributeBaseAgility"		"18"
+			"AttributeAgilityGain"		"1.900000"
+			"AttributeBaseIntelligence"		"22"
+			"AttributeIntelligenceGain"		"2.800000"
+			
+			"MovementSpeed"		"300"
+		}
+	//End of file disruptor.txt
+
+
+	//Start of file earth_spirit.txt
+	"npc_dota_hero_earth_spirit"
+		{
+			"AttackRate"		"1.35"
+	
+	
+			"AttributeBaseStrength"		"21"
+			"AttributeStrengthGain"		"2.900000"
+			"AttributeBaseAgility"		"17"
+			"AttributeAgilityGain"		"1.900000"
+			"AttributeBaseIntelligence"		"18"
+			"AttributeIntelligenceGain"		"2.100000"
+			"MovementSpeed"		"305"
+		}
+	//End of file earth_spirit.txt
+
+
+	//Start of file Ember_spirit.txt
+	"npc_dota_hero_ember_spirit"
+		{																		
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_ember_spirit"
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"-1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackDamageMin"			"40"									// Damage range min.
+			"AttackDamageMax"			"65"									// Damage range max.	
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"			"22"									// Base strength
+			"AttributeStrengthGain"			"2.6"									// Strength bonus per level.
+			"AttributeBaseAgility"			"22"									// Base agility
+			"AttributeAgilityGain"			"3.2"									// Agility bonus per level.
+			"AttributeBaseIntelligence"		"20"									// Base intelligence
+			"AttributeIntelligenceGain"		"2.5"									// Intelligence bonus per level.
+	
+	
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+	
+	}
+	//End of file Ember_spirit.txt
+
+
+	//Start of file Gun_joe.txt
+	"npc_dota_hero_sniper"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" "npc_dota_hero_sniper"
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"Ability1"					"angel_arena_rifle"					// Ability 1
+			"Ability2"					"angel_arena_shot"					// Ability 2
+			"Ability3"					"angel_arena_dash"					// Ability 3
+			"Ability4"					"angel_arena_gunpowder"				// Ability 4
+			
+			"AttackDamageMin"			"20"									// Damage range min.
+			"AttackDamageMax"			"22"									// Damage range max.	
+			
+			"AttackRange"				"500"
+			"AttackRate"				"1.6"									// Speed of attack.
+			"AttackAnimationPoint"		"0.1"									// Normalized time in animation cycle to attack.
+			
+			"AttributeBaseStrength"		"17"									// Base strength
+			"AttributeStrengthGain"		"2.2"									// Strength bonus per level.
+			"AttributeBaseAgility"		"31"									// Base agility
+			"AttributeAgilityGain"		"2.9"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"15"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.2"									// Intelligence bonus per level.
+	}
+	//End of file Gun_joe.txt
+
+
+	//Start of file gyrocopter.txt
+		"npc_dota_hero_gyrocopter"
+		{
+			"Ability1"		"gyrocopter_rocket_barrage"
+			"Ability2"		"gyrocopter_homing_missile"
+			"Ability3"		"gyrocopter_flak_cannon"
+			"Ability6"		"gyrocopter_call_down"
+			"Ability5"		"attribute_bonus"
+			
+			"ArmorPhysical"		"2"
+	
+			"AttackDamageMin"		"17"
+			"AttackDamageMax"		"27"
+			"AttackRate"		"1.45"
+	
+			"AttackRange"		"365"
+			
+			"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"18"
+			"AttributeStrengthGain"		"1.8"
+			"AttributeBaseAgility"		"24"
+			"AttributeAgilityGain"		"3.0"
+			"AttributeBaseIntelligence"		"19"
+			"AttributeIntelligenceGain"		"2.1"
+			"MovementSpeed"			"315"
+			"MovementTurnRate"		"0.6"
+	
+		}
+	//End of file gyrocopter.txt
+
+
+	//Start of file Hola.txt
+	"npc_hero_hola"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_keeper_of_the_light"
+			"Team"						"Good"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AbilityLayout"				"6"
+			
+			"Ability1"					"angel_arena_holahammer"				// Ability 1
+			"Ability2"					"angel_arena_grace"				// Ability 2
+			"Ability3"					"angel_arena_hola_heal"					// Ability 3
+			"Ability4"					"angel_arena_faerie"					// Ability 4
+			"Ability5"					"attribute_bonus"
+			"Ability6"					""
+			"Ability7"					""
+			"Ability8"					""
+			
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"			"82"									// Damage range min.
+			"AttackDamageMax"			"86"									// Damage range max.	
+			
+			"AttackRate"				"1.0"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"									// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"620"									// Range within a target can be acquired.
+			"AttackRange"				"620"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			"particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_base_attack.vpcf"										// Particle system model for projectile.
+			"ProjectileSpeed"			"900"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"25"									// Base strength
+			"AttributeStrengthGain"		"2.6"									// Strength bonus per level.
+			"AttributeBaseAgility"		"26"									// Base agility
+			"AttributeAgilityGain"		"3.0"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"32"									// Base intelligence
+			"AttributeIntelligenceGain"	"3.6"									// Intelligence bonus per level.
+			
+			"StatusHealth" 				"210" 
+			"StatusHealthRegen" 		"10.0" 
+			"StatusMana" 				"210" 
+			"StatusManaRegen" 			"8.5" 
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"295"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Hola.txt
+
+
+	//Start of file invoker.txt
+		"npc_dota_hero_invoker"
+		{
+			"Ability1"		"invoker_quas"
+			"Ability2"		"invoker_wex"
+			"Ability3"		"invoker_exort"
+			"Ability4"		"invoker_empty1"
+			"Ability5"		"invoker_empty2"
+			"Ability6"		"invoker_invoke"
+			"Ability7"		"invoker_cold_snap"
+			"Ability8"		"invoker_ghost_walk"
+			"Ability9"		"invoker_tornado"
+			"Ability10"		"invoker_emp"
+			"Ability11"		"invoker_alacrity"
+			"Ability12"		"invoker_chaos_meteor"
+			"Ability13"		"invoker_sun_strike"
+			"Ability14"		"invoker_forge_spirit"
+			"Ability15"		"invoker_ice_wall"
+			"Ability16"		"invoker_deafening_blast"
+			"Ability17"		"attribute_bonus"
+	
+			"AttackDamageMin"		"13"
+			"AttackDamageMax"		"19"
+			"AttackRate"		"1.5"
+	
+			"AttackRange"		"550"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"19"
+			"AttributeStrengthGain"		"2.0"
+			"AttributeBaseAgility"		"20"
+			"AttributeAgilityGain"		"2.0"
+			"AttributeBaseIntelligence"		"22"
+			"AttributeIntelligenceGain"		"4.0"
+			"MovementSpeed"		"280"
+			"MovementTurnRate"		"0.500000"
+	
+		}
+	//End of file invoker.txt
+
+
+	//Start of file jakiro.txt
+	"npc_dota_hero_jakiro"
+		{
+			"ArmorPhysical"		"1"
+	
+			"AttackDamageMin"		"25"
+			"AttackDamageMax"		"33"
+			"AttackRate"		"1.500000"
+	
+			"AttackRange"		"500"
+			
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"25"
+			"AttributeStrengthGain"		"2.300000"
+			"AttributeBaseIntelligence"		"28"
+			"AttributeIntelligenceGain"		"2.900000"
+			"AttributeBaseAgility"		"10"
+			"AttributeAgilityGain"		"2.200000"
+			"MovementSpeed"		"305"
+			
+		}
+	//End of file jakiro.txt
+
+
+	//Start of file JoeBlack.txt
+	"npc_hero_joe_black"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" "npc_dota_hero_vengefulspirit"
+			"Team"						"Bad"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"Ability1"					"angel_arena_face_of_death"				// Ability 1
+			"Ability2"					"angel_arena_summon_skelets"					// Ability 3
+			"Ability3"					"angel_arena_sleep"				// Ability 2
+			"Ability4"					"angel_arena_song"					// Ability 4
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"			"90"									// Damage range min.
+			"AttackDamageMax"			"100"									// Damage range max.	
+			
+			"AttackRate"				"1.1"									// Speed of attack.
+			"AttackAnimationPoint"		"0.2"									// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"620"									// Range within a target can be acquired.
+			"AttackRange"				"600"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			"particles/units/heroes/hero_vengeful/vengeful_base_attack.vpcf"										// Particle system model for projectile.
+			"ProjectileSpeed"			"1400"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"28"									// Base strength
+			"AttributeStrengthGain"		"2.4"									// Strength bonus per level.
+			"AttributeBaseAgility"		"44"									// Base agility
+			"AttributeAgilityGain"		"3.0"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"28"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.5"									// Intelligence bonus per level.
+			
+			"StatusHealth" "600" 
+			//"StatusHealthRegen" "0" 
+			//"StatusMana" "400" 
+			//"StatusManaRegen" "0.3" 
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"320"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file JoeBlack.txt
+
+
+	//Start of file Jubei.txt
+	"npc_hero_jubei"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_axe"
+			"Team"						"Bad"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"Ability1"					"angel_arena_earthspikes"				// Ability 1
+			"Ability2"					"angel_arena_revenge"				// Ability 2
+			"Ability3"					"angel_arena_dash"					// Ability 3
+			"Ability4"					"angel_arena_roots"					// Ability 4
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"-1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"29"									// Damage range min.
+			"AttackDamageMax"			"34"									// Damage range max.	
+			
+			"AttackRate"				"1.45"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"										// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"400"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			""										// Particle system model for projectile.
+			"ProjectileSpeed"			"1200"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"28"									// Base strength
+			"AttributeStrengthGain"		"3.3"									// Strength bonus per level.
+			"AttributeBaseAgility"		"21"									// Base agility
+			"AttributeAgilityGain"		"2.6"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"12"									// Base intelligence
+			"AttributeIntelligenceGain"	"1.5"									// Intelligence bonus per level.
+			
+			"StatusHealth" "150" 
+			//"StatusHealthRegen" "3.1" 
+			//"StatusMana" "100" 
+			//"StatusManaRegen" "0.2" 
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"300"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Jubei.txt
+
+
+	//Start of file Kajind.txt
+	"npc_hero_kajind"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" "npc_dota_hero_juggernaut"
+			"Team"						"Good"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AbilityLayout"				"5"
+			"Ability1"					"angel_arena_berserk"				// Ability 1
+			"Ability2"					"angel_arena_evasion"				// Ability 2
+			"Ability3"					"angel_arena_dash"					// Ability 3
+			"Ability4"					"angel_arena_nether_ritual"					// Ability 4
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"32"									// Damage range min.
+			"AttackDamageMax"			"38"									// Damage range max.	
+			
+			"AttackRate"				"1.7"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"									// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"400"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			""										// Particle system model for projectile.
+			"ProjectileSpeed"			"0"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"18"									// Base strength
+			"AttributeStrengthGain"		"2.1"									// Strength bonus per level.
+			"AttributeBaseAgility"		"22"									// Base agility
+			"AttributeAgilityGain"		"2.9"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"12"									// Base intelligence
+			"AttributeIntelligenceGain"	"1.8"									// Intelligence bonus per level.
+			
+			"StatusHealth" "118" 
+			//"StatusHealthRegen" "0" 
+			//"StatusMana" "110" 
+			//"StatusManaRegen" "0.3" 
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"315"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Kajind.txt
+
+
+	//Start of file Kingcrab.txt
+	"npc_hero_kingcrab"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_life_stealer"
+			"Team"						"Bad"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AbilityLayout"				"4"
+			"Ability1"					"angel_arena_hammer"				// Ability 1
+			"Ability2"					"angel_arena_envenomed"				// Ability 2
+			"Ability3"					"angel_arena_shell"					// Ability 3
+			"Ability4"					"angel_arena_reincarnation"		// Ability 4
+			"Ability5"					"attribute_bonus"
+			"Ability6"					""
+			"Ability7"					""
+			"Ability8"					""
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"40"									// Damage range min.
+			"AttackDamageMax"			"42"									// Damage range max.	
+			
+			"AttackRate"				"1.2"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"									// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"400"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			""										// Particle system model for projectile.
+			"ProjectileSpeed"			"0"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"22"									// Base strength
+			"AttributeStrengthGain"		"2.8"									// Strength bonus per level.
+			"AttributeBaseAgility"		"14"									// Base agility
+			"AttributeAgilityGain"		"2.5"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"17"									// Base intelligence
+			"AttributeIntelligenceGain"	"1.2"									// Intelligence bonus per level.
+			
+			"StatusHealth" "120" 
+			"StatusHealthRegen" "2.0" 
+			"StatusMana" "80" 
+			"StatusManaRegen" "0.2" 
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"300"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Kingcrab.txt
+
+
+	//Start of file Kunkka.txt
+		"npc_dota_hero_kunkka"
+		{
+			"override_hero" 			"npc_dota_hero_kunkka"
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AbilityLayout"				"5"
+			"Ability1"					"kunkka_torrent"						// Ability 1
+			"Ability2"					"kunkka_tidebringer"					// Ability 2
+			"Ability3"					"kunkka_x_marks_the_spot"				// Ability 3
+			"Ability4"					"angel_arena_strike"
+			"Ability5"					"kunkka_ghostship"						// Ability 4
+			"Ability6"					"kunkka_return"							// Ability 6
+			"Ability7"					"attribute_bonus"
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"2"									// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"86"									// Damage range min.
+			"AttackDamageMax"			"92"									// Damage range max.
+			"AttackRate"				"1.3"									// Speed of attack.
+			"AttackAnimationPoint"		"0.4"									// Normalized time in animation cycle to attack.
+			"AttackAcquisitionRange"	"600"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"			"22"									// Base strength
+			"AttributeStrengthGain"			"3.0"									// Strength bonus per level.
+			"AttributeBaseIntelligence"		"20"									// Base intelligence
+			"AttributeIntelligenceGain"		"2.5"									// Intelligence bonus per level.
+			"AttributeBaseAgility"			"20"									// Base agility
+			"AttributeAgilityGain"			"2.3"									// Agility bonus per level.
+	
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"300"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			// Bounds
+			//-------------------------------------------------------------------------------------------------------------
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"150"
+		}
+	//End of file Kunkka.txt
+
+
+	//Start of file legion commander.txt
+	"npc_dota_hero_legion_commander"
+		{
+			
+			"Ability1"		"legion_commander_overwhelming_odds"
+			"Ability2"		"legion_commander_press_the_attack"
+			"Ability3"		"legion_commander_moment_of_courage"
+			"Ability4"		"legion_commander_duel"
+			"Ability5"		"attribute_bonus"
+			
+			"ArmorPhysical"		"0.0"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"		"35"
+			"AttackDamageMax"		"39"
+			"AttackRate"		"1.45"
+	
+			
+			"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"26"
+			"AttributeStrengthGain"		"2.8"
+			"AttributeBaseAgility"		"18"
+			"AttributeAgilityGain"		"2.0"
+			"AttributeBaseIntelligence"		"20"
+			"AttributeIntelligenceGain"		"2.2"
+			"MovementSpeed"		"320"
+		}
+	//End of file legion commander.txt
+
+
+	//Start of file leshrak.txt
+	"npc_dota_hero_leshrac"
+		{
+			"Ability1"		"leshrac_split_earth"
+			"Ability2"		"leshrac_diabolic_edict"
+			"Ability3"		"leshrac_lightning_storm"
+			"Ability4"		"leshrac_pulse_nova"
+			
+			"ArmorPhysical"		"0"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"		"15"
+			"AttackDamageMax"		"19"
+			
+			"AttackRate"		"1.400000"
+			"AttackAnimationPoint"		"0.400000"
+			"AttackAcquisitionRange"		"800"
+			"AttackRange"		"600"
+	
+			
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"16"
+			"AttributeStrengthGain"		"1.800000"
+			"AttributeBaseIntelligence"		"26"
+			"AttributeIntelligenceGain"		"3"
+			"AttributeBaseAgility"		"23"
+			"AttributeAgilityGain"		"1.900000"
+			"MovementSpeed"		"320"
+			"MovementTurnRate"		"0.500000"
+		}
+	//End of file leshrak.txt
+
+
+	//Start of file lich.txt
+	"npc_dota_hero_lich"
+		{
+			"Ability1"		"lich_frost_nova"
+			"Ability2"		"lich_frost_armor"
+			"Ability3"		"angel_arena_vampire"
+			"Ability4"		"lich_chain_frost"
+			"ArmorPhysical"		"0"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"		"24"
+			"AttackDamageMax"		"33"
+			"AttackRate"		"1.400000"
+			
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"18"
+			"AttributeStrengthGain"		"1.550000"
+			"AttributeBaseIntelligence"		"18"
+			"AttributeIntelligenceGain"		"3.250000"
+			"AttributeBaseAgility"		"15"
+			"AttributeAgilityGain"		"2"
+			
+			"MovementSpeed"		"315"
+			
+		}
+	//End of file lich.txt
+
+
+	//Start of file Lina.txt
+	"npc_dota_hero_lina"
+		{																		
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_lina"
+			
+			"AttackDamageMin"			"36"									// Damage range min.
+			"AttackDamageMax"			"40"									// Damage range max.	
+			"AttributeBaseAgility"		"20"									// Base agility
+			"AttributeAgilityGain"		"2.4"									// Agility bonus per level.
+			
+			"AttackRate"		"1.500000"
+			
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+	}
+	//End of file Lina.txt
+
+
+	//Start of file Luna.txt
+	"npc_dota_hero_luna"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" "npc_dota_hero_luna"
+			"Team"						"Good"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"Ability1"				"luna_lucent_beam"					// Ability 1
+			"Ability2"				"luna_moon_glaive"					// Ability 2
+			"Ability3"				"luna_lunar_blessing"				// Ability 3
+			"Ability4"				"luna_eclipse"						// Ability 4
+	
+			"ArmorPhysical"				"2"									// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"			"32"									// Damage range min.
+			"AttackDamageMax"			"34"									// Damage range max.
+			"AttackRate"				"1.6"									// Speed of attack.
+			"AttackAnimationPoint"		"0.46"									// Normalized time in animation cycle to attack.
+			"AttackAcquisitionRange"	"800"									// Range within a target can be acquired.
+			"AttackRange"				"420"									// Range within a target can be attacked.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"20"									// Base strength
+			"AttributeStrengthGain"		"2.1"									// Strength bonus per level.
+			"AttributeBaseAgility"		"20"									// Base agility
+			"AttributeAgilityGain"		"3.3"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"12"									// Base intelligence
+			"AttributeIntelligenceGain"	"1.7"	
+	}
+	//End of file Luna.txt
+
+
+	//Start of file lycan.txt
+	"npc_dota_hero_lycan"
+		{
+			"AttackRate"		"1.500000"
+		}
+	//End of file lycan.txt
+
+
+	//Start of file Medusa.txt
+	"npc_dota_hero_medusa"
+		{																		
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_medusa"
+			// Armor
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackDamageMin"				"35"									// Damage range min.
+			"AttackDamageMax"				"55"									// Damage range max.
+			
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"20"									// Base strength
+			"AttributeStrengthGain"		"2.6"									// Strength bonus per level.
+			"AttributeBaseIntelligence"	"19"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.5"									// Intelligence bonus per level.
+			"AttributeBaseAgility"		"20"									// Base agility
+			"AttributeAgilityGain"		"3.1"									// Agility bonus per level.
+	
+	
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"300"									// Speed.
+	}
+	//End of file Medusa.txt
+
+
+	//Start of file Mikasa.txt
+	"npc_hero_mikasa"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero"				"npc_dota_hero_riki"
+			"Team"						"Bad"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"Ability1"					"angel_arena_envenomed"				// Ability 1
+			"Ability2"					"angel_arena_strike"				// Ability 2
+			"Ability3"					"angel_arena_dash"					// Ability 3
+			"Ability4"					"juggernaut_omni_slash"					// Ability 4
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"2"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"32"									// Damage range min.
+			"AttackDamageMax"			"38"									// Damage range max.	
+			
+			"AttackRate"				"1.4"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"									// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"400"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			""										// Particle system model for projectile.
+			"ProjectileSpeed"			"0"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"16"									// Base strength
+			"AttributeStrengthGain"		"2.2"									// Strength bonus per level.
+			"AttributeBaseAgility"		"18"									// Base agility
+			"AttributeAgilityGain"		"2.9"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"16"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.2"									// Intelligence bonus per level.
+			
+			"StatusHealth" "118" 
+			//"StatusHealthRegen" "0" 
+			//"StatusMana" "110" 
+			//"StatusManaRegen" "0.3" 
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"305"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Mikasa.txt
+
+
+	//Start of file mirana.txt
+		"npc_dota_hero_mirana"
+		{
+			
+			"ArmorPhysical"		"1"
+			"Ability1"		"mirana_starfall"
+			"Ability2"		"mirana_arrow"
+			"Ability3"		"mirana_leap"
+			"Ability4"		"mirana_invis"
+			
+			
+			"AttackDamageMin"		"20"
+			"AttackDamageMax"		"32"
+			"AttackRate"		"1.4"
+	
+			"AttackRange"		"630"
+	
+			"AttributeBaseStrength"		"17"
+			"AttributeStrengthGain"		"2.5"
+			"AttributeBaseIntelligence"		"17"
+			"AttributeIntelligenceGain"		"1.7"
+			"AttributeBaseAgility"		"20"
+			"AttributeAgilityGain"		"3.3"
+			"MovementSpeed"		"315"
+			"MovementTurnRate"		"0.400000"
+		}
+	//End of file mirana.txt
+
+
+	//Start of file Morphling.txt
+	"npc_dota_hero_morphling"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" "npc_dota_hero_morphling"
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackDamageMin"			"36"									// Damage range min.
+			"AttackDamageMax"			"42"									// Damage range max.
+			
+			"AttackRate"				"1.3"		
+			"AttackRange"				"475"
+			"MovementSpeed"				"300"	
+			
+			"AttributeBaseStrength"		"16"									// Base strength
+			"AttributeStrengthGain"		"2.2"									// Strength bonus per level.
+			"AttributeBaseIntelligence"	"21"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.0"									// Intelligence bonus per level.
+			"AttributeBaseAgility"		"24"									// Base agility
+			"AttributeAgilityGain"		"2.8"									// Agility bonus per level.
+	
+	}
+	//End of file Morphling.txt
+
+
+	//Start of file Naga.txt
+	"npc_dota_hero_naga_siren"
+		{																		
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_naga_siren"
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"-1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackDamageMin"			"30"									// Damage range min.
+			"AttackDamageMax"			"35"									// Damage range max.	
+			"AttackRate"				"1.3"
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"25"									// Base strength
+			"AttributeStrengthGain"		"2.5"									// Strength bonus per level.
+			"AttributeBaseAgility"		"25"									// Base agility
+			"AttributeAgilityGain"		"3.2"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"20"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.2"									// Intelligence bonus per level.
+	}
+	//End of file Naga.txt
+
+
+	//Start of file naga_siren.txt
+		"npc_dota_hero_naga_siren"
+		{
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"Ability1"				"naga_siren_mirror_image"				// Ability 1
+			"Ability2"				"naga_siren_ensnare"					// Ability 2
+			"Ability3"				"naga_siren_rip_tide"					// Ability 3
+			"Ability4"				"naga_siren_song_of_the_siren"			// Ability 4
+			"Ability5"				"naga_siren_song_of_the_siren_cancel"	// Ability 5
+			"Ability6"				"attribute_bonus"
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"3"									// Physical protection. // 2.94
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"23"									// Damage range min.
+			"AttackDamageMax"			"25"									// Damage range max.
+			"AttackRate"				"1.5"									// Speed of attack.
+			"AttackAnimationPoint"		"0.5"									// Normalized time in animation cycle to attack.
+			"AttackAcquisitionRange"	"600"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+		
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"21"									// Base strength
+			"AttributeStrengthGain"		"2.3"									// Strength bonus per level.
+			"AttributeBaseAgility"		"21"									// Base agility
+			"AttributeAgilityGain"		"3.2"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"21"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.0"									// Intelligence bonus per level.
+	
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"320"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			// Status
+			//-------------------------------------------------------------------------------------------------------------
+			"StatusHealthRegen"			"0.75"									// Health regeneration rate.
+		}
+	//End of file naga_siren.txt
+
+
+	//Start of file nature_prophet.txt
+	"npc_dota_hero_furion"
+		{
+			
+			"Ability1"		"furion_sprout"
+			"Ability2"		"furion_teleportation"
+			"Ability3"		"furion_force_of_nature"
+			"Ability4"		"furion_wrath_of_nature"
+			"ArmorPhysical"		"1"
+			
+			"AttackDamageMin"		"24"
+			"AttackDamageMax"		"38"
+			"AttackRate"		"1.2"
+			"AttackRange"		"625"
+			
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"22"
+			"AttributeStrengthGain"		"2.0"
+			"AttributeBaseIntelligence"		"25"
+			"AttributeIntelligenceGain"		"2.6"
+			"AttributeBaseAgility"		"12"
+			"AttributeAgilityGain"		"1.5"
+			"MovementSpeed"		"305"
+		}
+	//End of file nature_prophet.txt
+
+
+	//Start of file Nightshade.txt
+	"npc_hero_nightshade"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_faceless_void"
+			"Team"						"Bad"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			//"Ability1"				"angel_arena_illusions"					// Ability 1
+			"Ability1"					"naga_siren_mirror_image"	
+			"Ability2"					"angel_arena_fast_aura"				// Ability 2
+			"Ability3"					"angel_arena_dash"			// Ability 3
+			"Ability4"					"juggernaut_omni_slash"				// Ability 4
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"0"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"32"									// Damage range min.
+			"AttackDamageMax"			"37"									// Damage range max.	
+			
+			"AttackRate"				"1.75"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"										// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"160"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			""										// Particle system model for projectile.
+			"ProjectileSpeed"			"0"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"19"									// Base strength
+			"AttributeStrengthGain"		"2.6"									// Strength bonus per level.
+			"AttributeBaseAgility"		"22"									// Base agility
+			"AttributeAgilityGain"		"3.4"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"18"									// Base intelligence
+			"AttributeIntelligenceGain"	"1.8"									// Intelligence bonus per level
+			
+			"StatusHealth" "200" 
+			"StatusHealthRegen" "3.0" 
+			"StatusMana" "100" 
+			"StatusManaRegen" "4.6" 
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"300"									// Speed.
+	
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Nightshade.txt
+
+
+	//Start of file night_stalker.txt
+		"npc_dota_hero_night_stalker"
+		{
+		
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AbilityLayout"			"5"
+			"Ability1"				"night_stalker_void"
+			"Ability2"				"night_stalker_crippling_fear"
+			"Ability3"				"night_stalker_hunter_in_the_night"
+			"Ability4"				"night_stalker_darkness"
+			"Ability5"				"angel_arena_night_vampire"
+			"Ability6"				"attribute_bonus"
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"			"3"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"38"									// Damage range min.
+			"AttackDamageMax"			"42"									// Damage range max.
+			"AttackRate"				"1.7"									// Speed of attack.
+			"AttackAnimationPoint"		"0.55"									// Normalized time in animation cycle to attack.
+			"AttackAcquisitionRange"	"600"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"23"									// Base strength
+			"AttributeStrengthGain"		"3.2"									// Strength bonus per level.
+			"AttributeBaseIntelligence"	"16"									// Base intelligence
+			"AttributeIntelligenceGain"	"1.6"									// Intelligence bonus per level.
+			"AttributeBaseAgility"		"18"									// Base agility
+			"AttributeAgilityGain"		"2.6"									// Agility bonus per level.
+	
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"295"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			// Vision
+			//-------------------------------------------------------------------------------------------------------------
+			"VisionDaytimeRange"		"1200"									// Range of vision during day light.
+			"VisionNighttimeRange"		"1800"									// Range of vision at night time.
+	
+			// Bounds
+			//-------------------------------------------------------------------------------------------------------------
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"165"
+		}
+	//End of file night_stalker.txt
+
+
+	//Start of file ogre_magi.txt
+	"npc_dota_hero_ogre_magi"
+		{
+			
+			"ArmorPhysical"		"3.000000"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"		"41"
+			"AttackDamageMax"		"47"
+			"AttackRate"		"1.40000"
+			
+			"AttackRange"		"128"
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"23"
+			"AttributeStrengthGain"		"3.200000"
+			"AttributeBaseAgility"		"14"
+			"AttributeAgilityGain"		"2.20000"
+			"AttributeBaseIntelligence"		"17"
+			"AttributeIntelligenceGain"		"2.800000"
+			"StatusHealthRegen"		"3.500000"
+			"MovementSpeed"		"300"
+			
+		}
+	//End of file ogre_magi.txt
+
+
+	//Start of file phanthom_assassin.txt
+		"npc_dota_hero_phantom_assassin"
+		{
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AbilityLayout"			"5"
+			"Ability1"				"phantom_assassin_stifling_dagger"				// Ability 1
+			"Ability2"				"phantom_assassin_phantom_strike"						// Ability 2
+			"Ability3"				"phantom_assassin_blur"					// Ability 3
+			"Ability4"				"angel_arena_agility_breaker"
+			"Ability5"				"phantom_assassin_coup_de_grace"					// Ability 4
+			"Ability6"				"attribute_bonus"
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"1"									// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"23"									// Damage range min.
+			"AttackDamageMax"			"25"									// Damage range max.
+			"AttackRate"				"1.7"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"									// Normalized time in animation cycle to attack.
+			"AttackAcquisitionRange"	"600"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+		
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"20"									// Base strength
+			"AttributeStrengthGain"		"1.85"									// Strength bonus per level.
+			"AttributeBaseAgility"		"23"									// Base agility
+			"AttributeAgilityGain"		"3.15"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"13"									// Base intelligence
+			"AttributeIntelligenceGain"	"1.0"									// Intelligence bonus per level.
+	
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"310"									// Speed.
+			"MovementTurnRate"			"0.4"									// Turning rate.
+			"HasAggressiveStance"		"1"
+		}
+	//End of file phanthom_assassin.txt
+
+
+	//Start of file puck.txt
+	"npc_dota_hero_puck"
+		{
+			"ArmorPhysical"		"1"
+	
+			"AttackDamageMin"		"22"
+			"AttackDamageMax"		"33"
+			"AttackRate"			"1.3"
+			"AttackAnimationPoint"	"0.500000"
+			"AttackAcquisitionRange"	"800"
+			"AttackRange"			"550"
+	
+			"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"15"
+			"AttributeStrengthGain"		"2.100000"
+			"AttributeBaseIntelligence"	"25"
+			"AttributeIntelligenceGain"	"2.800000"
+			"AttributeBaseAgility"		"22"
+			"AttributeAgilityGain"		"2.200000"
+			"MovementSpeed"				"300"
+		}
+	//End of file puck.txt
+
+
+	//Start of file Pugna.txt
+	"npc_dota_hero_pugna"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" "npc_dota_hero_pugna"
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"			"32"									// Damage range min.
+			"AttackDamageMax"			"34"									// Damage range max.
+			"AttackRate"				"1.2"									// Speed of attack.
+			"AttackAnimationPoint"		"0.46"									// Normalized time in animation cycle to attack.
+			"AttackAcquisitionRange"	"800"									// Range within a target can be acquired.
+			"AttackRange"				"600"									// Range within a target can be attacked.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"20"									// Base strength
+			"AttributeStrengthGain"		"2.4"									// Strength bonus per level.
+			"AttributeBaseAgility"		"18"									// Base agility
+			"AttributeAgilityGain"		"2.0"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"26"									// Base intelligence
+			"AttributeIntelligenceGain"	"4.2"									// Intelligence bonus per level.
+	
+	}
+	//End of file Pugna.txt
+
+
+	//Start of file queen_of_pain.txt
+	"npc_dota_hero_queenofpain"
+		{
+	
+			"LastHitChallengeRival"		"npc_dota_hero_vengefulspirit"
+			"HeroSelectSoundEffect"		"Hero_QueenOfPain.Pick"
+			"Ability1"		"queenofpain_shadow_strike"
+			"Ability2"		"queenofpain_blink"
+			"Ability3"		"queenofpain_scream_of_pain"
+			"Ability4"		"queenofpain_sonic_wave"
+	
+			"AttackDamageMin"		"25"
+			"AttackDamageMax"		"33"
+			"AttackRate"		"1.500000"
+			"AttackAnimationPoint"		"0.560000"
+			"AttackAcquisitionRange"		"800"
+			"AttackRange"		"550"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"16"
+			"AttributeStrengthGain"		"1.800000"
+			"AttributeBaseIntelligence"		"24"
+			"AttributeIntelligenceGain"		"2.800000"
+			"AttributeBaseAgility"		"18"
+			"AttributeAgilityGain"		"2.3"
+			"MovementSpeed"		"305"
+			
+		}
+	//End of file queen_of_pain.txt
+
+
+	//Start of file Razor.txt
+	"npc_dota_hero_razor"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" "npc_dota_hero_razor"
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AbilityLayout"			"5"
+			"Ability1"				"razor_plasma_field"							// Ability 1
+			"Ability2"				"razor_static_link"								// Ability 2
+			"Ability3"				"razor_unstable_current"						// Ability 3
+			"Ability4"				"angel_arena_razor_power"
+			"Ability5"				"razor_eye_of_the_storm"						// Ability 4
+			"Ability6"				"attribute_bonus"
+			
+			"AttackDamageMin"			"82"									// Damage range min.
+			"AttackDamageMax"			"94"									// Damage range max.
+			
+			"AttackRate"				"1.8"		
+			"AttackRange"				"450"
+			"MovementSpeed"				"310"	
+			
+			"AttributeBaseStrength"		"23"									// Base strength
+			"AttributeStrengthGain"		"2.6"									// Strength bonus per level.
+			"AttributeBaseIntelligence"	"23"									// Base intelligence
+			"AttributeIntelligenceGain"	"3.4"									// Intelligence bonus per level.
+			"AttributeBaseAgility"		"23"									// Base agility
+			"AttributeAgilityGain"		"2.9"
+	}
+	//End of file Razor.txt
+
+
+	//Start of file rubick.txt
+	"npc_dota_hero_rubick"
+		{
+			"ArmorPhysical"		"1.000000"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"		"22"
+			"AttackDamageMax"		"32"
+			"AttackRate"		"1.300000"
+	
+			"AttackRange"		"600"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"19"
+			"AttributeStrengthGain"		"2.200000"
+			"AttributeBaseAgility"		"14"
+			"AttributeAgilityGain"		"2.600000"
+			"AttributeBaseIntelligence"		"27"
+			"AttributeIntelligenceGain"		"2.400000"
+			"MovementSpeed"		"300"
+			"MovementTurnRate"		"0.500000"
+			"HealthBarOffset"		"170"
+		}
+	//End of file rubick.txt
+
+
+	//Start of file Satan.txt
+	"npc_hero_satan"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_doom_bringer"
+			"Team"						"Bad"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AbilityLayout"				"6"
+			//"Ability1"				"angel_arena_illusions"				// Ability 1
+			"Ability1"					"naga_siren_mirror_image"	
+			"Ability2"					"angel_arena_immobilise"				// Ability 2
+			"Ability3"					"angel_arena_vampire"					// Ability 3
+			"Ability4"					"angel_arena_dooms"					// Ability 4
+			"Ability5"					"attribute_bonus"				// Ability 1
+			"Ability6"					""				// Ability 2
+			"Ability7"					""					// Ability 3
+			"Ability8"					""					// Ability 4
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"-1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"80"									// Damage range min.
+			"AttackDamageMax"			"85"									// Damage range max.	
+			
+			"AttackRate"				"1.45"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"										// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"400"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			""										// Particle system model for projectile.
+			"ProjectileSpeed"			"1200"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"38"									// Base strength
+			"AttributeStrengthGain"		"3.2"									// Strength bonus per level.
+			"AttributeBaseAgility"		"20"									// Base agility
+			"AttributeAgilityGain"		"2.8"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"18"									// Base intelligence
+			"AttributeIntelligenceGain"	"1.6"									// Intelligence bonus per level.
+			
+			"StatusHealth" 				"200" 
+			"StatusHealthRegen" 		"15.0" 
+			"StatusMana"				"100" 
+			"StatusManaRegen"			"0.5" 
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"290"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Satan.txt
+
+
+	//Start of file sf.txt
+		"npc_dota_hero_nevermore"
+		{
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AbilityLayout"				"6"
+			"Ability1"					"nevermore_shadowraze1"					// Ability 1
+			"Ability2"					"nevermore_shadowraze2"					// Ability 2
+			"Ability3"					"nevermore_shadowraze3"					// Ability 3
+			"Ability4"					"nevermore_necromastery"				// Ability 4
+			"Ability5"					"nevermore_dark_lord"					// Ability 5
+			"Ability6"					"nevermore_requiem"						// Ability 6
+			"Ability7"					"attribute_bonus"						// Ability 7
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"-1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"			"15"									// Damage range min.
+			"AttackDamageMax"			"21"									// Damage range max.
+			"AttackRate"				"1.5"									// Speed of attack.
+			"AttackAnimationPoint"		"0.5"									// Normalized time in animation cycle to attack.
+			"AttackAcquisitionRange"	"800"									// Range within a target can be acquired.
+			"AttackRange"				"500"									// Range within a target can be attacked.
+			"ProjectileSpeed"			"1200"									// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"15"									// Base strength
+			"AttributeStrengthGain"		"2.0"									// Strength bonus per level.
+			"AttributeBaseIntelligence"	"18"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.0"									// Intelligence bonus per level.
+			"AttributeBaseAgility"		"20"									// Base agility
+			"AttributeAgilityGain"		"2.9"									// Agility bonus per level.
+	
+			// Status
+			//-------------------------------------------------------------------------------------------------------------
+			"StatusHealthRegen"			"0.5"									// Health regeneration rate.
+	
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"305"									// Speed.
+			"MovementTurnRate"			"1.0"									// Turning rate.
+			
+			// Bounds
+			//-------------------------------------------------------------------------------------------------------------
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"250"
+		}
+	//End of file sf.txt
+
+
+	//Start of file Shadowsong.txt
+	"npc_hero_shadowsong"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_antimage"
+			"Team"						"Bad"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"Ability1"					"angel_arena_magic_fire"				// Ability 1
+			"Ability2"					"angel_arena_firehell"				// Ability 2
+			"Ability3"					"angel_arena_death_aura"					// Ability 3
+			"Ability4"					"angel_arena_demonic"					// Ability 4
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"0"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"29"									// Damage range min.
+			"AttackDamageMax"			"34"									// Damage range max.	
+			
+			"AttackRate"				"1.45"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"										// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"620"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			""										// Particle system model for projectile.
+			"ProjectileSpeed"			"1200"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"19"									// Base strength
+			"AttributeStrengthGain"		"2.3"									// Strength bonus per level.
+			"AttributeBaseAgility"		"18"									// Base agility
+			"AttributeAgilityGain"		"2.9"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"15"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.0"									// Intelligence bonus per level.
+			
+			"StatusHealth" "102" 
+			//"StatusHealthRegen" "1.2" 
+			//"StatusMana" "150" 
+			//"StatusManaRegen" "1.0" 
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"310"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Shadowsong.txt
+
+
+	//Start of file shadow_demon_hero.txt
+	"npc_dota_hero_shadow_demon"
+		{
+			"ArmorPhysical"		"0"
+	
+			"AttackDamageMin"		"27"
+			"AttackDamageMax"		"31"
+			
+			"AttackRate"		"1.450000"
+			"AttackAnimationPoint"		"0.350000"
+			"AttackAcquisitionRange"		"800"
+			"AttackRange"		"500"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"17"
+			"AttributeStrengthGain"		"2.200000"
+			"AttributeBaseAgility"		"18"
+			"AttributeAgilityGain"		"2.400000"
+			"AttributeBaseIntelligence"		"23"
+			"AttributeIntelligenceGain"		"2.800000"
+			"MovementSpeed"		"305"
+		}
+	//End of file shadow_demon_hero.txt
+
+
+	//Start of file silencer.txt
+	"npc_dota_hero_silencer"
+		{
+			"Ability1"		"silencer_curse_of_the_silent"
+			"Ability2"		"silencer_glaives_of_wisdom"
+			"Ability3"		"silencer_last_word"
+			"Ability4"		"silencer_global_silence"
+			"Ability5"		"attribute_bonus"
+			"ArmorPhysical"		"1"
+			"MagicalResistance"		"25"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"		"16"
+			"AttackDamageMax"		"30"
+			"AttackRate"		"1.400000"
+			"AttackAnimationPoint"		"0.500000"
+			"AttackAcquisitionRange"		"800"
+			"AttackRange"		"600"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"17"
+			"AttributeStrengthGain"		"2.200000"
+			"AttributeBaseAgility"		"20"
+			"AttributeAgilityGain"		"3.000000"
+			"AttributeBaseIntelligence"		"27"
+			"AttributeIntelligenceGain"		"3.000000"
+			"MovementSpeed"		"305"
+		}
+	//End of file silencer.txt
+
+
+	//Start of file skywrath.txt
+	"npc_dota_hero_skywrath_mage"
+		{
+			"ArmorPhysical"		"1"
+	
+			"AttackDamageMin"		"12"
+			"AttackDamageMax"		"22"
+			"AttackRate"		"1.400000"
+			"AttackAnimationPoint"		"0.400000"
+			"AttackRange"		"600"
+	
+			
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"19"
+			"AttributeStrengthGain"		"1.500000"
+			"AttributeBaseAgility"		"13"
+			"AttributeAgilityGain"		"0.800000"
+			"AttributeBaseIntelligence"		"27"
+			"AttributeIntelligenceGain"		"3.600000"
+			
+			"MovementSpeed"		"325"
+			"MovementTurnRate"		"0.500000"
+	
+		}
+	//End of file skywrath.txt
+
+
+	//Start of file slardar.txt
+	"npc_dota_hero_slardar"
+		{
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"		"30"
+			"AttackDamageMax"		"38"
+			"AttackRate"		"1.75"
+		}
+	//End of file slardar.txt
+
+
+	//Start of file slark.txt
+		"npc_dota_hero_slark"
+		{
+			
+			"Ability1"		"slark_dark_pact"
+			"Ability2"		"slark_pounce"
+			"Ability3"		"slark_essence_shift"
+			"Ability4"		"slark_shadow_dance"
+			"Ability5"		"attribute_bonus"
+			"ArmorPhysical"		"0"
+	
+			"AttackDamageMin"		"33"
+			"AttackDamageMax"		"41"
+			"AttackRate"			"1.5"
+	
+			
+			"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"21"
+			"AttributeStrengthGain"		"2.2"
+			"AttributeBaseIntelligence"		"16"
+			"AttributeIntelligenceGain"		"2.2"
+			"AttributeBaseAgility"		"21"
+			"AttributeAgilityGain"		"2.6"
+			
+			"VisionDaytimeRange"		"1800"
+			"VisionNighttimeRange"		"1800"
+			"MovementSpeed"		"305"
+			"MovementTurnRate"		"0.5"
+		}
+	//End of file slark.txt
+
+
+	//Start of file spectre.txt
+	"npc_dota_hero_spectre"
+	{
+		"ArmorPhysical"		"2"
+	
+		"AttackDamageMin"		"23"
+		"AttackDamageMax"		"27"
+		"AttackRate"		"1.3"
+	}
+	//End of file spectre.txt
+
+
+	//Start of file Spike.txt
+	"npc_hero_spike"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_bloodseeker"
+			"Team"						"Good"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"Ability1"					"angel_arena_dash"				// Ability 1
+			"Ability2"					"angel_arena_heal_ward"				// Ability 2
+			"Ability3"					"angel_arena_shell"					// Ability 3
+			"Ability4"					"angel_arena_faerie"					// Ability 4
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"0"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"32"									// Damage range min.
+			"AttackDamageMax"			"36"									// Damage range max.	
+			
+			"AttackRate"				"1.45"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"									// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"400"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			""										// Particle system model for projectile.
+			"ProjectileSpeed"			"0"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"24"									// Base strength
+			"AttributeStrengthGain"		"1.9"									// Strength bonus per level.
+			"AttributeBaseAgility"		"23"									// Base agility
+			"AttributeAgilityGain"		"2.7"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"12"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.1"									// Intelligence bonus per level.
+			
+			"StatusHealth" "98" 
+			"StatusHealthRegen" "3.2" 
+			"StatusMana" "0" 
+			"StatusManaRegen" "1.2" 
+			/ Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"310"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Spike.txt
+
+
+	//Start of file spirit_breaker.txt
+	"npc_dota_hero_spirit_breaker"
+		{
+	
+			"ArmorPhysical"		"3.000000"
+	
+			"AttackDamageMin"		"31"
+			"AttackDamageMax"		"41"
+			"AttackRate"		"1.5"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"29"
+			"AttributeStrengthGain"		"2.800000"
+			"AttributeBaseAgility"		"17"
+			"AttributeAgilityGain"		"2.200000"
+			"AttributeBaseIntelligence"		"14"
+			"AttributeIntelligenceGain"		"1.800000"
+	
+			"MovementSpeed"		"290"
+		}
+	//End of file spirit_breaker.txt
+
+
+	//Start of file techies.txt
+	"npc_dota_hero_techies"
+		{
+			"AttackRate"		"1.500000"
+			"AttackAnimationPoint"		"0.500000"
+			"AttackAcquisitionRange"		"800"
+			"AttackRange"		"700"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"17"
+			"AttributeStrengthGain"		"2.000000"
+			"AttributeBaseIntelligence"		"22"
+			"AttributeIntelligenceGain"		"2.900000"
+			"AttributeBaseAgility"		"14"
+			"AttributeAgilityGain"		"1.300000"
+	
+			"StatusManaRegen"		"0.020000"
+		}
+	//End of file techies.txt
+
+
+	//Start of file Templar.txt
+	"npc_dota_hero_templar_assassin"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" "npc_dota_hero_templar_assassin"
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributeStrengthGain"		"2.0"									// Strength bonus per level.
+			"AttributeAgilityGain"		"2.4"									// Agility bonus per level.
+			"AttributeIntelligenceGain"	"1.8"	
+			"AttackRate"			"1.25"
+	}
+	//End of file Templar.txt
+
+
+	//Start of file Tiny.txt
+	"npc_dota_hero_tiny"
+		{																		
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_tiny"
+			// Armor
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackDamageMin"				"60"									// Damage range min.
+			"AttackDamageMax"				"80"									// Damage range max.
+			
+			"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"24"									// Base strength
+			"AttributeStrengthGain"		"3.4"									// Strength bonus per level.
+			"AttributeBaseIntelligence"	"16"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.6"									// Intelligence bonus per level.
+			"AttributeBaseAgility"		"15"										// Base agility
+			"AttributeAgilityGain"		"2.6"									// Agility bonus per level.
+			"AttackRate"				"1.4"
+			
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"300"									// Speed.
+	}
+	//End of file Tiny.txt
+
+
+	//Start of file Traxes.txt
+	"npc_dota_hero_drow_ranger"
+		{																		
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_drow_ranger"
+			// Armor
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"			"20"									// Damage range min.
+			"AttackDamageMax"			"32"									// Damage range max.
+			"AttackRate"				"1.6"									// Speed of attack.
+			"AttackAnimationPoint"		"0.7"									// Normalized time in animation cycle to attack.
+			"AttackAcquisitionRange"	"800"									// Range within a target can be acquired.
+			"AttackRange"				"625"									// Range within a target can be attacked.
+			
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"			"20"									// Base strength
+			"AttributeStrengthGain"			"2.1"									// Strength bonus per level.
+			"AttributeBaseIntelligence"		"18"									// Base intelligence
+			"AttributeIntelligenceGain"		"2.6"									// Intelligence bonus per level.
+			"AttributeBaseAgility"			"26"									// Base agility
+			"AttributeAgilityGain"			"2.0"									// Agility bonus per level.
+	}
+	//End of file Traxes.txt
+
+
+	//Start of file Trinity.txt
+	"npc_hero_trinity"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_batrider"
+			"Team"						"Bad"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"Ability1"					"angel_arena_cripple"				// Ability 1
+			"Ability2"					"angel_arena_lightning"				// Ability 2
+			"Ability3"					"angel_arena_summon_hawk"					// Ability 3
+			"Ability4"					"angel_arena_enrage"					// Ability 4
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"			"32"									// Damage range min.
+			"AttackDamageMax"			"36"									// Damage range max.	
+			
+			"AttackRate"				"1.4"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"										// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"620"									// Range within a target can be acquired.
+			"AttackRange"				"560"									// Range within a target can be attacked.
+			
+			"ProjectileModel"			"particles/units/heroes/hero_batrider/batrider_base_attack.vpcf"										// Particle system model for projectile.
+			"ProjectileSpeed"			"1200"										// Speed of projectile.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"22"									// Base strength
+			"AttributeStrengthGain"		"2.4"									// Strength bonus per level.
+			"AttributeBaseAgility"		"19"									// Base agility
+			"AttributeAgilityGain"		"2.2"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"26"									// Base intelligence
+			"AttributeIntelligenceGain"	"3.2"									// Intelligence bonus per level4
+			
+			"StatusHealth" "100" 
+			"StatusHealthRegen" "1.0" 
+			"StatusMana" "200" 
+			"StatusManaRegen" "1.6" 
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"305"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Trinity.txt
+
+
+	//Start of file Troll_warlord.txt
+	"npc_dota_hero_troll_warlord"
+		{																		
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_troll_warlord"
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"-2"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackDamageMax"			"40"									// Damage range max.	
+			"AttackRate"				"1.7"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"									// Normalized time in animation cycle to attack.
+			"AttackAcquisitionRange"	"700"									// Range within a target can be acquired.
+			"AttackRange"				"450"									// Range within a target can be attacked.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"18"									// Base strength
+			"AttributeStrengthGain"		"2.0"									// Strength bonus per level.
+			"AttributeBaseIntelligence"	"13"									// Base intelligence
+			"AttributeIntelligenceGain"	"1.0"									// Intelligence bonus per level.
+			"AttributeBaseAgility"		"18"									// Base agility
+			"AttributeAgilityGain"		"2.5"									// Agility bonus per level.
+	
+	
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"300"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+	}
+	//End of file Troll_warlord.txt
+
+
+	//Start of file tusk.txt
+	"npc_dota_hero_tusk"
+		{
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"		"27"
+			"AttackDamageMax"		"31"
+			"AttackRate"		"1.500000"
+			"AttackAnimationPoint"		"0.360000"
+			"AttackAcquisitionRange"		"600"
+			"AttackRange"		"128"
+	
+			"AttributeBaseStrength"		"23"
+			"AttributeStrengthGain"		"2.500000"
+			"AttributeBaseAgility"		"23"
+			"AttributeAgilityGain"		"2.500000"
+			"AttributeBaseIntelligence"		"18"
+			"AttributeIntelligenceGain"		"1.700000"
+			"MovementSpeed"		"300"
+		}
+	//End of file tusk.txt
+
+
+	//Start of file Tusk_hero.txt
+		"npc_dota_hero_tusk"
+		{
+			//-------------------------------------------------------------------------------------------------------------
+			"AbilityLayout"			"5"
+			"Ability1"					"tusk_ice_shards"
+			"Ability2"					"tusk_snowball"
+			"Ability3"					"tusk_frozen_sigil"
+			"Ability4"					"tusk_launch_snowball"
+			"Ability5"					"tusk_walrus_kick"
+			"Ability6"					"tusk_walrus_punch"
+			"Ability7"					"attribute_bonus"
+		
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"0.0"								// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"			"27"									// Damage range min.
+			"AttackDamageMax"			"31"									// Damage range max.
+			"AttackRate"				"1.4"									// Speed of attack.
+			"AttackAnimationPoint"		"0.36"									// Normalized time in animation cycle to attack.
+			"AttackAcquisitionRange"	"600"									// Range within a target can be acquired.
+			"AttackRange"				"128"									// Range within a target can be attacked.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"			"25"									// Base strength
+			"AttributeStrengthGain"			"3.1"									// Strength bonus per level.
+			"AttributeBaseAgility"			"23"									// Base agility
+			"AttributeAgilityGain"			"2.4"									// Agility bonus per level.
+			"AttributeBaseIntelligence"		"18"									// Base intelligence
+			"AttributeIntelligenceGain"		"1.5"									// Intelligence bonus per level.
+	
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"305"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"HealthBarOffset"			"250"
+		}
+	//End of file Tusk_hero.txt
+
+
+	//Start of file undying.txt
+	"npc_dota_hero_undying"
+		{
+	
+			"ArmorPhysical"		"3"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"		"35"
+			"AttackDamageMax"		"43"
+			"AttackRate"		"1.400000"
+			"AttackAnimationPoint"		"0.300000"
+			"AttackAcquisitionRange"		"600"
+			"AttackRange"		"128"
+			"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"22"
+			"AttributeStrengthGain"		"2.800000"
+			"AttributeBaseAgility"		"10"
+			"AttributeAgilityGain"		"2.200000"
+			"AttributeBaseIntelligence"		"27"
+			"AttributeIntelligenceGain"		"2.500000"
+			"MovementSpeed"		"310"
+		}
+	//End of file undying.txt
+
+
+	//Start of file Ursa.txt
+	"npc_dota_hero_ursa"
+		{																		
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_ursa"
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"-1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackDamageMin"			"30"									// Damage range min.
+			"AttackDamageMax"			"35"									// Damage range max.	
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"			"23"									// Base strength
+			"AttributeStrengthGain"			"3.0"									// Strength bonus per level.
+			"AttributeBaseAgility"			"18"									// Base agility
+			"AttributeAgilityGain"			"2.7"									// Agility bonus per level.
+			"AttributeBaseIntelligence"		"15"									// Base intelligence
+			"AttributeIntelligenceGain"		"1.2"									// Intelligence bonus per level.
+	}
+	//End of file Ursa.txt
+
+
+	//Start of file venomancer.txt
+	"npc_dota_hero_venomancer"
+		{
+	
+			"Ability1"		"venomancer_venomous_gale"
+			"Ability2"		"venomancer_poison_sting"
+			"Ability3"		"venomancer_plague_ward"
+			"Ability4"		"venomancer_poison_nova"
+			"ArmorPhysical"		"0"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"		"19"
+			"AttackDamageMax"		"21"
+			"AttackRate"		"1.450000"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"18"
+			"AttributeStrengthGain"		"1.90000"
+			"AttributeBaseIntelligence"		"15"
+			"AttributeIntelligenceGain"		"1.90000"
+			"AttributeBaseAgility"		"22"
+			"AttributeAgilityGain"		"2.600000"
+			"StatusHealthRegen"		"0.250000"
+			"MovementSpeed"		"300"
+		}
+	//End of file venomancer.txt
+
+
+	//Start of file viper.txt
+	"npc_dota_hero_viper"
+		{
+			"Ability1"		"viper_poison_attack"
+			"Ability2"		"viper_nethertoxin"
+			"Ability3"		"viper_corrosive_skin"
+			"Ability4"		"viper_viper_strike"
+			
+			"ArmorPhysical"		"1"
+			
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"		"23"
+			"AttackDamageMax"		"25"
+			"AttackRate"		"1.500000"
+	
+			"AttackRange"		"575"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"20"
+			"AttributeStrengthGain"		"2.200000"
+			"AttributeBaseAgility"		"21"
+			"AttributeAgilityGain"		"2.900000"
+			"AttributeBaseIntelligence"		"15"
+			"AttributeIntelligenceGain"		"1.800000"
+			"MovementSpeed"		"300"
+		}
+	//End of file viper.txt
+
+
+	//Start of file warlock.txt
+		"npc_dota_hero_warlock"
+		{
+			"Ability1"		"warlock_fatal_bonds"
+			"Ability2"		"warlock_shadow_word"
+			"Ability3"		"warlock_upheaval"
+			"Ability4"		"warlock_rain_of_chaos"
+			"ArmorPhysical"		"1"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"		"22"
+			"AttackDamageMax"		"32"
+			"AttackRate"		"1.400000"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"22"
+			"AttributeStrengthGain"		"2.500000"
+			"AttributeBaseIntelligence"		"24"
+			"AttributeIntelligenceGain"		"2.900000"
+			"AttributeBaseAgility"		"10"
+			"AttributeAgilityGain"		"2.500000"
+			"MovementSpeed"		"300"
+			"MovementTurnRate"		"0.400000"
+	
+		}
+	//End of file warlock.txt
+
+
+	//Start of file Weaver.txt
+	"npc_dota_hero_weaver"
+		{																		
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_weaver"
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"0"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackDamageMin"			"30"									// Damage range min.
+			"AttackDamageMax"			"35"									// Damage range max.	
+		
+			"AttackRate"				"1.4"
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"			"20"									// Base strength
+			"AttributeStrengthGain"			"2.2"									// Strength bonus per level.
+			"AttributeBaseIntelligence"		"15"									// Base intelligence
+			"AttributeIntelligenceGain"		"2.3"									// Intelligence bonus per level.
+			"AttributeBaseAgility"			"25"									// Base agility
+			"AttributeAgilityGain"			"3.4"									// Agility bonus per level.
+	}
+	//End of file Weaver.txt
+
+
+	//Start of file Windstalker.txt
+	"npc_hero_windstalker"
+	{													
+			// General
+			//-------------------------------------------------------------------------------------------------------------
+			"override_hero" 			"npc_dota_hero_storm_spirit"
+			"Team"						"Good"
+	
+	
+			// Abilities
+			//-------------------------------------------------------------------------------------------------------------
+			"Ability1"					"angel_arena_storm"				// Ability 1
+			"Ability2"					"angel_arena_evasion"				// Ability 2
+			"Ability3"					"angel_arena_dash"					// Ability 3
+			"Ability4"					"juggernaut_omni_slash"					// Ability 4
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"-1"										// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackDamageMin"			"32"									// Damage range min.
+			"AttackDamageMax"			"38"									// Damage range max.	
+			
+			"AttackRate"				"1.2"									// Speed of attack.
+			"AttackAnimationPoint"		"0.3"										// Normalized time in animation cycle to attack.
+			
+			"AttackAcquisitionRange"	"400"									// Range within a target can be acquired.
+			"AttackRange"				"480"									// Range within a target can be attacked.
+			
+		// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+			"AttributeBaseStrength"		"21"									// Base strength
+			"AttributeStrengthGain"		"2.6"									// Strength bonus per level.
+			"AttributeBaseAgility"		"21"									// Base agility
+			"AttributeAgilityGain"		"3.6"									// Agility bonus per level.
+			"AttributeBaseIntelligence"	"12"									// Base intelligence
+			"AttributeIntelligenceGain"	"2.7"									// Intelligence bonus per level.
+			
+			"StatusHealth" "118" 
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"310"									// Speed.
+			"MovementTurnRate"			"0.5"									// Turning rate.
+			
+			"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+			"HealthBarOffset"			"140"
+	}
+	//End of file Windstalker.txt
+
+
+	//Start of file Wisp.txt
+	"npc_dota_hero_wisp"
+		{
+			"override_hero" 			"npc_dota_hero_wisp"
+	
+			// Armor
+			//-------------------------------------------------------------------------------------------------------------
+			"ArmorPhysical"				"0.0"								// Physical protection.
+	
+			// Attack
+			//-------------------------------------------------------------------------------------------------------------
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"			"26"									// Damage range min.
+			"AttackDamageMax"			"35"									// Damage range max.
+			"AttackRate"				"1.4"									// Speed of attack.
+			"AttackAnimationPoint"		"0.15"									// Normalized time in animation cycle to attack.
+	
+			// Attributes
+			//-------------------------------------------------------------------------------------------------------------
+			"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"			"19"									// Base strength
+			"AttributeStrengthGain"			"3.2"									// Strength bonus per level.
+			"AttributeBaseAgility"			"17"									// Base agility
+			"AttributeAgilityGain"			"2.6"									// Agility bonus per level.
+			"AttributeBaseIntelligence"		"23"									// Base intelligence
+			"AttributeIntelligenceGain"		"3.2"									// Intelligence bonus per level.
+	
+			// Movement
+			//-------------------------------------------------------------------------------------------------------------
+			"MovementSpeed"				"305"									// Speed.
+			"MovementTurnRate"			"0.7"									// Turning rate.
+	}
+	//End of file Wisp.txt
+
+
+	//Start of file witch_doctor.txt
+	"npc_dota_hero_witch_doctor"
+		{
+			"Ability1"		"witch_doctor_paralyzing_cask"
+			"Ability2"		"witch_doctor_voodoo_restoration"
+			"Ability3"		"witch_doctor_maledict"
+			"Ability4"		"witch_doctor_death_ward"
+			
+			"ArmorPhysical"		"-1"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+			"AttackDamageMin"		"27"
+			"AttackDamageMax"		"37"
+			"AttackRate"		"1.200000"
+	
+			"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+			"AttributeBaseStrength"		"16"
+			"AttributeStrengthGain"		"2.200000"
+			"AttributeBaseIntelligence"		"24"
+			"AttributeIntelligenceGain"		"3.200000"
+			"AttributeBaseAgility"		"13"
+			"AttributeAgilityGain"		"2.000000"
+			"MovementSpeed"		"305"
+			"MovementTurnRate"		"0.400000"
+	
+		}
+	//End of file witch_doctor.txt
+
+
+	//Start of file wraith_king.txt
+	"npc_dota_hero_skeleton_king"
+		{
+			"Ability1"		"skeleton_king_hellfire_blast"
+			"Ability2"		"skeleton_king_vampiric_aura"
+			"Ability3"		"skeleton_king_mortal_strike"
+			"Ability4"		"skeleton_king_reincarnation"
+			"ArmorPhysical"		"0"
+			"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+			"AttackDamageMin"		"39"
+			"AttackDamageMax"		"41"
+			"AttackRate"		"1.4"
+			"AttackAnimationPoint"		"0.560000"
+			"AttackAcquisitionRange"		"600"
+			"AttackRange"		"128"
+			"ProjectileSpeed"		"0"
+			"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+			"AttributeBaseStrength"		"22"
+			"AttributeStrengthGain"		"2.900000"
+			"AttributeBaseIntelligence"		"18"
+			"AttributeIntelligenceGain"		"1.800000"
+			"AttributeBaseAgility"		"18"
+			"AttributeAgilityGain"		"2.200000"
+			"MovementSpeed"		"300"
+			
+		}
+	//End of file wraith_king.txt
+}

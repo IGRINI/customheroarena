@@ -1,0 +1,2007 @@
+// Dota Heroes File
+// NOTE: This isn't for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template0"
+	{
+		"override_hero"				"npc_dota_hero_ancient_apparition"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template1"
+	{
+		"override_hero"				"npc_dota_hero_antimage"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template2"
+	{
+		"override_hero"				"npc_dota_hero_axe"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template3"
+	{
+		"override_hero"				"npc_dota_hero_bane"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template4"
+	{
+		"override_hero"				"npc_dota_hero_beastmaster"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template5"
+	{
+		"override_hero"				"npc_dota_hero_bloodseeker"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template6"
+	{
+		"override_hero"				"npc_dota_hero_chen"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template7"
+	{
+		"override_hero"				"npc_dota_hero_crystal_maiden"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template8"
+	{
+		"override_hero"				"npc_dota_hero_dark_seer"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template9"
+	{
+		"override_hero"				"npc_dota_hero_dazzle"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template10"
+	{
+		"override_hero"				"npc_dota_hero_dragon_knight"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template11"
+	{
+		"override_hero"				"npc_dota_hero_doom_bringer"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template12"
+	{
+		"override_hero"				"npc_dota_hero_drow_ranger"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template13"
+	{
+		"override_hero"				"npc_dota_hero_earthshaker"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template14"
+	{
+		"override_hero"				"npc_dota_hero_enchantress"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template15"
+	{
+		"override_hero"				"npc_dota_hero_enigma"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template16"
+	{
+		"override_hero"				"npc_dota_hero_faceless_void"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template17"
+	{
+		"override_hero"				"npc_dota_hero_furion"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template18"
+	{
+		"override_hero"				"npc_dota_hero_juggernaut"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template19"
+	{
+		"override_hero"				"npc_dota_hero_kunkka"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template20"
+	{
+		"override_hero"				"npc_dota_hero_leshrac"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template21"
+	{
+		"override_hero"				"npc_dota_hero_lich"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template22"
+	{
+		"override_hero"				"npc_dota_hero_life_stealer"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template23"
+	{
+		"override_hero"				"npc_dota_hero_lina"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template24"
+	{
+		"override_hero"				"npc_dota_hero_lion"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template25"
+	{
+		"override_hero"				"npc_dota_hero_mirana"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template26"
+	{
+		"override_hero"				"npc_dota_hero_morphling"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template27"
+	{
+		"override_hero"				"npc_dota_hero_necrolyte"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template28"
+	{
+		"override_hero"				"npc_dota_hero_nevermore"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template29"
+	{
+		"override_hero"				"npc_dota_hero_night_stalker"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template30"
+	{
+		"override_hero"				"npc_dota_hero_omniknight"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template31"
+	{
+		"override_hero"				"npc_dota_hero_puck"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template32"
+	{
+		"override_hero"				"npc_dota_hero_pudge"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template33"
+	{
+		"override_hero"				"npc_dota_hero_pugna"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template34"
+	{
+		"override_hero"				"npc_dota_hero_rattletrap"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template35"
+	{
+		"override_hero"				"npc_dota_hero_razor"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template36"
+	{
+		"override_hero"				"npc_dota_hero_riki"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template37"
+	{
+		"override_hero"				"npc_dota_hero_sand_king"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template38"
+	{
+		"override_hero"				"npc_dota_hero_shadow_shaman"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template39"
+	{
+		"override_hero"				"npc_dota_hero_slardar"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template40"
+	{
+		"override_hero"				"npc_dota_hero_sniper"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template41"
+	{
+		"override_hero"				"npc_dota_hero_spectre"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template42"
+	{
+		"override_hero"				"npc_dota_hero_storm_spirit"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template43"
+	{
+		"override_hero"				"npc_dota_hero_sven"
+		"AbilityLayout"				"6"
+		"Ability1"					"sven_storm_bolt"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template44"
+	{
+		"override_hero"				"npc_dota_hero_tidehunter"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template45"
+	{
+		"override_hero"				"npc_dota_hero_tinker"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template46"
+	{
+		"override_hero"				"npc_dota_hero_tiny"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template47"
+	{
+		"override_hero"				"npc_dota_hero_vengefulspirit"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template48"
+	{
+		"override_hero"				"npc_dota_hero_venomancer"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template49"
+	{
+		"override_hero"				"npc_dota_hero_viper"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template50"
+	{
+		"override_hero"				"npc_dota_hero_weaver"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template51"
+	{
+		"override_hero"				"npc_dota_hero_windrunner"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template52"
+	{
+		"override_hero"				"npc_dota_hero_witch_doctor"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template53"
+	{
+		"override_hero"				"npc_dota_hero_zuus"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template54"
+	{
+		"override_hero"				"npc_dota_hero_broodmother"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template55"
+	{
+		"override_hero"				"npc_dota_hero_skeleton_king"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template56"
+	{
+		"override_hero"				"npc_dota_hero_queenofpain"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template57"
+	{
+		"override_hero"				"npc_dota_hero_huskar"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template58"
+	{
+		"override_hero"				"npc_dota_hero_jakiro"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template59"
+	{
+		"override_hero"				"npc_dota_hero_batrider"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template60"
+	{
+		"override_hero"				"npc_dota_hero_warlock"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template61"
+	{
+		"override_hero"				"npc_dota_hero_alchemist"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template62"
+	{
+		"override_hero"				"npc_dota_hero_death_prophet"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template63"
+	{
+		"override_hero"				"npc_dota_hero_ursa"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template64"
+	{
+		"override_hero"				"npc_dota_hero_bounty_hunter"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template65"
+	{
+		"override_hero"				"npc_dota_hero_silencer"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template66"
+	{
+		"override_hero"				"npc_dota_hero_spirit_breaker"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template67"
+	{
+		"override_hero"				"npc_dota_hero_invoker"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template68"
+	{
+		"override_hero"				"npc_dota_hero_clinkz"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template69"
+	{
+		"override_hero"				"npc_dota_hero_obsidian_destroyer"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template70"
+	{
+		"override_hero"				"npc_dota_hero_shadow_demon"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template71"
+	{
+		"override_hero"				"npc_dota_hero_lycan"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template72"
+	{
+		"override_hero"				"npc_dota_hero_lone_druid"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template73"
+	{
+		"override_hero"				"npc_dota_hero_brewmaster"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template74"
+	{
+		"override_hero"				"npc_dota_hero_phantom_lancer"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template75"
+	{
+		"override_hero"				"npc_dota_hero_treant"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template76"
+	{
+		"override_hero"				"npc_dota_hero_ogre_magi"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template77"
+	{
+		"override_hero"				"npc_dota_hero_chaos_knight"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template78"
+	{
+		"override_hero"				"npc_dota_hero_phantom_assassin"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template79"
+	{
+		"override_hero"				"npc_dota_hero_gyrocopter"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template80"
+	{
+		"override_hero"				"npc_dota_hero_rubick"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template81"
+	{
+		"override_hero"				"npc_dota_hero_luna"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template82"
+	{
+		"override_hero"				"npc_dota_hero_wisp"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template83"
+	{
+		"override_hero"				"npc_dota_hero_disruptor"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template84"
+	{
+		"override_hero"				"npc_dota_hero_undying"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template85"
+	{
+		"override_hero"				"npc_dota_hero_templar_assassin"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template86"
+	{
+		"override_hero"				"npc_dota_hero_naga_siren"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template87"
+	{
+		"override_hero"				"npc_dota_hero_nyx_assassin"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template88"
+	{
+		"override_hero"				"npc_dota_hero_keeper_of_the_light"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template89"
+	{
+		"override_hero"				"npc_dota_hero_visage"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template90"
+	{
+		"override_hero"				"npc_dota_hero_meepo"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template91"
+	{
+		"override_hero"				"npc_dota_hero_magnataur"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template92"
+	{
+		"override_hero"				"npc_dota_hero_centaur"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template93"
+	{
+		"override_hero"				"npc_dota_hero_slark"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template94"
+	{
+		"override_hero"				"npc_dota_hero_shredder"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template95"
+	{
+		"override_hero"				"npc_dota_hero_medusa"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template96"
+	{
+		"override_hero"				"npc_dota_hero_troll_warlord"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template97"
+	{
+		"override_hero"				"npc_dota_hero_tusk"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template98"
+	{
+		"override_hero"				"npc_dota_hero_bristleback"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template99"
+	{
+		"override_hero"				"npc_dota_hero_skywrath_mage"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template100"
+	{
+		"override_hero"				"npc_dota_hero_elder_titan"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template101"
+	{
+		"override_hero"				"npc_dota_hero_abaddon"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template102"
+	{
+		"override_hero"				"npc_dota_hero_earth_spirit"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template103"
+	{
+		"override_hero"				"npc_dota_hero_ember_spirit"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template104"
+	{
+		"override_hero"				"npc_dota_hero_legion_commander"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template105"
+	{
+		"override_hero"				"npc_dota_hero_phoenix"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template106"
+	{
+		"override_hero"				"npc_dota_hero_terrorblade"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template107"
+	{
+		"override_hero"				"npc_dota_hero_techies"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template108"
+	{
+		"override_hero"				"npc_dota_hero_oracle"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template109"
+	{
+		"override_hero"				"npc_dota_hero_winter_wyvern"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+	//=================================================================================================================
+	// HERO: Template
+	//=================================================================================================================
+	"npc_dota_hero_empty_template110"
+	{
+		"override_hero"				"npc_dota_hero_arc_warden"
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_empty1"
+		"Ability4"					"invoker_empty1"
+		"Ability2"					"invoker_empty1"
+		"Ability3"					"invoker_empty1"
+		"Ability5"					"invoker_empty1"
+		"Ability6"					"invoker_empty1"
+		"Ability7"					"invoker_empty1"
+		"Ability8"					"attribute_bonus"
+		"VisionNighttimeRange"		"800"
+	}
+
+
+
+}

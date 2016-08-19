@@ -1,0 +1,15 @@
+"InfoTab" {
+	//"exampleName" 				- please keep it UNIQUE to this file, it's used for storing the variables in flash
+	//{
+	//	"_pos"		"1" 			- the "position" of the text, starts at 1. used for showing elements in correct order, please keep it UNIQUE
+	//	"_color"	"0xFFFFFF"		- the hex code color of the text
+	//	"_fontSize" "24"			- the font size
+	//	"_font"		"$TitleFont"	- usable fonts are: "$TitleFont", "$TextFont", "$TitleFontBold", "$TextFontBold"
+	//	"_bg"		"false"			- whether the text should have a background or not. "true" or "false"
+	//	"_bgColor"	"0x000000"		- the hex code color of the background
+	//	"_align"	"center"		- the text alignment: "left", "center" or "right"
+	//	"_text"		"Spell Shop"	- the text value. use \n for linebreak
+	//								- if you want to have a separator(line), just change _bg to "true", choose the "_bgColor" and set text to ""
+	//								- don't change, add or remove variable names unless you are modifying the source code
+	//}
+}
