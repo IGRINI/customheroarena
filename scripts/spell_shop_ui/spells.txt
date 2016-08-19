@@ -7,8 +7,8 @@
 		"_texture"		"spell_shop_ui_point" // if you want to have a custom texture for your skill point
 		"_isSellable"	"true" // do not change tis
 		"_isOwned"		"false" // do not change this
-		"_cost"			"0" // this is the cost of the skill point
-		"_sellFactor"	"0.67" // this is the sell factor of the skill point (sells for _sellFactor x _cost)
+		"_cost"			"1000" // this is the cost of the skill point
+		"_sellFactor"	"0.5" // this is the sell factor of the skill point (sells for _sellFactor x _cost)
 		"_upgFactor"	"1"  // do not change this
 		"_curLvl"		"0" // do not change this
 		"_maxLvl"		"1" // do not change this
