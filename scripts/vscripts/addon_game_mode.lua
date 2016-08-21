@@ -640,7 +640,7 @@ function AngelArena:OnNPCSpawned(event)
 	end
 end
 
-function OnHeroRespawn(spawned_hero)
+function OnHeroRespawn(spawned_hero, keys)
 	local hero = spawned_hero
 	local steam_id = PlayerResource:GetSteamAccountID(hero:GetPlayerOwnerID())
 	
