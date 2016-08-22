@@ -127,7 +127,7 @@ function AngelArena:InitGameMode()
     GameRules:SetCustomVictoryMessage("Victory. For the bless of gods")
 
 	GameRules:SetSafeToLeave(true)
-	GameRules:SetHeroSelectionTime(60)
+	GameRules:SetHeroSelectionTime(20)
 	GameRules:SetPreGameTime(0)
     GameRules:SetPostGameTime(30)
 	GameRules:SetHeroRespawnEnabled(true)
