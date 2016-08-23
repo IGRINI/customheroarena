@@ -1,3 +1,6 @@
 "AddonInfo"
 {
+  "TeamCount" 						"10"
+  "maps"      						"customheroesarenamap"
+  "IsPlayable"  					"1"
 }
