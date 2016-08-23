@@ -409,7 +409,7 @@
 	"0062"
 	{
 		"_ID"			"0062"
-		"_name"			"disruptor_glimpse"
+		"_name"			"death_prophet_spirit_siphon"
 	}
 
 	"0063"
@@ -427,7 +427,7 @@
 	"0065"
 	{
 		"_ID"			"0065"
-		"_name"			"doom_bringer_lvl_death"
+		"_name"			"disruptor_glimpse"
 	}
 
 	"0066"
@@ -463,7 +463,7 @@
 	"0071"
 	{
 		"_ID"			"0071"
-		"_name"			"drow_ranger_silence"
+		"_name"			"drow_ranger_wave_of_silence"
 	}
 
 	"0072"
@@ -493,19 +493,19 @@
 	"0076"
 	{
 		"_ID"			"0076"
-		"_name"			"earth_spirit_boulder_smash"
+		"_name"			"winter_wyvern_arctic_burn"
 	}
 
 	"0077"
 	{
 		"_ID"			"0077"
-		"_name"			"earth_spirit_geomagnetic_grip"
+		"_name"			"winter_wyvern_splinter_blast"
 	}
 
 	"0078"
 	{
 		"_ID"			"0078"
-		"_name"			"earth_spirit_rolling_boulder"
+		"_name"			"winter_wyvern_cold_embrace"
 	}
 
 	"0079"
@@ -718,11 +718,6 @@
 		"_name"			"kunkka_torrent"
 	}
 
-	"0114"
-	{
-		"_ID"			"0114"
-		"_name"			"kunkka_x_marks_the_spot"
-	}
 
 	"0115"
 	{
@@ -962,18 +957,6 @@
 	{
 		"_ID"			"0154"
 		"_name"			"morphling_adaptive_strike"
-	}
-
-	"0155"
-	{
-		"_ID"			"0155"
-		"_name"			"morphling_morph_agi"
-	}
-
-	"0156"
-	{
-		"_ID"			"0156"
-		"_name"			"morphling_morph_str"
 	}
 
 	"0157"
@@ -2194,11 +2177,6 @@
 		"_name"			"lion_finger_of_death"
 	}
 
-	"0360"
-	{
-		"_ID"			"0360"
-		"_name"			"lone_druid_true_form"
-	}
 
 	"0361"
 	{
@@ -2224,11 +2202,6 @@
 		"_name"			"medusa_stone_gaze"
 	}
 
-	"0365"
-	{
-		"_ID"			"0365"
-		"_name"			"meepo_divided_we_stand"
-	}
 
 	"0366"
 	{
@@ -2536,387 +2509,79 @@
 		"_name"			"witch_doctor_death_ward"
 	}
 
+
 	"0418"
 	{
 		"_ID"			"0418"
-		"_name"			"angel_arena_agility_breaker"
+		"_name"			"arc_warden_flux"
 	}
 
 	"0419"
 	{
 		"_ID"			"0419"
-		"_name"			"angel_arena_archer_aura"
+		"_name"			"arc_warden_magnetic_field"
 	}
 
 	"0420"
 	{
 		"_ID"			"0420"
-		"_name"			"angel_arena_berserk"
+		"_name"			"arc_warden_spark_wraith"
 	}
+
 
 	"0421"
 	{
 		"_ID"			"0421"
-		"_name"			"angel_arena_cripple"
+		"_name"			"broodmother_spin_web"
 	}
 
 	"0422"
 	{
 		"_ID"			"0422"
-		"_name"			"angel_arena_curse"
+		"_name"			"chen_penitence"
 	}
 
 	"0423"
 	{
 		"_ID"			"0423"
-		"_name"			"angel_arena_darkrage"
+		"_name"			"chen_test_of_faith"
 	}
 
 	"0424"
 	{
 		"_ID"			"0424"
-		"_name"			"angel_arena_dash"
+		"_name"			"chen_holy_persuasion"
 	}
 
 	"0425"
 	{
 		"_ID"			"0425"
-		"_name"			"angel_arena_death_aura"
+		"_name"			"clinkz_death_pact"
 	}
+
 
 	"0426"
 	{
 		"_ID"			"0426"
-		"_name"			"angel_arena_demonic"
+		"_name"			"doom_bringer_infernal_blade"
 	}
 
 	"0427"
 	{
 		"_ID"			"0427"
-		"_name"			"angel_arena_dooms"
+		"_name"			"winter_wyvern_winters_curse"
 	}
+
 
 	"0428"
 	{
 		"_ID"			"0428"
-		"_name"			"angel_arena_earthspikes"
+		"_name"			"drow_ranger_vengeance_arrow"
 	}
 
 	"0429"
 	{
 		"_ID"			"0429"
-		"_name"			"angel_arena_enrage"
-	}
-
-	"0430"
-	{
-		"_ID"			"0430"
-		"_name"			"angel_arena_envenomed"
-	}
-
-	"0431"
-	{
-		"_ID"			"0431"
-		"_name"			"angel_arena_evasion"
-	}
-
-	"0432"
-	{
-		"_ID"			"0432"
-		"_name"			"angel_arena_face_of_death"
-	}
-
-	"0433"
-	{
-		"_ID"			"0433"
-		"_name"			"angel_arena_faerie"
-	}
-
-	"0434"
-	{
-		"_ID"			"0434"
-		"_name"			"angel_arena_fast_aura"
-	}
-
-	"0435"
-	{
-		"_ID"			"0435"
-		"_name"			"angel_arena_firehell"
-	}
-
-	"0436"
-	{
-		"_ID"			"0436"
-		"_name"			"angel_arena_grace"
-	}
-
-	"0437"
-	{
-		"_ID"			"0437"
-		"_name"			"angel_arena_gunpowder"
-	}
-
-	"0438"
-	{
-		"_ID"			"0438"
-		"_name"			"angel_arena_hammer"
-	}
-
-	"0439"
-	{
-		"_ID"			"0439"
-		"_name"			"angel_arena_hawk_passive"
-	}
-
-	"0440"
-	{
-		"_ID"			"0440"
-		"_name"			"omniknight_protection_of_god"
-	}
-
-	"0441"
-	{
-		"_ID"			"0441"
-		"_name"			"angel_arena_holahammer"
-	}
-
-	"0442"
-	{
-		"_ID"			"0442"
-		"_name"			"angel_arena_hola_heal"
-	}
-
-	"0443"
-	{
-		"_ID"			"0443"
-		"_name"			"angel_arena_immobilise"
-	}
-
-	"0444"
-	{
-		"_ID"			"0444"
-		"_name"			"angel_arena_lightning"
-	}
-
-	"0445"
-	{
-		"_ID"			"0445"
-		"_name"			"angel_arena_magic_fire"
-	}
-
-	"0446"
-	{
-		"_ID"			"0446"
-		"_name"			"angel_arena_nether_ritual"
-	}
-
-	"0447"
-	{
-		"_ID"			"0447"
-		"_name"			"angel_arena_night_vampire"
-	}
-
-	"0448"
-	{
-		"_ID"			"0448"
-		"_name"			"angel_arena_razor_power"
-	}
-
-	"0449"
-	{
-		"_ID"			"0449"
-		"_name"			"angel_arena_reincarnation"
-	}
-
-	"0450"
-	{
-		"_ID"			"0450"
-		"_name"			"angel_arena_revenge"
-	}
-
-	"0451"
-	{
-		"_ID"			"0451"
-		"_name"			"angel_arena_rifle"
-	}
-
-	"0452"
-	{
-		"_ID"			"0452"
-		"_name"			"angel_arena_roots"
-	}
-
-	"0453"
-	{
-		"_ID"			"0453"
-		"_name"			"angel_arena_shadow_dagger"
-	}
-
-	"0454"
-	{
-		"_ID"			"0454"
-		"_name"			"angel_arena_shell"
-	}
-
-	"0455"
-	{
-		"_ID"			"0455"
-		"_name"			"angel_arena_shot"
-	}
-
-	"0456"
-	{
-		"_ID"			"0456"
-		"_name"			"angel_arena_sleep"
-	}
-
-	"0457"
-	{
-		"_ID"			"0457"
-		"_name"			"angel_arena_song"
-	}
-
-	"0458"
-	{
-		"_ID"			"0458"
-		"_name"			"angel_arena_souls"
-	}
-
-	"0459"
-	{
-		"_ID"			"0459"
-		"_name"			"angel_arena_storm"
-	}
-
-	"0460"
-	{
-		"_ID"			"0460"
-		"_name"			"angel_arena_strike"
-	}
-
-	"0461"
-	{
-		"_ID"			"0461"
-		"_name"			"angel_arena_summon_hawk"
-	}
-
-	"0462"
-	{
-		"_ID"			"0462"
-		"_name"			"angel_arena_transmute"
-	}
-
-	"0463"
-	{
-		"_ID"			"0463"
-		"_name"			"angel_arena_vampire"
-	}
-
-	"0464"
-	{
-		"_ID"			"0464"
-		"_name"			"arc_warden_flux"
-	}
-
-	"0465"
-	{
-		"_ID"			"0465"
-		"_name"			"arc_warden_magnetic_field"
-	}
-
-	"0466"
-	{
-		"_ID"			"0466"
-		"_name"			"arc_warden_spark_wraith"
-	}
-
-	"0467"
-	{
-		"_ID"			"0467"
-		"_name"			"arc_warden_tempest_double"
-	}
-
-	"0468"
-	{
-		"_ID"			"0468"
-		"_name"			"beastmaster_call_of_the_wild"
-	}
-
-	"0469"
-	{
-		"_ID"			"0469"
-		"_name"			"beastmaster_call_of_the_wild_boar"
-	}
-
-	"0470"
-	{
-		"_ID"			"0470"
-		"_name"			"broodmother_spin_web"
-	}
-
-	"0471"
-	{
-		"_ID"			"0471"
-		"_name"			"chen_penitence"
-	}
-
-	"0472"
-	{
-		"_ID"			"0472"
-		"_name"			"chen_test_of_faith"
-	}
-
-	"0473"
-	{
-		"_ID"			"0473"
-		"_name"			"chen_test_of_faith_teleport"
-	}
-
-	"0474"
-	{
-		"_ID"			"0474"
-		"_name"			"chen_holy_persuasion"
-	}
-
-	"0475"
-	{
-		"_ID"			"0475"
-		"_name"			"clinkz_death_pact"
-	}
-
-	"0476"
-	{
-		"_ID"			"0476"
-		"_name"			"death_prophet_spirit_siphon"
-	}
-
-	"0477"
-	{
-		"_ID"			"0477"
-		"_name"			"doom_bringer_infernal_blade"
-	}
-
-	"0478"
-	{
-		"_ID"			"0478"
-		"_name"			"winter_wyvern_winters_curse"
-	}
-
-	"0479"
-	{
-		"_ID"			"0479"
-		"_name"			"drow_ranger_wave_of_silence"
-	}
-
-	"0480"
-	{
-		"_ID"			"0480"
-		"_name"			"drow_ranger_vengeance_arrow"
-	}
-
-	"0481"
-	{
-		"_ID"			"0481"
 		"_name"			"enchantress_enchant"
 	}
 
@@ -2932,11 +2597,6 @@
 		"_name"			"lone_druid_savage_roar"
 	}
 
-	"0484"
-	{
-		"_ID"			"0484"
-		"_name"			"spike_dash"
-	}
 
 	"0485"
 	{
@@ -2980,11 +2640,6 @@
 		"_name"			"spectre_haunt"
 	}
 
-	"0492"
-	{
-		"_ID"			"0492"
-		"_name"			"troll_warlord_berserkers_rage"
-	}
 
 	"0493"
 	{
@@ -2992,28 +2647,5 @@
 		"_name"			"tiny_grow"
 	}
 
-	"0494"
-	{
-		"_ID"			"0494"
-		"_name"			"angel_arena_corrosive_toxin"
-	}
-
-	"0495"
-	{
-		"_ID"			"0495"
-		"_name"			"winter_wyvern_arctic_burn"
-	}
-
-	"0496"
-	{
-		"_ID"			"0496"
-		"_name"			"winter_wyvern_splinter_blast"
-	}
-
-	"0497"
-	{
-		"_ID"			"0497"
-		"_name"			"winter_wyvern_cold_embrace"
-	}
 
 }
