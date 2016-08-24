@@ -1,9 +1,9 @@
 "Settings" {
 	"_limit"		"6"
-	"_size"			"64"
-	"_dist"			"8"
-	"_max_row"		"5"
-	"_max_column"	"4"
+	"_size"			"32"
+	"_dist"			"4"
+	"_max_row"		"10"
+	"_max_column"	"8"
 	"_canOpen"		"true"
 	"_useRes"		"true"
 	"_useGold"		"false"
