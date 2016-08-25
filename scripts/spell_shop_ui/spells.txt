@@ -7,7 +7,7 @@
 		"_texture"		"spell_shop_ui_point" // if you want to have a custom texture for your skill point
 		"_isSellable"	"true" // do not change tis
 		"_isOwned"		"false" // do not change this
-		"_cost"			"1000" // this is the cost of the skill point
+		"_cost"			"0" // this is the cost of the skill point
 		"_sellFactor"	"0.5" // this is the sell factor of the skill point (sells for _sellFactor x _cost)
 		"_upgFactor"	"1"  // do not change this
 		"_curLvl"		"0" // do not change this
@@ -29,9 +29,9 @@
 		"_texture"		"abaddon_death_coil" // the texture of the ability inside images/spellicons/
 		"_isSellable"	"true" // if you can sell the ability
 		"_isOwned"		"false" // if the ability is owned by the player. you might want to set this to false
-		"_cost"			"0" // the gold cost of the ability
+		"_cost"			"500" // the gold cost of the ability
 		"_sellFactor"	"0.5" // how much the ability sells for (_sellFactor x _cost) x _curLvl
-		"_upgFactor"	"30.0" // the factor for increasing gold cost on upgrade (lvl 1 is _cost, lvl 2+ is _upgFactor * _cost)
+		"_upgFactor"	"1.0" // the factor for increasing gold cost on upgrade (lvl 1 is _cost, lvl 2+ is _upgFactor * _cost)
 		"_curLvl"		"0" // the current level of the ability for the player.. you might want to set this to 0
 		"_maxLvl"		"7" // the max lvl of the ability
 		"_isUpg"		"true" // if you can upgrade the ability (skill it up)
@@ -49,2603 +49,2644 @@
 	"0002"
 	{
 		"_ID"			"0002"
-		"_name"			"abaddon_aphotic_shield"
+		"_name"			"antimage_mana_break"
 	}
 
 	"0003"
 	{
 		"_ID"			"0003"
-		"_name"			"abaddon_frostmourne"
+		"_name"			"antimage_blink"
+		"_cost"			"700"
 	}
 
 	"0004"
 	{
 		"_ID"			"0004"
-		"_name"			"abyssal_underlord_atrophy_aura"
+		"_name"			"antimage_spell_shield"
 	}
 
 	"0005"
 	{
 		"_ID"			"0005"
-		"_name"			"abyssal_underlord_firestorm"
+		"_name"			"antimage_mana_void"
+		"_cost"			"1000"
 	}
 
 	"0006"
 	{
 		"_ID"			"0006"
-		"_name"			"abyssal_underlord_pit_of_malice"
+		"_name"			"axe_berserkers_call"
 	}
 
 	"0007"
 	{
 		"_ID"			"0007"
-		"_name"			"alchemist_acid_spray"
+		"_name"			"axe_battle_hunger"
 	}
 
 	"0008"
 	{
 		"_ID"			"0008"
-		"_name"			"alchemist_goblins_greed"
+		"_name"			"axe_counter_helix"
 	}
 
 	"0009"
 	{
 		"_ID"			"0009"
-		"_name"			"alchemist_unstable_concoction"
+		"_name"			"axe_culling_blade"
+		"_cost"			"1000"
 	}
 
 	"0010"
 	{
 		"_ID"			"0010"
-		"_name"			"ancient_apparition_chilling_touch"
+		"_name"			"bane_enfeeble"
 	}
 
 	"0011"
 	{
 		"_ID"			"0011"
-		"_name"			"ancient_apparition_cold_feet"
+		"_name"			"bane_brain_sap"
 	}
 
 	"0012"
 	{
 		"_ID"			"0012"
-		"_name"			"ancient_apparition_ice_vortex"
+		"_name"			"bane_fiends_grip"
+		"_cost"			"1500"
 	}
 
 	"0013"
 	{
 		"_ID"			"0013"
-		"_name"			"antimage_blink"
+		"_name"			"bane_nightmare"
+		"_cost"			"900"
 	}
 
 	"0014"
 	{
 		"_ID"			"0014"
-		"_name"			"antimage_mana_break"
+		"_name"			"bloodseeker_bloodrage"
 	}
 
 	"0015"
 	{
 		"_ID"			"0015"
-		"_name"			"antimage_spell_shield"
+		"_name"			"bloodseeker_blood_bath"
 	}
 
 	"0016"
 	{
 		"_ID"			"0016"
-		"_name"			"axe_battle_hunger"
+		"_name"			"bloodseeker_thirst"
 	}
 
 	"0017"
 	{
 		"_ID"			"0017"
-		"_name"			"axe_berserkers_call"
+		"_name"			"bloodseeker_rupture"
+		"_cost"			"1000"
 	}
 
 	"0018"
 	{
 		"_ID"			"0018"
-		"_name"			"axe_counter_helix"
+		"_name"			"drow_ranger_frost_arrows"
 	}
 
 	"0019"
 	{
 		"_ID"			"0019"
-		"_name"			"bane_brain_sap"
+		"_name"			"drow_ranger_silence"
 	}
 
 	"0020"
 	{
 		"_ID"			"0020"
-		"_name"			"bane_enfeeble"
+		"_name"			"drow_ranger_wave_of_silence"
 	}
 
 	"0021"
 	{
 		"_ID"			"0021"
-		"_name"			"bane_nightmare"
+		"_name"			"drow_ranger_trueshot"
 	}
 
 	"0022"
 	{
 		"_ID"			"0022"
-		"_name"			"batrider_firefly"
+		"_name"			"drow_ranger_marksmanship"
+		"_cost"			"2000"
 	}
 
 	"0023"
 	{
 		"_ID"			"0023"
-		"_name"			"batrider_flamebreak"
+		"_name"			"earthshaker_fissure"
 	}
 
 	"0024"
 	{
 		"_ID"			"0024"
-		"_name"			"batrider_sticky_napalm"
+		"_name"			"earthshaker_enchant_totem"
+		"_cost"			"700"
 	}
 
 	"0025"
 	{
 		"_ID"			"0025"
-		"_name"			"beastmaster_inner_beast"
+		"_name"			"earthshaker_aftershock"
+		"_cost"			"1500"
 	}
 
 	"0026"
 	{
 		"_ID"			"0026"
-		"_name"			"beastmaster_wild_axes"
+		"_name"			"earthshaker_echo_slam"
+		"_cost"			"1500"
 	}
 
 	"0027"
 	{
 		"_ID"			"0027"
-		"_name"			"bloodseeker_bloodrage"
+		"_name"			"juggernaut_blade_dance"
 	}
 
 	"0028"
 	{
 		"_ID"			"0028"
-		"_name"			"bloodseeker_blood_bath"
+		"_name"			"juggernaut_blade_fury"
 	}
 
 	"0029"
 	{
 		"_ID"			"0029"
-		"_name"			"bloodseeker_thirst"
+		"_name"			"juggernaut_healing_ward"
 	}
 
 	"0030"
 	{
 		"_ID"			"0030"
-		"_name"			"bounty_hunter_jinada"
+		"_name"			"juggernaut_omni_slash"
+		"_cost"			"1500"
 	}
 
 	"0031"
 	{
 		"_ID"			"0031"
-		"_name"			"bounty_hunter_shuriken_toss"
+		"_name"			"kunkka_torrent"
 	}
 
 	"0032"
 	{
 		"_ID"			"0032"
-		"_name"			"bounty_hunter_wind_walk"
+		"_name"			"kunkka_tidebringer"
 	}
 
 	"0033"
 	{
 		"_ID"			"0033"
-		"_name"			"brewmaster_drunken_brawler"
+		"_name"			"kunkka_x_marks_the_spot"
 	}
 
-	"0034"
-	{
-		"_ID"			"0034"
-		"_name"			"brewmaster_drunken_haze"
-	}
 
 	"0035"
 	{
 		"_ID"			"0035"
-		"_name"			"brewmaster_thunder_clap"
+		"_name"			"kunkka_ghostship"
+		"_cost"			"1000"
 	}
 
 	"0036"
 	{
 		"_ID"			"0036"
-		"_name"			"bristleback_bristleback"
+		"_name"			"lina_dragon_slave"
 	}
 
 	"0037"
 	{
 		"_ID"			"0037"
-		"_name"			"bristleback_quill_spray"
+		"_name"			"lina_light_strike_array"
 	}
 
 	"0038"
 	{
 		"_ID"			"0038"
-		"_name"			"bristleback_viscous_nasal_goo"
+		"_name"			"lina_fiery_soul"
 	}
 
 	"0039"
 	{
 		"_ID"			"0039"
-		"_name"			"broodmother_incapacitating_bite"
+		"_name"			"lina_laguna_blade"
+		"_cost"			"1200"
 	}
 
 	"0040"
 	{
 		"_ID"			"0040"
-		"_name"			"broodmother_spawn_spiderlings"
+		"_name"			"lion_impale"
 	}
 
 	"0041"
 	{
 		"_ID"			"0041"
-		"_name"			"centaur_double_edge"
+		"_name"			"lion_voodoo"
 	}
 
 	"0042"
 	{
 		"_ID"			"0042"
-		"_name"			"centaur_hoof_stomp"
+		"_name"			"lion_mana_drain"
 	}
 
 	"0043"
 	{
 		"_ID"			"0043"
-		"_name"			"centaur_return"
+		"_name"			"lion_finger_of_death"
+		"_cost"			"1200"
 	}
 
 	"0044"
 	{
 		"_ID"			"0044"
-		"_name"			"chaos_knight_chaos_bolt"
+		"_name"			"mirana_arrow"
 	}
 
 	"0045"
 	{
 		"_ID"			"0045"
-		"_name"			"chaos_knight_chaos_strike"
+		"_name"			"mirana_invis"
+		"_cost"			"1800"
 	}
 
 	"0046"
 	{
 		"_ID"			"0046"
-		"_name"			"chaos_knight_reality_rift"
+		"_name"			"mirana_leap"
 	}
 
 	"0047"
 	{
 		"_ID"			"0047"
-		"_name"			"clinkz_searing_arrows"
+		"_name"			"mirana_starfall"
 	}
 
 	"0048"
 	{
 		"_ID"			"0048"
-		"_name"			"clinkz_strafe"
+		"_name"			"morphling_waveform"
 	}
 
 	"0049"
 	{
 		"_ID"			"0049"
-		"_name"			"clinkz_wind_walk"
+		"_name"			"morphling_adaptive_strike"
 	}
 
 	"0050"
 	{
 		"_ID"			"0050"
-		"_name"			"crystal_maiden_brilliance_aura"
+		"_name"			"morphling_replicate"
+		"_cost"			"700"
 	}
 
 	"0051"
 	{
 		"_ID"			"0051"
-		"_name"			"crystal_maiden_crystal_nova"
+		"_name"			"nevermore_necromastery"
 	}
 
 	"0052"
 	{
 		"_ID"			"0052"
-		"_name"			"crystal_maiden_frostbite"
+		"_name"			"nevermore_dark_lord"
 	}
 
 	"0053"
 	{
 		"_ID"			"0053"
-		"_name"			"dark_seer_ion_shell"
+		"_name"			"nevermore_requiem"
+		"_cost"			"1500"
 	}
 
 	"0054"
 	{
 		"_ID"			"0054"
-		"_name"			"dark_seer_surge"
+		"_name"			"phantom_lancer_spirit_lance"
 	}
 
 	"0055"
 	{
 		"_ID"			"0055"
-		"_name"			"dark_seer_vacuum"
+		"_name"			"phantom_lancer_doppelwalk"
 	}
 
 	"0056"
 	{
 		"_ID"			"0056"
-		"_name"			"dazzle_poison_touch"
+		"_name"			"phantom_lancer_juxtapose"
+		"_cost"			"2000"
 	}
 
 	"0057"
 	{
 		"_ID"			"0057"
-		"_name"			"dazzle_shadow_wave"
-	}
-
-	"0058"
-	{
-		"_ID"			"0058"
-		"_name"			"dazzle_shallow_grave"
+		"_name"			"phantom_lancer_phantom_edge"
 	}
 
 	"0059"
 	{
 		"_ID"			"0059"
-		"_name"			"death_prophet_carrion_swarm"
+		"_name"			"puck_waning_rift"
 	}
 
 	"0060"
 	{
 		"_ID"			"0060"
-		"_name"			"death_prophet_silence"
+		"_name"			"puck_phase_shift"
 	}
 
 	"0061"
 	{
 		"_ID"			"0061"
-		"_name"			"death_prophet_witchcraft"
+		"_name"			"puck_dream_coil"
+		"_cost"			"1200"
 	}
 
 	"0062"
 	{
 		"_ID"			"0062"
-		"_name"			"death_prophet_spirit_siphon"
+		"_name"			"pudge_flesh_heap"
 	}
 
 	"0063"
 	{
 		"_ID"			"0063"
-		"_name"			"disruptor_kinetic_field"
+		"_name"			"pudge_meat_hook"
 	}
 
 	"0064"
 	{
 		"_ID"			"0064"
-		"_name"			"disruptor_thunder_strike"
+		"_name"			"pudge_rot"
 	}
 
 	"0065"
 	{
 		"_ID"			"0065"
-		"_name"			"disruptor_glimpse"
+		"_name"			"pudge_dismember"
+		"_cost"			"1100"
 	}
 
 	"0066"
 	{
 		"_ID"			"0066"
-		"_name"			"doom_bringer_scorched_earth"
+		"_name"			"shadow_shaman_ether_shock"
 	}
 
 	"0067"
 	{
 		"_ID"			"0067"
-		"_name"			"dragon_knight_breathe_fire"
+		"_name"			"shadow_shaman_voodoo"
 	}
 
 	"0068"
 	{
 		"_ID"			"0068"
-		"_name"			"dragon_knight_dragon_blood"
+		"_name"			"shadow_shaman_shackles"
 	}
 
-	"0069"
-	{
-		"_ID"			"0069"
-		"_name"			"dragon_knight_dragon_tail"
-	}
 
 	"0070"
 	{
 		"_ID"			"0070"
-		"_name"			"drow_ranger_frost_arrows"
+		"_name"			"razor_plasma_field"
+		"_cost"			"600"
 	}
 
 	"0071"
 	{
 		"_ID"			"0071"
-		"_name"			"drow_ranger_wave_of_silence"
+		"_name"			"razor_static_link"
 	}
 
 	"0072"
 	{
 		"_ID"			"0072"
-		"_name"			"drow_ranger_trueshot"
+		"_name"			"razor_unstable_current"
 	}
 
 	"0073"
 	{
 		"_ID"			"0073"
-		"_name"			"earthshaker_aftershock"
+		"_name"			"razor_eye_of_the_storm"
+		"_cost"			"1100"
 	}
 
 	"0074"
 	{
 		"_ID"			"0074"
-		"_name"			"earthshaker_enchant_totem"
+		"_name"			"skeleton_king_hellfire_blast"
 	}
 
 	"0075"
 	{
 		"_ID"			"0075"
-		"_name"			"earthshaker_fissure"
+		"_name"			"skeleton_king_vampiric_aura"
 	}
 
 	"0076"
 	{
 		"_ID"			"0076"
-		"_name"			"winter_wyvern_arctic_burn"
+		"_name"			"skeleton_king_mortal_strike"
 	}
 
 	"0077"
 	{
 		"_ID"			"0077"
-		"_name"			"winter_wyvern_splinter_blast"
+		"_name"			"skeleton_king_reincarnation"
+		"_cost"			"2000"
 	}
 
 	"0078"
 	{
 		"_ID"			"0078"
-		"_name"			"winter_wyvern_cold_embrace"
+		"_name"			"death_prophet_carrion_swarm"
 	}
 
 	"0079"
 	{
 		"_ID"			"0079"
-		"_name"			"elder_titan_ancestral_spirit"
+		"_name"			"death_prophet_silence"
 	}
 
 	"0080"
 	{
 		"_ID"			"0080"
-		"_name"			"elder_titan_echo_stomp"
+		"_name"			"death_prophet_witchcraft"
 	}
 
 	"0081"
 	{
 		"_ID"			"0081"
-		"_name"			"elder_titan_natural_order"
+		"_name"			"death_prophet_spirit_siphon"
 	}
 
 	"0082"
 	{
 		"_ID"			"0082"
-		"_name"			"ember_spirit_flame_guard"
+		"_name"			"death_prophet_exorcism"
+		"_cost"			"2000"
 	}
 
 	"0083"
 	{
 		"_ID"			"0083"
-		"_name"			"ember_spirit_searing_chains"
+		"_name"			"sven_storm_bolt"
 	}
 
 	"0084"
 	{
 		"_ID"			"0084"
-		"_name"			"ember_spirit_sleight_of_fist"
+		"_name"			"sven_great_cleave"
+		"_cost"			"900"
 	}
 
 	"0085"
 	{
 		"_ID"			"0085"
-		"_name"			"enchantress_natures_attendants"
+		"_name"			"sven_warcry"
 	}
 
 	"0086"
 	{
 		"_ID"			"0086"
-		"_name"			"enchantress_untouchable"
+		"_name"			"sven_gods_strength"
+		"_cost"			"2000"
 	}
 
 	"0087"
 	{
 		"_ID"			"0087"
-		"_name"			"enigma_demonic_conversion"
+		"_name"			"storm_spirit_static_remnant"
 	}
 
 	"0088"
 	{
 		"_ID"			"0088"
-		"_name"			"enigma_malefice"
+		"_name"			"storm_spirit_electric_vortex"
 	}
 
 	"0089"
 	{
 		"_ID"			"0089"
-		"_name"			"enigma_midnight_pulse"
+		"_name"			"storm_spirit_overload"
+		"_cost"			"1000"
+		
 	}
 
 	"0090"
 	{
 		"_ID"			"0090"
-		"_name"			"faceless_void_backtrack"
+		"_name"			"storm_spirit_ball_lightning"
+		"_cost"			"1800"
 	}
 
 	"0091"
 	{
 		"_ID"			"0091"
-		"_name"			"faceless_void_time_lock"
+		"_name"			"sandking_burrowstrike"
 	}
 
 	"0092"
 	{
 		"_ID"			"0092"
-		"_name"			"faceless_void_time_walk"
+		"_name"			"sandking_sand_storm"
 	}
 
 	"0093"
 	{
 		"_ID"			"0093"
-		"_name"			"furion_force_of_nature"
+		"_name"			"sandking_caustic_finale"
 	}
 
 	"0094"
 	{
 		"_ID"			"0094"
-		"_name"			"furion_sprout"
+		"_name"			"sandking_epicenter"
+		"_cost"			"1000"
 	}
 
 	"0095"
 	{
 		"_ID"			"0095"
-		"_name"			"furion_teleportation"
+		"_name"			"tiny_avalanche"
 	}
 
 	"0096"
 	{
 		"_ID"			"0096"
-		"_name"			"gyrocopter_flak_cannon"
+		"_name"			"tiny_toss"
 	}
 
 	"0097"
 	{
 		"_ID"			"0097"
-		"_name"			"gyrocopter_homing_missile"
+		"_name"			"tiny_craggy_exterior"
 	}
 
 	"0098"
 	{
 		"_ID"			"0098"
-		"_name"			"gyrocopter_rocket_barrage"
+		"_name"			"tiny_grow"
+		"_cost"			"1500"
 	}
 
 	"0099"
 	{
 		"_ID"			"0099"
-		"_name"			"huskar_berserkers_blood"
+		"_name"			"zuus_arc_lightning"
 	}
 
 	"0100"
 	{
 		"_ID"			"0100"
-		"_name"			"huskar_burning_spear"
+		"_name"			"zuus_lightning_bolt"
 	}
 
 	"0101"
 	{
 		"_ID"			"0101"
-		"_name"			"huskar_inner_vitality"
+		"_name"			"zuus_static_field"
 	}
 
 	"0102"
 	{
 		"_ID"			"0102"
-		"_name"			"jakiro_dual_breath"
+		"_name"			"zuus_thundergods_wrath"
+		"_cost"			"1500"
 	}
 
 	"0103"
 	{
 		"_ID"			"0103"
-		"_name"			"jakiro_ice_path"
+		"_name"			"slardar_sprint"
 	}
 
 	"0104"
 	{
 		"_ID"			"0104"
-		"_name"			"jakiro_liquid_fire"
+		"_name"			"slardar_slithereen_crush"
 	}
 
 	"0105"
 	{
 		"_ID"			"0105"
-		"_name"			"juggernaut_blade_dance"
+		"_name"			"slardar_bash"
 	}
 
 	"0106"
 	{
 		"_ID"			"0106"
-		"_name"			"juggernaut_blade_fury"
+		"_name"			"slardar_amplify_damage"
+		"_cost"			"1500"
 	}
 
 	"0107"
 	{
 		"_ID"			"0107"
-		"_name"			"juggernaut_healing_ward"
+		"_name"			"tidehunter_gush"
 	}
 
 	"0108"
 	{
 		"_ID"			"0108"
-		"_name"			"keeper_of_the_light_chakra_magic"
+		"_name"			"tidehunter_kraken_shell"
+		"_cost"			"900"
 	}
 
 	"0109"
 	{
 		"_ID"			"0109"
-		"_name"			"keeper_of_the_light_illuminate"
+		"_name"			"tidehunter_anchor_smash"
 	}
 
 	"0110"
 	{
 		"_ID"			"0110"
-		"_name"			"keeper_of_the_light_mana_leak"
+		"_name"			"tidehunter_ravage"
+		"_cost"			"2000"
 	}
 
 	"0111"
 	{
 		"_ID"			"0111"
-		"_name"			"keeper_of_the_light_spirit_form"
+		"_name"			"vengefulspirit_magic_missile"
 	}
 
 	"0112"
 	{
 		"_ID"			"0112"
-		"_name"			"kunkka_tidebringer"
+		"_name"			"vengefulspirit_command_aura"
 	}
 
 	"0113"
 	{
 		"_ID"			"0113"
-		"_name"			"kunkka_torrent"
+		"_name"			"vengefulspirit_wave_of_terror"
 	}
 
 
 	"0115"
 	{
 		"_ID"			"0115"
-		"_name"			"legion_commander_moment_of_courage"
+		"_name"			"vengefulspirit_nether_swap"
+		"_cost"			"1000"
 	}
 
 	"0116"
 	{
 		"_ID"			"0116"
-		"_name"			"legion_commander_overwhelming_odds"
+		"_name"			"crystal_maiden_crystal_nova"
 	}
 
 	"0117"
 	{
 		"_ID"			"0117"
-		"_name"			"legion_commander_press_the_attack"
+		"_name"			"crystal_maiden_frostbite"
+		"_cost"			"600"
 	}
 
 	"0118"
 	{
 		"_ID"			"0118"
-		"_name"			"leshrac_diabolic_edict"
+		"_name"			"crystal_maiden_brilliance_aura"
+		"_cost"			"650"
 	}
 
 	"0119"
 	{
 		"_ID"			"0119"
-		"_name"			"leshrac_lightning_storm"
+		"_name"			"crystal_maiden_freezing_field"
+		"_cost"			"1500"
 	}
 
 	"0120"
 	{
 		"_ID"			"0120"
-		"_name"			"leshrac_split_earth"
+		"_name"			"windrunner_shackleshot"
 	}
 
 	"0121"
 	{
 		"_ID"			"0121"
-		"_name"			"lich_dark_ritual"
+		"_name"			"windrunner_powershot"
 	}
 
 	"0122"
 	{
 		"_ID"			"0122"
-		"_name"			"lich_frost_armor"
+		"_name"			"windrunner_windrun"
 	}
 
 	"0123"
 	{
 		"_ID"			"0123"
-		"_name"			"lich_frost_nova"
+		"_name"			"windrunner_focusfire"
+		"_cost"			"1500"
 	}
 
 	"0124"
 	{
 		"_ID"			"0124"
-		"_name"			"life_stealer_feast"
+		"_name"			"lich_frost_nova"
+		"_cost"			"1000"
+		
 	}
 
 	"0125"
 	{
 		"_ID"			"0125"
-		"_name"			"life_stealer_open_wounds"
+		"_name"			"lich_frost_armor"
 	}
 
 	"0126"
 	{
 		"_ID"			"0126"
-		"_name"			"life_stealer_rage"
+		"_name"			"lich_dark_ritual"
 	}
 
 	"0127"
 	{
 		"_ID"			"0127"
-		"_name"			"lina_dragon_slave"
+		"_name"			"lich_chain_frost"
+		"_cost"			"1000"
 	}
 
 	"0128"
 	{
 		"_ID"			"0128"
-		"_name"			"lina_fiery_soul"
+		"_name"			"witch_doctor_paralyzing_cask"
 	}
 
 	"0129"
 	{
 		"_ID"			"0129"
-		"_name"			"lina_light_strike_array"
+		"_name"			"witch_doctor_voodoo_restoration"
 	}
 
 	"0130"
 	{
 		"_ID"			"0130"
-		"_name"			"lion_impale"
+		"_name"			"witch_doctor_maledict"
 	}
 
 	"0131"
 	{
 		"_ID"			"0131"
-		"_name"			"lion_mana_drain"
+		"_name"			"witch_doctor_death_ward"
+		"_cost"			"1200"
 	}
 
 	"0132"
 	{
 		"_ID"			"0132"
-		"_name"			"lion_voodoo"
+		"_name"			"riki_smoke_screen"
 	}
 
 	"0133"
 	{
 		"_ID"			"0133"
-		"_name"			"lone_druid_rabid"
+		"_name"			"riki_blink_strike"
 	}
 
-	"0134"
-	{
-		"_ID"			"0134"
-		"_name"			"lone_druid_spirit_bear"
-	}
-
-	"0135"
-	{
-		"_ID"			"0135"
-		"_name"			"lone_druid_synergy"
-	}
 
 	"0136"
 	{
 		"_ID"			"0136"
-		"_name"			"luna_lucent_beam"
+		"_name"			"riki_permanent_invisibility"
+		"_cost"			"1000"
 	}
 
 	"0137"
 	{
 		"_ID"			"0137"
-		"_name"			"luna_lunar_blessing"
+		"_name"			"riki_tricks_of_the_trade"
+		"_cost"			"1000"
 	}
 
 	"0138"
 	{
 		"_ID"			"0138"
-		"_name"			"luna_moon_glaive"
+		"_name"			"enigma_malefice"
 	}
 
-	"0139"
-	{
-		"_ID"			"0139"
-		"_name"			"lycan_feral_impulse"
-	}
 
 	"0140"
 	{
 		"_ID"			"0140"
-		"_name"			"lycan_howl"
+		"_name"			"enigma_midnight_pulse"
+		"_cost"			"1000"
 	}
 
 	"0141"
 	{
 		"_ID"			"0141"
-		"_name"			"lycan_summon_wolves"
+		"_name"			"enigma_black_hole"
+		"_cost"			"2500"
 	}
 
 	"0142"
 	{
 		"_ID"			"0142"
-		"_name"			"magnataur_empower"
+		"_name"			"tinker_laser"
+		"_cost"			"1000"
 	}
 
 	"0143"
 	{
 		"_ID"			"0143"
-		"_name"			"magnataur_shockwave"
+		"_name"			"tinker_heat_seeking_missile"
 	}
 
 	"0144"
 	{
 		"_ID"			"0144"
-		"_name"			"magnataur_skewer"
+		"_name"			"tinker_march_of_the_machines"
 	}
 
 	"0145"
 	{
 		"_ID"			"0145"
-		"_name"			"medusa_mana_shield"
+		"_name"			"tinker_rearm"
+		"_cost"			"3000"
 	}
 
 	"0146"
 	{
 		"_ID"			"0146"
-		"_name"			"medusa_mystic_snake"
+		"_name"			"sniper_shrapnel"
 	}
 
 	"0147"
 	{
 		"_ID"			"0147"
-		"_name"			"medusa_split_shot"
+		"_name"			"sniper_headshot"
+		"_cost"			"1000"
 	}
 
 	"0148"
 	{
 		"_ID"			"0148"
-		"_name"			"meepo_earthbind"
+		"_name"			"sniper_take_aim"
 	}
 
 	"0149"
 	{
 		"_ID"			"0149"
-		"_name"			"meepo_geostrike"
+		"_name"			"sniper_assassinate"
+		"_cost"			"1000"
 	}
 
 	"0150"
 	{
 		"_ID"			"0150"
-		"_name"			"meepo_poof"
+		"_name"			"necrolyte_death_pulse"
 	}
 
 	"0151"
 	{
 		"_ID"			"0151"
-		"_name"			"mirana_arrow"
+		"_name"			"necrolyte_heartstopper_aura"
 	}
 
 	"0152"
 	{
 		"_ID"			"0152"
-		"_name"			"mirana_leap"
+		"_name"			"necrolyte_sadist"
 	}
 
 	"0153"
 	{
 		"_ID"			"0153"
-		"_name"			"mirana_starfall"
+		"_name"			"necrolyte_reapers_scythe"
+		"_cost"			"1500"
 	}
 
 	"0154"
 	{
 		"_ID"			"0154"
-		"_name"			"morphling_adaptive_strike"
+		"_name"			"warlock_fatal_bonds"
 	}
 
 	"0157"
 	{
 		"_ID"			"0157"
-		"_name"			"morphling_waveform"
+		"_name"			"warlock_shadow_word"
 	}
 
 	"0158"
 	{
 		"_ID"			"0158"
-		"_name"			"naga_siren_ensnare"
-	}
-
-	"0159"
-	{
-		"_ID"			"0159"
-		"_name"			"naga_siren_mirror_image"
+		"_name"			"warlock_upheaval"
 	}
 
 	"0160"
 	{
 		"_ID"			"0160"
-		"_name"			"naga_siren_rip_tide"
+		"_name"			"beastmaster_wild_axes"
 	}
 
 	"0161"
 	{
 		"_ID"			"0161"
-		"_name"			"necrolyte_death_pulse"
+		"_name"			"beastmaster_call_of_the_wild"
 	}
 
 	"0162"
 	{
 		"_ID"			"0162"
-		"_name"			"necrolyte_heartstopper_aura"
+		"_name"			"beastmaster_call_of_the_wild_boar"
 	}
 
 	"0163"
 	{
 		"_ID"			"0163"
-		"_name"			"necrolyte_sadist"
+		"_name"			"beastmaster_inner_beast"
 	}
 
 	"0164"
 	{
 		"_ID"			"0164"
-		"_name"			"nevermore_dark_lord"
+		"_name"			"beastmaster_primal_roar"
+		"_cost"			"1500"
 	}
 
 	"0165"
 	{
 		"_ID"			"0165"
-		"_name"			"nevermore_necromastery"
+		"_name"			"queenofpain_shadow_strike"
 	}
 
 	"0166"
 	{
 		"_ID"			"0166"
-		"_name"			"night_stalker_crippling_fear"
+		"_name"			"queenofpain_blink"
+		"_cost"			"1000"
 	}
 
 	"0167"
 	{
 		"_ID"			"0167"
-		"_name"			"night_stalker_hunter_in_the_night"
+		"_name"			"queenofpain_scream_of_pain"
 	}
 
 	"0168"
 	{
 		"_ID"			"0168"
-		"_name"			"night_stalker_void"
+		"_name"			"queenofpain_sonic_wave"
+		"_cost"			"1100"
 	}
 
 	"0169"
 	{
 		"_ID"			"0169"
-		"_name"			"nyx_assassin_impale"
+		"_name"			"venomancer_venomous_gale"
 	}
 
 	"0170"
 	{
 		"_ID"			"0170"
-		"_name"			"nyx_assassin_mana_burn"
+		"_name"			"venomancer_poison_sting"
 	}
 
 	"0171"
 	{
 		"_ID"			"0171"
-		"_name"			"nyx_assassin_spiked_carapace"
+		"_name"			"venomancer_poison_nova"
+		"_cost"			"1000"
 	}
 
 	"0172"
 	{
 		"_ID"			"0172"
-		"_name"			"obsidian_destroyer_arcane_orb"
+		"_name"			"faceless_void_time_walk"
 	}
 
 	"0173"
 	{
 		"_ID"			"0173"
-		"_name"			"obsidian_destroyer_astral_imprisonment"
+		"_name"			"faceless_void_backtrack"
 	}
 
 	"0174"
 	{
 		"_ID"			"0174"
-		"_name"			"obsidian_destroyer_essence_aura"
+		"_name"			"faceless_void_time_lock"
+		"_cost"			"1000"
 	}
 
 	"0175"
 	{
 		"_ID"			"0175"
-		"_name"			"ogre_magi_bloodlust"
+		"_name"			"faceless_void_time_dilation"
 	}
 
 	"0176"
 	{
 		"_ID"			"0176"
-		"_name"			"ogre_magi_fireblast"
+		"_name"			"faceless_void_chronosphere"
+		"_cost"			"1500"
 	}
 
 	"0177"
 	{
 		"_ID"			"0177"
-		"_name"			"ogre_magi_ignite"
+		"_name"			"pugna_nether_blast"
 	}
 
 	"0178"
 	{
 		"_ID"			"0178"
-		"_name"			"omniknight_degen_aura"
+		"_name"			"pugna_decrepify"
 	}
 
 	"0179"
 	{
 		"_ID"			"0179"
-		"_name"			"omniknight_purification"
+		"_name"			"pugna_nether_ward"
 	}
 
 	"0180"
 	{
 		"_ID"			"0180"
-		"_name"			"omniknight_repel"
+		"_name"			"pugna_life_drain"
+		"_cost"			"1000"
 	}
 
 	"0181"
 	{
 		"_ID"			"0181"
-		"_name"			"oracle_fates_edict"
+		"_name"			"phantom_assassin_stifling_dagger"
 	}
 
 	"0182"
 	{
 		"_ID"			"0182"
-		"_name"			"oracle_fortunes_end"
+		"_name"			"phantom_assassin_phantom_strike"
 	}
 
 	"0183"
 	{
 		"_ID"			"0183"
-		"_name"			"oracle_purifying_flames"
+		"_name"			"phantom_assassin_blur"
 	}
 
 	"0184"
 	{
 		"_ID"			"0184"
-		"_name"			"phantom_assassin_blur"
+		"_name"			"phantom_assassin_coup_de_grace"
+		"_cost"			"1800"
 	}
 
 	"0185"
 	{
 		"_ID"			"0185"
-		"_name"			"phantom_assassin_phantom_strike"
+		"_name"			"templar_assassin_refraction"
+		"_cost"			"600"
 	}
 
 	"0186"
 	{
 		"_ID"			"0186"
-		"_name"			"phantom_assassin_stifling_dagger"
+		"_name"			"templar_assassin_meld"
 	}
 
 	"0187"
 	{
 		"_ID"			"0187"
-		"_name"			"phantom_lancer_doppelwalk"
+		"_name"			"templar_assassin_psi_blades"
 	}
 
 	"0188"
 	{
 		"_ID"			"0188"
-		"_name"			"phantom_lancer_juxtapose"
+		"_name"			"templar_assassin_psionic_trap"
+		"_cost"			"1000"
 	}
 
 	"0189"
 	{
 		"_ID"			"0189"
-		"_name"			"phantom_lancer_spirit_lance"
+		"_name"			"viper_poison_attack"
 	}
 
 	"0190"
 	{
 		"_ID"			"0190"
-		"_name"			"phoenix_fire_spirits"
+		"_name"			"viper_nethertoxin"
 	}
 
 	"0191"
 	{
 		"_ID"			"0191"
-		"_name"			"phoenix_icarus_dive"
+		"_name"			"viper_corrosive_skin"
 	}
 
 	"0192"
 	{
 		"_ID"			"0192"
-		"_name"			"phoenix_sun_ray"
+		"_name"			"viper_viper_strike"
+		"_cost"			"1000"
 	}
 
 	"0193"
 	{
 		"_ID"			"0193"
-		"_name"			"puck_phase_shift"
+		"_name"			"luna_lucent_beam"
 	}
 
 	"0194"
 	{
 		"_ID"			"0194"
-		"_name"			"puck_waning_rift"
+		"_name"			"luna_moon_glaive"
+		"_cost"			"1000"
 	}
 
 	"0195"
 	{
 		"_ID"			"0195"
-		"_name"			"pudge_flesh_heap"
+		"_name"			"luna_lunar_blessing"
 	}
 
 	"0196"
 	{
 		"_ID"			"0196"
-		"_name"			"pudge_meat_hook"
+		"_name"			"luna_eclipse"
+		"_cost"			"1200"
 	}
 
 	"0197"
 	{
 		"_ID"			"0197"
-		"_name"			"pudge_rot"
+		"_name"			"dragon_knight_breathe_fire"
 	}
 
 	"0198"
 	{
 		"_ID"			"0198"
-		"_name"			"pugna_decrepify"
+		"_name"			"dragon_knight_dragon_tail"
 	}
 
 	"0199"
 	{
 		"_ID"			"0199"
-		"_name"			"pugna_nether_blast"
-	}
-
-	"0200"
-	{
-		"_ID"			"0200"
-		"_name"			"pugna_nether_ward"
+		"_name"			"dragon_knight_dragon_blood"
+		"_cost"			"600"
 	}
 
 	"0201"
 	{
 		"_ID"			"0201"
-		"_name"			"queenofpain_blink"
+		"_name"			"dazzle_poison_touch"
 	}
 
 	"0202"
 	{
 		"_ID"			"0202"
-		"_name"			"queenofpain_scream_of_pain"
+		"_name"			"dazzle_shallow_grave"
+		"_cost"			"600"
 	}
 
 	"0203"
 	{
 		"_ID"			"0203"
-		"_name"			"queenofpain_shadow_strike"
+		"_name"			"dazzle_shadow_wave"
 	}
 
 	"0204"
 	{
 		"_ID"			"0204"
-		"_name"			"rattletrap_battery_assault"
+		"_name"			"dazzle_weave"
+		"_cost"			"1200"
 	}
 
 	"0205"
 	{
 		"_ID"			"0205"
-		"_name"			"rattletrap_power_cogs"
+		"_name"			"rattletrap_battery_assault"
 	}
 
 	"0206"
 	{
 		"_ID"			"0206"
-		"_name"			"rattletrap_rocket_flare"
+		"_name"			"rattletrap_power_cogs"
 	}
 
 	"0207"
 	{
 		"_ID"			"0207"
-		"_name"			"razor_plasma_field"
+		"_name"			"rattletrap_rocket_flare"
 	}
 
 	"0208"
 	{
 		"_ID"			"0208"
-		"_name"			"razor_static_link"
+		"_name"			"rattletrap_hookshot"
+		"_cost"			"1300"
 	}
 
 	"0209"
 	{
 		"_ID"			"0209"
-		"_name"			"razor_unstable_current"
+		"_name"			"leshrac_split_earth"
 	}
 
 	"0210"
 	{
 		"_ID"			"0210"
-		"_name"			"riki_permanent_invisibility"
+		"_name"			"leshrac_diabolic_edict"
 	}
 
 	"0211"
 	{
 		"_ID"			"0211"
-		"_name"			"riki_blink_strike"
+		"_name"			"leshrac_lightning_storm"
 	}
 
 	"0212"
 	{
 		"_ID"			"0212"
-		"_name"			"riki_smoke_screen"
+		"_name"			"leshrac_pulse_nova"
+		"_cost"			"1200"
 	}
 
 	"0213"
 	{
 		"_ID"			"0213"
-		"_name"			"rubick_fade_bolt"
+		"_name"			"furion_sprout"
 	}
 
 	"0214"
 	{
 		"_ID"			"0214"
-		"_name"			"rubick_null_field"
-	}
-
-	"0215"
-	{
-		"_ID"			"0215"
-		"_name"			"rubick_telekinesis"
+		"_name"			"furion_teleportation"
+		"_cost"			"1000"
 	}
 
 	"0216"
 	{
 		"_ID"			"0216"
-		"_name"			"sandking_burrowstrike"
+		"_name"			"furion_wrath_of_nature"
+		"_cost"			"1000"
 	}
 
 	"0217"
 	{
 		"_ID"			"0217"
-		"_name"			"sandking_caustic_finale"
+		"_name"			"life_stealer_rage"
+		"_cost"			"1000"
 	}
 
 	"0218"
 	{
 		"_ID"			"0218"
-		"_name"			"shadow_demon_disruption"
+		"_name"			"life_stealer_feast"
+		"_cost"			"1000"
 	}
 
 	"0219"
 	{
 		"_ID"			"0219"
-		"_name"			"shadow_demon_soul_catcher"
+		"_name"			"life_stealer_open_wounds"
 	}
 
 	"0220"
 	{
 		"_ID"			"0220"
-		"_name"			"shadow_shaman_ether_shock"
+		"_name"			"dark_seer_vacuum"
 	}
 
 	"0221"
 	{
 		"_ID"			"0221"
-		"_name"			"shadow_shaman_shackles"
+		"_name"			"dark_seer_ion_shell"
 	}
 
 	"0222"
 	{
 		"_ID"			"0222"
-		"_name"			"shadow_shaman_voodoo"
+		"_name"			"dark_seer_surge"
 	}
 
 	"0223"
 	{
 		"_ID"			"0223"
-		"_name"			"shredder_reactive_armor"
+		"_name"			"dark_seer_wall_of_replica"
+		"_cost"			"2000"
 	}
 
 	"0224"
 	{
 		"_ID"			"0224"
-		"_name"			"shredder_timber_chain"
+		"_name"			"clinkz_strafe"
 	}
 
 	"0225"
 	{
 		"_ID"			"0225"
-		"_name"			"shredder_whirling_death"
+		"_name"			"clinkz_searing_arrows"
 	}
 
 	"0226"
 	{
 		"_ID"			"0226"
-		"_name"			"silencer_curse_of_the_silent"
+		"_name"			"clinkz_wind_walk"
+		"_cost"			"650"
 	}
 
 	"0227"
 	{
 		"_ID"			"0227"
-		"_name"			"silencer_glaives_of_wisdom"
+		"_name"			"clinkz_death_pact"
+		"_cost"			"1000"
 	}
 
 	"0228"
 	{
 		"_ID"			"0228"
-		"_name"			"silencer_last_word"
+		"_name"			"omniknight_purification"
 	}
 
 	"0229"
 	{
 		"_ID"			"0229"
-		"_name"			"skeleton_king_hellfire_blast"
+		"_name"			"omniknight_repel"
 	}
 
 	"0230"
 	{
 		"_ID"			"0230"
-		"_name"			"skeleton_king_mortal_strike"
+		"_name"			"omniknight_degen_aura"
 	}
 
 	"0231"
 	{
 		"_ID"			"0231"
-		"_name"			"skeleton_king_vampiric_aura"
+		"_name"			"omniknight_guardian_angel"
+		"_cost"			"2000"
 	}
 
 	"0232"
 	{
 		"_ID"			"0232"
-		"_name"			"skywrath_mage_ancient_seal"
+		"_name"			"enchantress_untouchable"
+		"_cost"			"700"
 	}
 
 	"0233"
 	{
 		"_ID"			"0233"
-		"_name"			"skywrath_mage_arcane_bolt"
+		"_name"			"enchantress_enchant"
+		"_cost"			"400"
 	}
 
 	"0234"
 	{
 		"_ID"			"0234"
-		"_name"			"skywrath_mage_concussive_shot"
+		"_name"			"enchantress_natures_attendants"
 	}
 
 	"0235"
 	{
 		"_ID"			"0235"
-		"_name"			"slardar_bash"
+		"_name"			"enchantress_impetus"
+		"_cost"			"1000"
 	}
 
 	"0236"
 	{
 		"_ID"			"0236"
-		"_name"			"slardar_slithereen_crush"
+		"_name"			"huskar_inner_vitality"
+		"_cost"			"600"
 	}
 
 	"0237"
 	{
 		"_ID"			"0237"
-		"_name"			"slardar_sprint"
+		"_name"			"huskar_burning_spear"
 	}
 
 	"0238"
 	{
 		"_ID"			"0238"
-		"_name"			"slark_dark_pact"
+		"_name"			"huskar_berserkers_blood"
 	}
 
 	"0239"
 	{
 		"_ID"			"0239"
-		"_name"			"slark_essence_shift"
+		"_name"			"huskar_life_break"
+		"_cost"			"2000"
 	}
 
 	"0240"
 	{
 		"_ID"			"0240"
-		"_name"			"slark_pounce"
+		"_name"			"night_stalker_void"
 	}
 
 	"0241"
 	{
 		"_ID"			"0241"
-		"_name"			"sniper_headshot"
+		"_name"			"night_stalker_crippling_fear"
 	}
 
 	"0242"
 	{
 		"_ID"			"0242"
-		"_name"			"sniper_shrapnel"
+		"_name"			"night_stalker_hunter_in_the_night"
 	}
 
 	"0243"
 	{
 		"_ID"			"0243"
-		"_name"			"sniper_take_aim"
+		"_name"			"night_stalker_darkness"
+		"_cost"			"700"
 	}
 
 	"0244"
 	{
 		"_ID"			"0244"
-		"_name"			"spectre_desolate"
+		"_name"			"broodmother_spin_web"
 	}
 
 	"0245"
 	{
 		"_ID"			"0245"
-		"_name"			"spectre_dispersion"
+		"_name"			"broodmother_incapacitating_bite"
 	}
 
 	"0246"
 	{
 		"_ID"			"0246"
-		"_name"			"spirit_breaker_empowering_haste"
+		"_name"			"broodmother_insatiable_hunger"
+		"_cost"			"600"
 	}
 
 	"0247"
 	{
 		"_ID"			"0247"
-		"_name"			"spirit_breaker_greater_bash"
+		"_name"			"bounty_hunter_shuriken_toss"
 	}
 
 	"0248"
 	{
 		"_ID"			"0248"
-		"_name"			"storm_spirit_electric_vortex"
+		"_name"			"bounty_hunter_jinada"
 	}
 
 	"0249"
 	{
 		"_ID"			"0249"
-		"_name"			"storm_spirit_overload"
+		"_name"			"bounty_hunter_wind_walk"
 	}
 
 	"0250"
 	{
 		"_ID"			"0250"
-		"_name"			"sven_great_cleave"
+		"_name"			"bounty_hunter_track"
+		"_cost"			"1000"
 	}
 
 	"0251"
 	{
 		"_ID"			"0251"
-		"_name"			"sven_storm_bolt"
+		"_name"			"weaver_the_swarm"
 	}
 
 	"0252"
 	{
 		"_ID"			"0252"
-		"_name"			"sven_warcry"
+		"_name"			"weaver_shukuchi"
 	}
 
 	"0253"
 	{
 		"_ID"			"0253"
-		"_name"			"techies_land_mines"
+		"_name"			"weaver_geminate_attack"
+		"_cost"			"600"
 	}
 
 	"0254"
 	{
 		"_ID"			"0254"
-		"_name"			"techies_stasis_trap"
+		"_name"			"weaver_time_lapse"
+		"_cost"			"1200"
 	}
 
 	"0255"
 	{
 		"_ID"			"0255"
-		"_name"			"techies_suicide"
+		"_name"			"jakiro_dual_breath"
 	}
 
 	"0256"
 	{
 		"_ID"			"0256"
-		"_name"			"templar_assassin_meld"
+		"_name"			"jakiro_ice_path"
 	}
 
 	"0257"
 	{
 		"_ID"			"0257"
-		"_name"			"templar_assassin_psi_blades"
+		"_name"			"jakiro_liquid_fire"
 	}
 
 	"0258"
 	{
 		"_ID"			"0258"
-		"_name"			"templar_assassin_refraction"
+		"_name"			"jakiro_macropyre"
+		"_cost"			"1000"
 	}
 
 	"0259"
 	{
 		"_ID"			"0259"
-		"_name"			"terrorblade_conjure_image"
+		"_name"			"batrider_sticky_napalm"
+		"_cost"			"1000"
 	}
 
 	"0260"
 	{
 		"_ID"			"0260"
-		"_name"			"terrorblade_metamorphosis"
+		"_name"			"batrider_flamebreak"
 	}
 
 	"0261"
 	{
 		"_ID"			"0261"
-		"_name"			"terrorblade_reflection"
+		"_name"			"batrider_firefly"
 	}
 
 	"0262"
 	{
 		"_ID"			"0262"
-		"_name"			"tidehunter_anchor_smash"
+		"_name"			"batrider_flaming_lasso"
+		"_cost"			"1300"
 	}
 
 	"0263"
 	{
 		"_ID"			"0263"
-		"_name"			"tidehunter_gush"
+		"_name"			"chen_penitence"
+		"_cost"			"600"
 	}
 
 	"0264"
 	{
 		"_ID"			"0264"
-		"_name"			"tidehunter_kraken_shell"
+		"_name"			"chen_test_of_faith"
 	}
 
 	"0265"
 	{
 		"_ID"			"0265"
-		"_name"			"tinker_heat_seeking_missile"
+		"_name"			"chen_holy_persuasion"
 	}
 
 	"0266"
 	{
 		"_ID"			"0266"
-		"_name"			"tinker_laser"
+		"_name"			"chen_hand_of_god"
+		"_cost"			"800"
 	}
 
 	"0267"
 	{
 		"_ID"			"0267"
-		"_name"			"tinker_march_of_the_machines"
+		"_name"			"spectre_spectral_dagger"
+		"_cost"			"700"
 	}
 
 	"0268"
 	{
 		"_ID"			"0268"
-		"_name"			"tiny_avalanche"
+		"_name"			"spectre_desolate"
 	}
 
 	"0269"
 	{
 		"_ID"			"0269"
-		"_name"			"tiny_craggy_exterior"
+		"_name"			"spectre_dispersion"
+		"_cost"			"700"
 	}
 
 	"0270"
 	{
 		"_ID"			"0270"
-		"_name"			"tiny_toss"
+		"_name"			"spectre_haunt"
+		"_cost"			"1500"
 	}
 
 	"0271"
 	{
 		"_ID"			"0271"
-		"_name"			"treant_leech_seed"
+		"_name"			"doom_bringer_scorched_earth"
 	}
 
 	"0272"
 	{
 		"_ID"			"0272"
-		"_name"			"treant_living_armor"
+		"_name"			"doom_bringer_infernal_blade"
 	}
 
 	"0273"
 	{
 		"_ID"			"0273"
-		"_name"			"treant_natures_guise"
+		"_name"			"doom_bringer_doom"
+		"_cost"			"2000"
 	}
 
 	"0274"
 	{
 		"_ID"			"0274"
-		"_name"			"troll_warlord_fervor"
+		"_name"			"ancient_apparition_cold_feet"
 	}
 
 	"0275"
 	{
 		"_ID"			"0275"
-		"_name"			"troll_warlord_whirling_axes_melee"
+		"_name"			"ancient_apparition_ice_vortex"
 	}
 
 	"0276"
 	{
 		"_ID"			"0276"
-		"_name"			"troll_warlord_whirling_axes_ranged"
+		"_name"			"ancient_apparition_chilling_touch"
 	}
 
 	"0277"
 	{
 		"_ID"			"0277"
-		"_name"			"tusk_frozen_sigil"
+		"_name"			"ancient_apparition_ice_blast"
+		"_cost"			"2000"
 	}
 
 	"0278"
 	{
 		"_ID"			"0278"
-		"_name"			"tusk_ice_shards"
+		"_name"			"spirit_breaker_charge_of_darkness"
+		"_cost"			"550"
 	}
 
 	"0279"
 	{
 		"_ID"			"0279"
-		"_name"			"tusk_snowball"
+		"_name"			"spirit_breaker_empowering_haste"
+		"_cost"			"300"
 	}
 
 	"0280"
 	{
 		"_ID"			"0280"
-		"_name"			"undying_decay"
+		"_name"			"spirit_breaker_greater_bash"
+		"_cost"			"700"
 	}
 
 	"0281"
 	{
 		"_ID"			"0281"
-		"_name"			"undying_flesh_golem"
+		"_name"			"spirit_breaker_nether_strike"
+		"_cost"			"1000"
 	}
 
 	"0282"
 	{
 		"_ID"			"0282"
-		"_name"			"undying_soul_rip"
+		"_name"			"ursa_earthshock"
 	}
 
 	"0283"
 	{
 		"_ID"			"0283"
-		"_name"			"ursa_earthshock"
+		"_name"			"ursa_overpower"
+		"_cost"			"1000"
 	}
 
 	"0284"
 	{
 		"_ID"			"0284"
 		"_name"			"ursa_fury_swipes"
+		"_cost"			"700"
 	}
 
 	"0285"
 	{
 		"_ID"			"0285"
-		"_name"			"ursa_overpower"
+		"_name"			"ursa_enrage"
+		"_cost"			"1500"
 	}
 
 	"0286"
 	{
 		"_ID"			"0286"
-		"_name"			"vengefulspirit_command_aura"
+		"_name"			"gyrocopter_rocket_barrage"
 	}
 
 	"0287"
 	{
 		"_ID"			"0287"
-		"_name"			"vengefulspirit_magic_missile"
+		"_name"			"gyrocopter_homing_missile"
 	}
 
 	"0288"
 	{
 		"_ID"			"0288"
-		"_name"			"vengefulspirit_wave_of_terror"
+		"_name"			"gyrocopter_flak_cannon"
+		"_cost"			"1000"
 	}
 
 	"0289"
 	{
 		"_ID"			"0289"
-		"_name"			"venomancer_plague_ward"
+		"_name"			"gyrocopter_call_down"
+		"_cost"			"1000"
 	}
 
 	"0290"
 	{
 		"_ID"			"0290"
-		"_name"			"venomancer_poison_sting"
+		"_name"			"alchemist_acid_spray"
+		"_cost"			"600"
 	}
 
 	"0291"
 	{
 		"_ID"			"0291"
-		"_name"			"venomancer_venomous_gale"
+		"_name"			"alchemist_unstable_concoction"
 	}
 
 	"0292"
 	{
 		"_ID"			"0292"
-		"_name"			"viper_corrosive_skin"
+		"_name"			"alchemist_goblins_greed"
+		"_cost"			"2000"
 	}
 
 	"0293"
 	{
 		"_ID"			"0293"
-		"_name"			"viper_nethertoxin"
+		"_name"			"alchemist_chemical_rage"
+		"_cost"			"1200"
 	}
 
 	"0294"
 	{
 		"_ID"			"0294"
-		"_name"			"viper_poison_attack"
+		"_name"			"silencer_curse_of_the_silent"
 	}
 
 	"0295"
 	{
 		"_ID"			"0295"
-		"_name"			"visage_gravekeepers_cloak"
+		"_name"			"silencer_glaives_of_wisdom"
+		"_cost"			"400"
 	}
 
 	"0296"
 	{
 		"_ID"			"0296"
-		"_name"			"visage_grave_chill"
+		"_name"			"silencer_last_word"
 	}
 
 	"0297"
 	{
 		"_ID"			"0297"
-		"_name"			"visage_soul_assumption"
+		"_name"			"silencer_global_silence"
+		"_cost"			"1000"
 	}
 
 	"0298"
 	{
 		"_ID"			"0298"
-		"_name"			"warlock_fatal_bonds"
+		"_name"			"obsidian_destroyer_arcane_orb"
 	}
 
 	"0299"
 	{
 		"_ID"			"0299"
-		"_name"			"warlock_shadow_word"
+		"_name"			"obsidian_destroyer_astral_imprisonment"
 	}
 
 	"0300"
 	{
 		"_ID"			"0300"
-		"_name"			"warlock_upheaval"
+		"_name"			"obsidian_destroyer_essence_aura"
+		"_cost"			"1500"
 	}
 
-	"0301"
-	{
-		"_ID"			"0301"
-		"_name"			"weaver_geminate_attack"
-	}
 
 	"0302"
 	{
 		"_ID"			"0302"
-		"_name"			"weaver_shukuchi"
+		"_name"			"obsidian_destroyer_sanity_eclipse"
 	}
 
 	"0303"
 	{
 		"_ID"			"0303"
-		"_name"			"weaver_the_swarm"
+		"_name"			"lycan_howl"
 	}
 
 	"0304"
 	{
 		"_ID"			"0304"
-		"_name"			"windrunner_powershot"
+		"_name"			"lycan_feral_impulse"
 	}
 
 	"0305"
 	{
 		"_ID"			"0305"
-		"_name"			"windrunner_shackleshot"
+		"_name"			"lycan_shapeshift"
+		"_cost"			"1000"
 	}
 
 	"0306"
 	{
 		"_ID"			"0306"
-		"_name"			"windrunner_windrun"
+		"_name"			"lone_druid_rabid"
 	}
 
 	"0307"
 	{
 		"_ID"			"0307"
-		"_name"			"wisp_overcharge"
+		"_name"			"lone_druid_savage_roar"
 	}
 
 	"0308"
 	{
 		"_ID"			"0308"
-		"_name"			"wisp_tether"
+		"_name"			"brewmaster_thunder_clap"
 	}
 
 	"0309"
 	{
 		"_ID"			"0309"
-		"_name"			"witch_doctor_maledict"
+		"_name"			"brewmaster_drunken_haze"
 	}
 
 	"0310"
 	{
 		"_ID"			"0310"
-		"_name"			"witch_doctor_paralyzing_cask"
+		"_name"			"brewmaster_drunken_brawler"
 	}
 
 	"0311"
 	{
 		"_ID"			"0311"
-		"_name"			"witch_doctor_voodoo_restoration"
+		"_name"			"brewmaster_primal_split"
 	}
 
 	"0312"
 	{
 		"_ID"			"0312"
-		"_name"			"zuus_arc_lightning"
+		"_name"			"shadow_demon_disruption"
 	}
 
 	"0313"
 	{
 		"_ID"			"0313"
-		"_name"			"zuus_lightning_bolt"
+		"_name"			"shadow_demon_soul_catcher"
 	}
 
 	"0314"
 	{
 		"_ID"			"0314"
-		"_name"			"zuus_static_field"
+		"_name"			"shadow_demon_shadow_poison"
 	}
 
 	"0315"
 	{
 		"_ID"			"0315"
-		"_name"			"abaddon_borrowed_time"
+		"_name"			"shadow_demon_demonic_purge"
+		"_cost"			"1000"
 	}
 
 	"0316"
 	{
 		"_ID"			"0316"
-		"_name"			"abyssal_underlord_dark_rift"
+		"_name"			"chaos_knight_chaos_bolt"
+		"_cost"			"600"
 	}
 
 	"0317"
 	{
 		"_ID"			"0317"
-		"_name"			"alchemist_chemical_rage"
+		"_name"			"chaos_knight_reality_rift"
+		"_cost"			"400"
 	}
 
 	"0318"
 	{
 		"_ID"			"0318"
-		"_name"			"ancient_apparition_ice_blast"
+		"_name"			"chaos_knight_chaos_strike"
+		"_cost"			"600"
 	}
 
 	"0319"
 	{
 		"_ID"			"0319"
-		"_name"			"antimage_mana_void"
+		"_name"			"chaos_knight_phantasm"
+		"_cost"			"1200"
 	}
 
 	"0320"
 	{
 		"_ID"			"0320"
-		"_name"			"axe_culling_blade"
+		"_name"			"meepo_geostrike"
+		"_cost"			"400"
 	}
 
 	"0321"
 	{
 		"_ID"			"0321"
-		"_name"			"bane_fiends_grip"
+		"_name"			"treant_natures_guise"
+		"_cost"			"400"
 	}
 
 	"0322"
 	{
 		"_ID"			"0322"
-		"_name"			"batrider_flaming_lasso"
+		"_name"			"treant_leech_seed"
 	}
 
 	"0323"
 	{
 		"_ID"			"0323"
-		"_name"			"beastmaster_primal_roar"
+		"_name"			"treant_living_armor"
+		"_cost"			"400"
 	}
 
 	"0324"
 	{
 		"_ID"			"0324"
-		"_name"			"bloodseeker_rupture"
+		"_name"			"treant_overgrowth"
+		"_cost"			"1000"
 	}
 
 	"0325"
 	{
 		"_ID"			"0325"
-		"_name"			"bounty_hunter_track"
+		"_name"			"ogre_magi_fireblast"
 	}
 
 	"0326"
 	{
 		"_ID"			"0326"
-		"_name"			"brewmaster_primal_split"
+		"_name"			"ogre_magi_ignite"
 	}
 
 	"0327"
 	{
 		"_ID"			"0327"
-		"_name"			"bristleback_warpath"
+		"_name"			"ogre_magi_bloodlust"
 	}
 
 	"0328"
 	{
 		"_ID"			"0328"
-		"_name"			"broodmother_insatiable_hunger"
+		"_name"			"ogre_magi_multicast"
+		"_cost"			"2000"
 	}
 
 	"0329"
 	{
 		"_ID"			"0329"
-		"_name"			"centaur_stampede"
+		"_name"			"undying_decay"
+		"_cost"			"650"
 	}
 
 	"0330"
 	{
 		"_ID"			"0330"
-		"_name"			"chaos_knight_phantasm"
+		"_name"			"undying_soul_rip"
 	}
 
 	"0331"
 	{
 		"_ID"			"0331"
-		"_name"			"chen_hand_of_god"
+		"_name"			"undying_tombstone"
+		"_cost"			"700"
 	}
 
 	"0332"
 	{
 		"_ID"			"0332"
-		"_name"			"zuus_thundergods_wrath"
+		"_name"			"undying_flesh_golem"
+		"_cost"			"1000"
 	}
 
 	"0333"
 	{
 		"_ID"			"0333"
-		"_name"			"crystal_maiden_freezing_field"
+		"_name"			"rubick_telekinesis"
 	}
 
 	"0334"
 	{
 		"_ID"			"0334"
-		"_name"			"dark_seer_wall_of_replica"
+		"_name"			"rubick_fade_bolt"
 	}
 
 	"0335"
 	{
 		"_ID"			"0335"
-		"_name"			"dazzle_weave"
+		"_name"			"rubick_null_field"
 	}
 
 	"0336"
 	{
 		"_ID"			"0336"
-		"_name"			"death_prophet_exorcism"
+		"_name"			"disruptor_thunder_strike"
 	}
 
 	"0337"
 	{
 		"_ID"			"0337"
-		"_name"			"disruptor_static_storm"
+		"_name"			"disruptor_glimpse"
 	}
 
 	"0338"
 	{
 		"_ID"			"0338"
-		"_name"			"doom_bringer_doom"
+		"_name"			"disruptor_kinetic_field"
+		"_cost"			"600"
 	}
 
 	"0339"
 	{
 		"_ID"			"0339"
-		"_name"			"dragon_knight_elder_dragon_form"
+		"_name"			"disruptor_static_storm"
+		"_cost"			"1500"
 	}
 
 	"0340"
 	{
 		"_ID"			"0340"
-		"_name"			"drow_ranger_marksmanship"
+		"_name"			"nyx_assassin_impale"
 	}
 
 	"0341"
 	{
 		"_ID"			"0341"
-		"_name"			"earth_spirit_magnetize"
+		"_name"			"nyx_assassin_mana_burn"
 	}
 
 	"0342"
 	{
 		"_ID"			"0342"
-		"_name"			"earthshaker_echo_slam"
+		"_name"			"nyx_assassin_spiked_carapace"
 	}
 
 	"0343"
 	{
 		"_ID"			"0343"
-		"_name"			"elder_titan_earth_splitter"
+		"_name"			"nyx_assassin_vendetta"
+		"_cost"			"1000"
 	}
 
 	"0344"
 	{
 		"_ID"			"0344"
-		"_name"			"ember_spirit_activate_fire_remnant"
+		"_name"			"naga_siren_mirror_image"
+		"_cost"			"550"
 	}
 
 	"0345"
 	{
 		"_ID"			"0345"
-		"_name"			"enchantress_impetus"
+		"_name"			"naga_siren_ensnare"
 	}
 
 	"0346"
 	{
 		"_ID"			"0346"
-		"_name"			"enigma_black_hole"
+		"_name"			"naga_siren_rip_tide"
 	}
 
 	"0347"
 	{
 		"_ID"			"0347"
-		"_name"			"faceless_void_chronosphere"
+		"_name"			"naga_siren_song_of_the_siren"
+		"_cost"			"1200"
 	}
 
 	"0348"
 	{
 		"_ID"			"0348"
-		"_name"			"furion_wrath_of_nature"
+		"_name"			"keeper_of_the_light_illuminate"
 	}
 
 	"0349"
 	{
 		"_ID"			"0349"
-		"_name"			"gyrocopter_call_down"
+		"_name"			"keeper_of_the_light_mana_leak"
 	}
 
 	"0350"
 	{
 		"_ID"			"0350"
-		"_name"			"huskar_life_break"
+		"_name"			"keeper_of_the_light_chakra_magic"
+		"_cost"			"600"
 	}
 
 	"0351"
 	{
 		"_ID"			"0351"
-		"_name"			"jakiro_macropyre"
+		"_name"			"visage_grave_chill"
 	}
 
 	"0352"
 	{
 		"_ID"			"0352"
-		"_name"			"juggernaut_omni_slash"
+		"_name"			"visage_soul_assumption"
 	}
 
 	"0353"
 	{
 		"_ID"			"0353"
-		"_name"			"kunkka_ghostship"
-	}
-
-	"0354"
-	{
-		"_ID"			"0354"
-		"_name"			"legion_commander_duel"
+		"_name"			"visage_gravekeepers_cloak"
 	}
 
 	"0355"
 	{
 		"_ID"			"0355"
-		"_name"			"leshrac_pulse_nova"
+		"_name"			"wisp_tether"
 	}
 
 	"0356"
 	{
 		"_ID"			"0356"
-		"_name"			"lich_chain_frost"
+		"_name"			"wisp_overcharge"
 	}
 
 	"0357"
 	{
 		"_ID"			"0357"
-		"_name"			"life_stealer_infest"
+		"_name"			"wisp_relocate"
+		"_cost"			"1000"
 	}
 
 	"0358"
 	{
 		"_ID"			"0358"
-		"_name"			"lina_laguna_blade"
+		"_name"			"slark_dark_pact"
+		"_cost"			"700"
 	}
 
 	"0359"
 	{
 		"_ID"			"0359"
-		"_name"			"lion_finger_of_death"
+		"_name"			"slark_pounce"
 	}
 
 
 	"0361"
 	{
 		"_ID"			"0361"
-		"_name"			"luna_eclipse"
+		"_name"			"slark_essence_shift"
+		"_cost"			"700"
 	}
 
 	"0362"
 	{
 		"_ID"			"0362"
-		"_name"			"lycan_shapeshift"
+		"_name"			"slark_shadow_dance"
+		"_cost"			"1500"
 	}
 
 	"0363"
 	{
 		"_ID"			"0363"
-		"_name"			"magnataur_reverse_polarity"
+		"_name"			"medusa_split_shot"
+		"_cost"			"1500"
 	}
 
 	"0364"
 	{
 		"_ID"			"0364"
-		"_name"			"medusa_stone_gaze"
+		"_name"			"medusa_mystic_snake"
 	}
 
 
 	"0366"
 	{
 		"_ID"			"0366"
-		"_name"			"mirana_invis"
+		"_name"			"medusa_mana_shield"
+		"_cost"			"1500"
 	}
 
 	"0367"
 	{
 		"_ID"			"0367"
-		"_name"			"morphling_replicate"
+		"_name"			"medusa_stone_gaze"
+		"_cost"			"1000"
 	}
 
 	"0368"
 	{
 		"_ID"			"0368"
-		"_name"			"naga_siren_song_of_the_siren"
+		"_name"			"troll_warlord_fervor"
+		"_cost"			"1000"
 	}
 
 	"0369"
 	{
 		"_ID"			"0369"
-		"_name"			"necrolyte_reapers_scythe"
+		"_name"			"troll_warlord_battle_trance"
+		"_cost"			"1000"
 	}
 
 	"0370"
 	{
 		"_ID"			"0370"
-		"_name"			"nevermore_requiem"
+		"_name"			"centaur_hoof_stomp"
 	}
 
 	"0371"
 	{
 		"_ID"			"0371"
-		"_name"			"night_stalker_darkness"
+		"_name"			"centaur_double_edge"
+		"_cost"			"400"
 	}
 
 	"0372"
 	{
 		"_ID"			"0372"
-		"_name"			"nyx_assassin_vendetta"
+		"_name"			"centaur_return"
+		"_cost"			"700"
 	}
 
 	"0373"
 	{
 		"_ID"			"0373"
-		"_name"			"obsidian_destroyer_sanity_eclipse"
+		"_name"			"centaur_stampede"
+		"_cost"			"1200"
 	}
 
 	"0374"
 	{
 		"_ID"			"0374"
-		"_name"			"ogre_magi_multicast"
+		"_name"			"magnataur_shockwave"
 	}
 
 	"0375"
 	{
 		"_ID"			"0375"
-		"_name"			"omniknight_guardian_angel"
+		"_name"			"magnataur_empower"
+		"_cost"			"1200"
 	}
 
 	"0376"
 	{
 		"_ID"			"0376"
-		"_name"			"oracle_false_promise"
+		"_name"			"magnataur_skewer"
 	}
 
 	"0377"
 	{
 		"_ID"			"0377"
-		"_name"			"phantom_assassin_coup_de_grace"
+		"_name"			"magnataur_reverse_polarity"
+		"_cost"			"1900"
 	}
 
 	"0378"
 	{
 		"_ID"			"0378"
-		"_name"			"phantom_lancer_phantom_edge"
+		"_name"			"shredder_whirling_death"
 	}
 
 	"0379"
 	{
 		"_ID"			"0379"
-		"_name"			"phoenix_supernova"
+		"_name"			"shredder_timber_chain"
 	}
 
 	"0380"
 	{
 		"_ID"			"0380"
-		"_name"			"puck_dream_coil"
+		"_name"			"shredder_reactive_armor"
+		"_cost"			"1000"
 	}
 
 	"0381"
 	{
 		"_ID"			"0381"
-		"_name"			"pudge_dismember"
+		"_name"			"shredder_chakram"
+		"_cost"			"1000"
 	}
 
 	"0382"
 	{
 		"_ID"			"0382"
-		"_name"			"pugna_life_drain"
+		"_name"			"bristleback_viscous_nasal_goo"
 	}
 
 	"0383"
 	{
 		"_ID"			"0383"
-		"_name"			"queenofpain_sonic_wave"
+		"_name"			"bristleback_quill_spray"
+		"_cost"			"600"
 	}
 
 	"0384"
 	{
 		"_ID"			"0384"
-		"_name"			"rattletrap_hookshot"
+		"_name"			"bristleback_bristleback"
+		"_cost"			"700"
 	}
 
 	"0385"
 	{
 		"_ID"			"0385"
-		"_name"			"razor_eye_of_the_storm"
+		"_name"			"bristleback_warpath"
+		"_cost"			"1000"
 	}
 
 	"0386"
 	{
 		"_ID"			"0386"
-		"_name"			"riki_tricks_of_the_trade"
+		"_name"			"tusk_ice_shards"
 	}
 
 	"0387"
 	{
 		"_ID"			"0387"
-		"_name"			"rubick_spell_steal"
+		"_name"			"tusk_snowball"
 	}
 
 	"0388"
 	{
 		"_ID"			"0388"
-		"_name"			"sandking_epicenter"
+		"_name"			"tusk_frozen_sigil"
 	}
 
 	"0389"
 	{
 		"_ID"			"0389"
-		"_name"			"shadow_demon_demonic_purge"
+		"_name"			"tusk_walrus_punch"
+		"_cost"			"900"
 	}
 
 	"0390"
 	{
 		"_ID"			"0390"
-		"_name"			"shadow_shaman_mass_serpent_ward"
-	}
-
-	"0391"
-	{
-		"_ID"			"0391"
-		"_name"			"shredder_chakram"
+		"_name"			"skywrath_mage_arcane_bolt"
 	}
 
 	"0392"
 	{
 		"_ID"			"0392"
-		"_name"			"silencer_global_silence"
+		"_name"			"skywrath_mage_concussive_shot"
 	}
 
 	"0393"
 	{
 		"_ID"			"0393"
-		"_name"			"skeleton_king_reincarnation"
+		"_name"			"skywrath_mage_ancient_seal"
+		"_cost"			"700"
 	}
 
 	"0394"
 	{
 		"_ID"			"0394"
 		"_name"			"skywrath_mage_mystic_flare"
+		"_cost"			"1100"
 	}
 
 	"0395"
 	{
 		"_ID"			"0395"
-		"_name"			"slardar_amplify_damage"
+		"_name"			"abaddon_death_coil"
+		"_cost"			"450"
 	}
 
 	"0396"
 	{
 		"_ID"			"0396"
-		"_name"			"slark_shadow_dance"
+		"_name"			"abaddon_aphotic_shield"
+		"_cost"			"550"
 	}
 
 	"0397"
 	{
 		"_ID"			"0397"
-		"_name"			"sniper_assassinate"
+		"_name"			"abaddon_frostmourne"
+		"_cost"			"600"
 	}
 
 	"0398"
 	{
 		"_ID"			"0398"
-		"_name"			"spirit_breaker_nether_strike"
+		"_name"			"abaddon_borrowed_time"
+		"_cost"			"1800"
 	}
 
 	"0399"
 	{
 		"_ID"			"0399"
-		"_name"			"sven_gods_strength"
+		"_name"			"elder_titan_natural_order"
+		"_cost"			"800"
 	}
 
 	"0400"
 	{
 		"_ID"			"0400"
-		"_name"			"terrorblade_sunder"
+		"_name"			"elder_titan_earth_splitter"
+		"_cost"			"1000"
 	}
 
 	"0401"
 	{
 		"_ID"			"0401"
-		"_name"			"tidehunter_ravage"
+		"_name"			"legion_commander_overwhelming_odds"
+		"_cost"			"600"
 	}
 
 	"0402"
 	{
 		"_ID"			"0402"
-		"_name"			"tinker_rearm"
+		"_name"			"legion_commander_press_the_attack"
+		"_cost"			"800"
 	}
 
 	"0404"
 	{
 		"_ID"			"0404"
-		"_name"			"treant_overgrowth"
+		"_name"			"legion_commander_moment_of_courage"
+		"_cost"			"700"
 	}
 
 	"0405"
 	{
 		"_ID"			"0405"
-		"_name"			"troll_warlord_battle_trance"
+		"_name"			"legion_commander_duel"
+		"_cost"			"1500"
 	}
 
 	"0406"
 	{
 		"_ID"			"0406"
-		"_name"			"tusk_walrus_punch"
+		"_name"			"ember_spirit_searing_chains"
 	}
 
 	"0407"
 	{
 		"_ID"			"0407"
-		"_name"			"undying_tombstone"
+		"_name"			"ember_spirit_sleight_of_fist"
+		"_cost"			"900"
 	}
 
 	"0408"
 	{
 		"_ID"			"0408"
-		"_name"			"ursa_enrage"
+		"_name"			"ember_spirit_flame_guard"
+		"_cost"			"700"
 	}
 
-	"0409"
-	{
-		"_ID"			"0409"
-		"_name"			"vengefulspirit_nether_swap"
-	}
 
 	"0410"
 	{
 		"_ID"			"0410"
-		"_name"			"venomancer_poison_nova"
+		"_name"			"abyssal_underlord_firestorm"
 	}
 
 	"0411"
 	{
 		"_ID"			"0411"
-		"_name"			"viper_viper_strike"
+		"_name"			"abyssal_underlord_pit_of_malice"
 	}
 
 	"0412"
 	{
 		"_ID"			"0412"
-		"_name"			"visage_summon_familiars"
-	}
-
-	"0413"
-	{
-		"_ID"			"0413"
-		"_name"			"warlock_rain_of_chaos"
+		"_name"			"abyssal_underlord_atrophy_aura"
+		"_cost"			"600"
 	}
 
 	"0414"
 	{
 		"_ID"			"0414"
-		"_name"			"weaver_time_lapse"
+		"_name"			"terrorblade_reflection"
+		"_cost"			"600"
 	}
 
 	"0415"
 	{
 		"_ID"			"0415"
-		"_name"			"windrunner_focusfire"
+		"_name"			"terrorblade_conjure_image"
 	}
 
 	"0416"
 	{
 		"_ID"			"0416"
-		"_name"			"wisp_relocate"
+		"_name"			"terrorblade_metamorphosis"
+		"_cost"			"800"
 	}
 
 	"0417"
 	{
 		"_ID"			"0417"
-		"_name"			"witch_doctor_death_ward"
+		"_name"			"terrorblade_sunder"
+		"_cost"			"1000"
 	}
 
 
 	"0418"
 	{
 		"_ID"			"0418"
-		"_name"			"arc_warden_flux"
+		"_name"			"phoenix_supernova"
+		"_cost"			"1000"
 	}
 
 	"0419"
 	{
 		"_ID"			"0419"
-		"_name"			"arc_warden_magnetic_field"
+		"_name"			"oracle_fortunes_end"
 	}
 
 	"0420"
 	{
 		"_ID"			"0420"
-		"_name"			"arc_warden_spark_wraith"
+		"_name"			"oracle_fates_edict"
 	}
 
 
 	"0421"
 	{
 		"_ID"			"0421"
-		"_name"			"broodmother_spin_web"
+		"_name"			"oracle_purifying_flames"
 	}
 
 	"0422"
 	{
 		"_ID"			"0422"
-		"_name"			"chen_penitence"
+		"_name"			"oracle_false_promise"
+		"_cost"			"1000"
 	}
-
+	
 	"0423"
 	{
 		"_ID"			"0423"
-		"_name"			"chen_test_of_faith"
-	}
+		"_name"			"techies_land_mines"
 
+	}
+	
 	"0424"
 	{
 		"_ID"			"0424"
-		"_name"			"chen_holy_persuasion"
+		"_name"			"techies_stasis_trap"
 	}
-
+	
 	"0425"
 	{
 		"_ID"			"0425"
-		"_name"			"clinkz_death_pact"
+		"_name"			"techies_suicide"
 	}
-
 
 	"0426"
 	{
 		"_ID"			"0426"
-		"_name"			"doom_bringer_infernal_blade"
+		"_name"			"techies_remote_mines"
 	}
 
 	"0427"
 	{
 		"_ID"			"0427"
+		"_name"			"winter_wyvern_arctic_burn"
+	}
+	
+	"0428"
+	{
+		"_ID"			"0428"
+		"_name"			"winter_wyvern_splinter_blast"
+	}
+		
+	"0429"
+	{
+		"_ID"			"0429"
+		"_name"			"winter_wyvern_cold_embrace"
+	}
+	
+	"0430"
+	{
+		"_ID"			"0430"
 		"_name"			"winter_wyvern_winters_curse"
 	}
 
 
-	"0428"
-	{
-		"_ID"			"0428"
-		"_name"			"drow_ranger_vengeance_arrow"
-	}
-
-	"0429"
-	{
-		"_ID"			"0429"
-		"_name"			"enchantress_enchant"
-	}
-
-	"0482"
-	{
-		"_ID"			"0482"
-		"_name"			"faceless_void_time_dilation"
-	}
-
-	"0483"
-	{
-		"_ID"			"0483"
-		"_name"			"lone_druid_savage_roar"
-	}
-
-
-	"0485"
-	{
-		"_ID"			"0485"
-		"_name"			"spirit_breaker_charge_of_darkness"
-	}
-
-	"0486"
-	{
-		"_ID"			"0486"
-		"_name"			"storm_spirit_static_remnant"
-	}
-
-	"0487"
-	{
-		"_ID"			"0487"
-		"_name"			"storm_spirit_ball_lightning"
-	}
-
-	"0488"
-	{
-		"_ID"			"0488"
-		"_name"			"techies_remote_mines"
-	}
-
-	"0489"
-	{
-		"_ID"			"0489"
-		"_name"			"templar_assassin_psionic_trap"
-	}
-
-	"0490"
-	{
-		"_ID"			"0490"
-		"_name"			"spectre_spectral_dagger"
-	}
-
-	"0491"
-	{
-		"_ID"			"0491"
-		"_name"			"spectre_haunt"
-	}
-
-
-	"0493"
-	{
-		"_ID"			"0493"
-		"_name"			"tiny_grow"
-	}
 
 
 }
