@@ -8320,6 +8320,7 @@
 		"ModelScale" "0.85" 
 		"Level" "1" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "" 
@@ -8391,6 +8392,7 @@
 		"ModelScale" "0.90" 
 		"Level" "5" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "" 
@@ -8464,6 +8466,7 @@
 		"ModelScale" "0.90" 
 		"Level" "10" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 
@@ -8535,6 +8538,7 @@
 		"ModelScale" "0.90" 
 		"Level" "15" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 
@@ -8608,6 +8612,7 @@
 		"ModelScale" "0.95" 
 		"Level" "20" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 
@@ -8681,6 +8686,7 @@
 		"ModelScale" "0.95" 
 		"Level" "25" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 
@@ -8756,6 +8762,7 @@
 		"ModelScale" "1.0" 
 		"Level" "40" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 
@@ -8834,6 +8841,7 @@
 		"ModelScale" "1.1" 
 		"Level" "60" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 
@@ -8908,6 +8916,7 @@
 		"ModelScale" "1.2" 
 		"Level" "80" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 
@@ -8986,6 +8995,7 @@
 		"ModelScale" "1.6" 
 		"Level" "100" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 
@@ -9088,7 +9098,7 @@
 		"AttackRange" "60" 
 		"ProjectileModel" "" 
 		"ProjectileSpeed" ""
-		//"AttackRangeBuffer" "200" 		
+		//"AttackRangeBuffer" "200" 	
 		 
 		"BountyXP" "50" 
 		"BountyGoldMin" "30" 
@@ -9103,6 +9113,7 @@
 		"StatusHealthRegen" "1" 
 		"StatusMana" "0" 
 		"StatusManaRegen" "0" 
+		"HasInventory"	"1"
 		 
 		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
 		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
@@ -9174,6 +9185,7 @@
 		"StatusHealthRegen" "1" 
 		"StatusMana" "0" 
 		"StatusManaRegen" "0" 
+		"HasInventory"	"1"
 		 
 		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
 		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
@@ -9245,6 +9257,7 @@
 		"StatusHealthRegen" "1" 
 		"StatusMana" "350" 
 		"StatusManaRegen" "1" 
+		"HasInventory"	"1"
 		 
 		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
 		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
@@ -9317,6 +9330,7 @@
 		"StatusHealth" "4000" 
 		"StatusHealthRegen" "1" 
 		"StatusMana" "500" 
+		"HasInventory"	"1"
 		"StatusManaRegen" "2" 
 		 
 		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
@@ -9366,6 +9380,7 @@
 		"Ability6" "" 
 		"Ability7" "" 
 		"Ability8" "" 
+		"HasInventory"	"1"
 
 		"ArmorPhysical" "7" 
 		"MagicalResistance" "45" 
@@ -9437,6 +9452,7 @@
 		"ModelScale" "0.95" 
 		"Level" "25" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 
@@ -9518,6 +9534,7 @@
 		"ModelScale" "1.0" 
 		"Level" "40" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 
@@ -9594,6 +9611,7 @@
 		"ModelScale" "1.1" 
 		"Level" "60" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 
@@ -9676,6 +9694,7 @@
 		"ModelScale" "1.2" 
 		"Level" "80" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 
@@ -9758,6 +9777,7 @@
 		"ModelScale" "1.4" 
 		"Level" "100" 
 		"IsNeutralUnitType"            "1"
+		"HasInventory"	"1"
 		
 		"AbilityLayout"				"4"
 		"Ability1" "bristle_creeps_spikes" 

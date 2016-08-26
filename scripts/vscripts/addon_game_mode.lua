@@ -4,7 +4,7 @@ Creator: CryDeS
 If somebody read this, KILL ME PLEASE
 -----------------------------------------
 ]]
-
+require('lib/itemdrops')
 require('timers')
 require('spawners')
 require('tp_s')
@@ -477,6 +477,8 @@ function AngelArena:OnNPCSpawned(event)
 		OnHeroRespawn(spawnedUnit)
 	end
 
+	CreateItems(spawnedUnit)
+
 	local unitname = spawnedUnit:GetUnitName()
 
 	local unit_owner = spawnedUnit:GetOwnerEntity() 
@@ -877,7 +879,7 @@ function AngelArena:OnEntityKilled(event)
 
 	if not killedUnit or not IsValidEntity(killedUnit) then return end
 
-	DropItem(killedUnit)
+	LaunchItems(killedUnit)
 
 	if IsUnitCreep(killedUnit:GetUnitName()) then
 		OnCreepDeathGlobal(killedUnit)

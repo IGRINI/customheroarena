@@ -185,40 +185,6 @@ function SpawnAllBosses(bosses_table, unit_table)
 end
 
 function SpawnBoss(unit_table, boss_table, boss_name)
-	if not IsBossAlive(unit_table, boss_name) then
-		if IsBossReadyToRespawn(boss_table, boss_name) then
-			PrecacheUnitByNameAsync(boss_name, function(...)
-				local spawn_point 
-				if boss_name ~= "npc_boss_travaler" then
-					spawn_point = Entities:FindByName( nil, boss_table[boss_name].spawner ):GetAbsOrigin() 
-				else
-					local spawn_number = RandomInt(1, 5)
-					spawn_point = Entities:FindByName( nil, "TRAVALER_SPAWN_" .. spawn_number ):GetAbsOrigin() 
-				end
-				
-				local boss_unit = CreateUnitByName(boss_name, spawn_point, true, nil, nil, DOTA_TEAM_NEUTRALS)
-				Timers:CreateTimer("poss_power" .. boss_name, {
-					endTime = 3,
-					callback = function()
-						boss_unit:AddNewModifier(boss_unit, nil, "modifier_boss_power", null) 
-						print("[LUA]Boss spawner: " .. boss_unit:GetUnitName())
-						InsertUnitInBossTable(unit_table, boss_unit, spawn_point)		
-					end
-				})
-				--boss_unit:AddNewModifier(boss_unit, nil, "modifier_boss_power", null) 
-				--print("[LUA]Boss spawner: " .. boss_unit:GetUnitName())
-				--InsertUnitInBossTable(unit_table, boss_unit, spawn_point)
-			end)
-		else
-			Timers:CreateTimer("SpawnBoss_" .. boss_name ,{
-             	endTime = boss_table[boss_name].until_respawn,
-                callback = function()
-                	boss_table[boss_name].until_respawn = 0
-                	SpawnBoss(unit_table, boss_table, boss_name)
-                    return nil
-                end})
-		end
-	end
 end
 
 function InsertUnitInBossTable(unit_table, inserting_unit, inserting_point)
