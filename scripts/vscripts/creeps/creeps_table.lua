@@ -35,26 +35,26 @@ local level_table =
 
 local creeps_dire = 
 {
-	"Troll",
-	"Troll",
+	"myasnik",
+	"myasnik",
 	"Wildwing",
 	"Wildwing",
 	"Centaur",
 	"Dragon",
 	"Wildwing",
-	"Troll",
+	"myasnik",
 }
 
 local creeps_radiant = 
 {
-	"Ursa",
-	"Ursa",
+	"bristle",
+	"bristle",
 	"Golem",
 	"Golem",
 	"Croco",
 	"Salamander",
 	"Golem",
-	"Ursa",
+	"bristle",
 }
 function AddCreep(t_table, spawner_name, creep_name)
 	local unit_name

@@ -1,4 +1,76 @@
 "DOTAAbilities"
 {
-	
+	"bristle_creeps_spikes"
+	{
+		"BaseClass"             		"bristleback_quill_spray"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"AbilityCastPoint"				"0.0 0.0 0.0 0.0"
+		"MaxLevel" 						"1"
+		"AbilityCooldown"				"6.0"
+		"AbilityManaCost"				"35"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"350"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"quill_base_damage"		"20.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"quill_stack_damage"	"15.0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"quill_stack_duration"	"10.0"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"max_damage"			"200.0"
+			}
+		}
+	}
+	"bristle_creeps_bristleback"
+	{
+		"BaseClass"             		"bristleback_bristleback"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel" 						"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"side_damage_reduction"			"10"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"back_damage_reduction"			"20"
+			}
+			"03"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"side_angle"					"110"
+			}
+			"04"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"back_angle"					"70"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"quill_release_threshold"		"300"
+			}
+		}
+	}
 }

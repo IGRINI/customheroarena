@@ -8311,4 +8311,1520 @@
 	
 	
 	//End of file wildwing.txt
+	"bristle_level_1"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/bristleback/bristleback.vmdl"
+		"SoundSet" "Hero_Bristleback" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "0.85" 
+		"Level" "1" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "" 
+		"Ability2" "" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+		 
+		"ArmorPhysical" "1" 
+		"MagicalResistance" "45" 
+		 
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UseNeutralCreepBehavior"    "1"
+		"AttackDamageMin" "25" 
+		"AttackDamageMax" "35" 
+		"AttackRate" "1.3" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "100" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "50" 
+		"BountyGoldMin" "30" 
+		"BountyGoldMax" "35" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "280" 
+		"MovementTurnRate" "1" 
+		"FollowRange"		"600"
+	
+		"StatusHealth" "500" 
+		"StatusHealthRegen" "1" 
+		"StatusMana" "0" 
+		"StatusManaRegen" "0" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/bristleback/bristleback.vmdl"
+			"model" "models/heroes/bristleback/bristleback_weapon.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "438" }
+			}
+		}
+	}
+	"bristle_level_5"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/bristleback/bristleback.vmdl"
+		"SoundSet" "Hero_Bristleback" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "0.90" 
+		"Level" "5" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "" 
+		"Ability2" "" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+		 
+		"ArmorPhysical" "4" 
+		"MagicalResistance" "45" 
+		 
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UseNeutralCreepBehavior"    "1"
+		"AttackDamageMin" "49" 
+		"AttackDamageMax" "55" 
+		"AttackRate" "1.2" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "100" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" "" 
+		//"AttackRangeBuffer" "200" 	
+		 
+		"BountyXP" "80" 
+		"BountyGoldMin" "46" 
+		"BountyGoldMax" "50" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "285" 
+		"MovementTurnRate" "1" 
+		"FollowRange"		"600"
+		
+		"StatusHealth" "750" 
+		"StatusHealthRegen" "1" 
+		"StatusMana" "0" 
+		"StatusManaRegen" "0" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/bristleback/bristleback.vmdl"
+			"model" "models/heroes/bristleback/bristleback_weapon.vmdl"
+			"model" "models/heroes/bristleback/bristleback_head.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "437" }
+				"Wearable2" { "ItemDef" "438" }
+			}
+		}
+	}
+	"bristle_level_10"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/bristleback/bristleback.vmdl"
+		"SoundSet" "Hero_Bristleback" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "0.90" 
+		"Level" "10" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+		"ArmorPhysical" "4" 
+		"MagicalResistance" "45" 
+		 
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "76" 
+		"AttackDamageMax" "78"
+		"AttackRate" "1.1" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "110" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" "" 		
+		"BountyXP" "120" 
+		"BountyGoldMin" "63" 
+		"BountyGoldMax" "67" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "290" 
+		"MovementTurnRate" "1" 
+		"FollowRange"				"800"
+		
+		"StatusHealth" "1000" 
+		"StatusHealthRegen" "1" 
+		"StatusMana" "350" 
+		"StatusManaRegen" "1" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/bristleback/bristleback.vmdl"
+			"model" "models/heroes/bristleback/bristleback_weapon.vmdl"
+			"model" "models/heroes/bristleback/bristleback_head.vmdl"
+			"model" "models/heroes/bristleback/bristleback_back.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "436" }
+				"Wearable2" { "ItemDef" "437" }
+				"Wearable3" { "ItemDef" "438" }
+			}
+		}
+	}
+	"bristle_level_15"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/bristleback/bristleback.vmdl"
+		"SoundSet" "Hero_Bristleback" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "0.90" 
+		"Level" "15" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "6" 
+		"MagicalResistance" "45" 
+		 
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "240" 
+		"AttackDamageMax" "260" 
+		"AttackRate" "1.2" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "120" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "250" 
+		"BountyGoldMin" "140" 
+		"BountyGoldMax" "180" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "300" 
+		"MovementTurnRate" "1" 
+		"FollowRange"				"800"
+		"StatusHealth" "4000" 
+		"StatusHealthRegen" "1" 
+		"StatusMana" "500" 
+		"StatusManaRegen" "2" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/bristleback/bristleback.vmdl"
+			"model" "models/heroes/bristleback/bristleback_weapon.vmdl"
+			"model" "models/items/bristleback/ef_helmet_glow/ef_helmet_glow.vmdl"
+			"model" "models/heroes/bristleback/bristleback_back.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "436" }
+				"Wearable2" { "ItemDef" "5408" }
+				"Wearable3" { "ItemDef" "438" }
+			}
+		}
+	}
+	"bristle_level_20"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/bristleback/bristleback.vmdl"
+		"SoundSet" "Hero_Bristleback" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "0.95" 
+		"Level" "20" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "bristle_creeps_bristleback" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "7" 
+		"MagicalResistance" "45" 
+		 
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "300" 
+		"AttackDamageMax" "320" 
+		"AttackRate" "1.0" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "128" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "300" 
+		"BountyGoldMin" "260" 
+		"BountyGoldMax" "280" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "300" 
+		"MovementTurnRate" "0.8" 
+		"FollowRange"				"800"
+		"StatusHealth" "6000" 
+		"StatusHealthRegen" "5" 
+		"StatusMana" "750" 
+		"StatusManaRegen" "2" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/bristleback/bristleback.vmdl"
+			"model" "models/heroes/bristleback/bristleback_weapon.vmdl"
+			"model" "models/items/bristleback/heavy_barbed_head/heavy_barbed_head.vmdl"
+			"model" "models/items/bristleback/heavy_barbed_back/heavy_barbed_back.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "438" }
+				"Wearable2" { "ItemDef" "5763" }
+				"Wearable3" { "ItemDef" "5764" }
+			}
+		}
+	}
+	"bristle_level_25"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/bristleback/bristleback.vmdl"
+		"SoundSet" "Hero_Bristleback" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "0.95" 
+		"Level" "25" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "bristle_creeps_bristleback" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "8" 
+		"MagicalResistance" "45" 
+		 
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "320" 
+		"AttackDamageMax" "340" 
+		"AttackRate" "0.8" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "128" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "400" 
+		"BountyGoldMin" "280" 
+		"BountyGoldMax" "300" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "300" 
+		"MovementTurnRate" "0.8" 
+	
+		"StatusHealth" "8000" 
+		"StatusHealthRegen" "5" 
+		"StatusMana" "1000" 
+		"StatusManaRegen" "2" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/bristleback/bristleback.vmdl"
+			"model" "models/items/bristleback/ef_mace_glow/ef_mace_glow.vmdl"
+			"model" "models/items/bristleback/ef_armlet_glow/ef_armlet_glow.vmdl"
+			"model" "models/items/bristleback/ef_helmet_glow/ef_helmet_glow.vmdl"
+			"model" "mmodels/items/bristleback/ef_shoulder/ef_shoulder.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "5407" }
+				"Wearable2" { "ItemDef" "5409" }
+				"Wearable3" { "ItemDef" "5408" }
+				"Wearable4" { "ItemDef" "5406" }
+			}
+		}
+	}
+	"bristle_level_40"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/bristleback/bristleback.vmdl"
+		"SoundSet" "Hero_Bristleback" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "1.0" 
+		"Level" "40" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "bristle_creeps_bristleback" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "8" 
+		"MagicalResistance" "45" 
+		
+		"UseNeutralCreepBehavior"    "1" 	
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "400" 
+		"AttackDamageMax" "440" 
+		"AttackRate" "0.6" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "128" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "800" 
+		"BountyGoldMin" "600" 
+		"BountyGoldMax" "640" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "310" 
+		"MovementTurnRate" "0.8" 
+	
+		"StatusHealth" "18000" 
+		"StatusHealthRegen" "10" 
+		"StatusMana" "1000" 
+		"StatusManaRegen" "6" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/bristleback/bristleback.vmdl"
+			"model" "models/items/bristleback/breaking_emerald/breaking_emerald.vmdl"
+			"model" "models/items/bristleback/nightwatch_arms/nightwatch_arms.vmdl"
+			"model" "models/heroes/bristleback/bristleback_head.vmdl"
+			"model" "models/items/bristleback/nightwatch_neck/nightwatch_neck.vmdl"
+			"model" "models/items/bristleback/nightwatch_back/nightwatch_back.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "6712" }
+				"Wearable2" { "ItemDef" "6489" }
+				"Wearable3" { "ItemDef" "437" }
+				"Wearable4" { "ItemDef" "6490" }
+				"Wearable5" { "ItemDef" "6492" }
+			}
+		}
+	}
+	"bristle_level_60"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/bristleback/bristleback.vmdl"
+		"SoundSet" "Hero_Bristleback" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "1.1" 
+		"Level" "60" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "bristle_creeps_bristleback" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "10" 
+		"MagicalResistance" "45" 
+		
+		"UseNeutralCreepBehavior"    "1" 	
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "600" 
+		"AttackDamageMax" "620" 
+		"AttackRate" "0.6" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "128" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "1460" 
+		"BountyGoldMin" "820" 
+		"BountyGoldMax" "860" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "315" 
+		"MovementTurnRate" "0.8" 
+	
+		"StatusHealth" "35000" 
+		"StatusHealthRegen" "40" 
+		"StatusMana" "1200" 
+		"StatusManaRegen" "8" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/bristleback/bristleback.vmdl"
+			"model" "models/items/bristleback/heavy_barbed_morning_star/heavy_barbed_morning_star.vmdl"
+			"model" "models/items/bristleback/thornedmane_head/thornedmane_head.vmd"
+			"model" "models/items/bristleback/spinydemeanor_back/spinydemeanor_back.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "5766" }
+				"Wearable2" { "ItemDef" "6639" }
+				"Wearable3" { "ItemDef" "6538" }
+			}
+		}
+	}
+	"bristle_level_80"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/bristleback/bristleback.vmdl"
+		"SoundSet" "Hero_Bristleback" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "1.2" 
+		"Level" "80" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "bristle_creeps_bristleback" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "12" 
+		"MagicalResistance" "45" 
+		
+		"UseNeutralCreepBehavior"    "1" 	
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "800" 
+		"AttackDamageMax" "860" 
+		"AttackRate" "0.6" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "128" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "1800" 
+		"BountyGoldMin" "1250" 
+		"BountyGoldMax" "1300" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "320" 
+		"MovementTurnRate" "0.8" 
+	
+		"StatusHealth" "58000" 
+		"StatusHealthRegen" "40" 
+		"StatusMana" "1500" 
+		"StatusManaRegen" "10" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/bristleback/bristleback.vmdl"
+			"model" "models/items/bristleback/wrathrunner_back/wrathrunner_back.vmdl"
+			"model" "models/items/bristleback/wrathrunner_arms/wrathrunner_arms.vmdl"
+			"model" "models/items/bristleback/wrathrunner_head/wrathrunner_head.vmd"
+			"model" "models/items/bristleback/wrathrunner_neck/wrathrunner_neck.vmdl"
+			"model" "models/items/bristleback/wrathrunner_weapon/wrathrunner_weapon.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "8812" }
+				"Wearable2" { "ItemDef" "8813" }
+				"Wearable3" { "ItemDef" "8811" }
+				"Wearable4" { "ItemDef" "8815" }
+				"Wearable5" { "ItemDef" "8814" }
+			}
+		}
+	}
+	"bristle_level_100"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/bristleback/bristleback.vmdl"
+		"SoundSet" "Hero_Bristleback" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "1.6" 
+		"Level" "100" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "bristle_creeps_bristleback" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "20" 
+		"MagicalResistance" "45" 
+		
+		"UseNeutralCreepBehavior"    "1" 	
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "1000" 
+		"AttackDamageMax" "1000" 
+		"AttackRate" "0.6" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "128" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "3000" 
+		"BountyGoldMin" "2200" 
+		"BountyGoldMax" "2400" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "320" 
+		"MovementTurnRate" "0.8" 
+	
+		"StatusHealth" "85000" 
+		"StatusHealthRegen" "40" 
+		"StatusMana" "2000" 
+		"StatusManaRegen" "16" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/bristleback/bristleback.vmdl"
+			"model" "models/items/bristleback/nightwatch_weapon/nightwatch_weapon.vmdl"
+			"model" "models/items/bristleback/heavy_barbed_neck/heavy_barbed_neck.vmdl"
+			"model" "models/items/bristleback/heavy_barbed_back/heavy_barbed_back.vmdl"
+			"model" "models/items/bristleback/heavy_barbed_head/heavy_barbed_head.vmdl"
+			"model" "models/items/bristleback/heavy_barbed_arms/heavy_barbed_arms.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "6493" }
+				"Wearable1" { "ItemDef" "5765" }
+				"Wearable1" { "ItemDef" "5763" }
+				"Wearable1" { "ItemDef" "5764" }
+				"Wearable1" { "ItemDef" "5762" }
+			}
+		}
+	}
+	"myasnik_level_1"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"SoundSet" "Hero_Pudge" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "0.85" 
+		"Level" "1" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "" 
+		"Ability2" "" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+		 
+		"ArmorPhysical" "1" 
+		"MagicalResistance" "45" 
+		 
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UseNeutralCreepBehavior"    "1"
+		"AttackDamageMin" "25" 
+		"AttackDamageMax" "35" 
+		"AttackRate" "1.3" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "60" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "50" 
+		"BountyGoldMin" "30" 
+		"BountyGoldMax" "35" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "280" 
+		"MovementTurnRate" "1" 
+		"FollowRange"		"600"
+	
+		"StatusHealth" "500" 
+		"StatusHealthRegen" "1" 
+		"StatusMana" "0" 
+		"StatusManaRegen" "0" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/pudge/pudge.vmdl"
+			"model" "models/heroes/pudge/leftarm.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "260" }
+			}
+		}
+	}
+	"myasnik_level_5"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"SoundSet" "Hero_Pudge" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "0.90" 
+		"Level" "5" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "" 
+		"Ability2" "" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+		 
+		"ArmorPhysical" "4" 
+		"MagicalResistance" "45" 
+		 
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UseNeutralCreepBehavior"    "1"
+		"AttackDamageMin" "49" 
+		"AttackDamageMax" "55" 
+		"AttackRate" "1.2" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "100" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" "" 
+		//"AttackRangeBuffer" "200" 	
+		 
+		"BountyXP" "80" 
+		"BountyGoldMin" "46" 
+		"BountyGoldMax" "50" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "285" 
+		"MovementTurnRate" "1" 
+		"FollowRange"		"600"
+		
+		"StatusHealth" "750" 
+		"StatusHealthRegen" "1" 
+		"StatusMana" "0" 
+		"StatusManaRegen" "0" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/pudge/pudge.vmdl"
+			"model" "models/heroes/pudge/leftarm.vmdl"
+			"model" "models/heroes/pudge/righthook.vmdl"
+			"model" "models/heroes/pudge/leftweapon.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "260" }
+				"Wearable2" { "ItemDef" "47" }
+				"Wearable3" { "ItemDef" "259" }
+			}
+		}
+	}
+	"myasnik_level_10"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"SoundSet" "Hero_Pudge" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "0.90" 
+		"Level" "10" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+		"ArmorPhysical" "4" 
+		"MagicalResistance" "45" 
+		 
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "76" 
+		"AttackDamageMax" "78"
+		"AttackRate" "1.1" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "110" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" "" 		
+		"BountyXP" "120" 
+		"BountyGoldMin" "63" 
+		"BountyGoldMax" "67" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "290" 
+		"MovementTurnRate" "1" 
+		"FollowRange"				"800"
+		
+		"StatusHealth" "1000" 
+		"StatusHealthRegen" "1" 
+		"StatusMana" "350" 
+		"StatusManaRegen" "1" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/pudge/pudge.vmdl"
+			"model" "models/heroes/pudge/leftarm.vmdl"
+			"model" "models/items/pudge/delicacies_offhand/delicacies_offhand.vmdl"
+			"model" "models/items/pudge/delicacies_weapon/delicacies_weapon.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "260" }
+				"Wearable2" { "ItemDef" "5953" }
+				"Wearable3" { "ItemDef" "5955" }
+			}
+		}
+	}
+	"myasnik_level_15"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"SoundSet" "Hero_Pudge" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "0.90" 
+		"Level" "15" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "6" 
+		"MagicalResistance" "45" 
+		 
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "240" 
+		"AttackDamageMax" "260" 
+		"AttackRate" "1.2" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "120" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "250" 
+		"BountyGoldMin" "140" 
+		"BountyGoldMax" "180" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "300" 
+		"MovementTurnRate" "1" 
+		"FollowRange"				"800"
+		"StatusHealth" "4000" 
+		"StatusHealthRegen" "1" 
+		"StatusMana" "500" 
+		"StatusManaRegen" "2" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/pudge/pudge.vmdl"
+			"model" "models/heroes/pudge/leftarm.vmdl"
+			"model" "models/items/pudge/delicacies_offhand/delicacies_offhand.vmdl"
+			"model" "models/items/pudge/delicacies_weapon/delicacies_weapon.vmdl"
+			"model" "models/heroes/pudge/belt.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "260" }
+				"Wearable2" { "ItemDef" "5953" }
+				"Wearable3" { "ItemDef" "5955" }
+				"Wearable4" { "ItemDef" "470" }
+			}
+		}
+	}
+	"myasnik_level_20"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"SoundSet" "Hero_Pudge" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "0.95" 
+		"Level" "20" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "bristle_creeps_bristleback" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "7" 
+		"MagicalResistance" "45" 
+		 
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "300" 
+		"AttackDamageMax" "320" 
+		"AttackRate" "1.0" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "128" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "300" 
+		"BountyGoldMin" "260" 
+		"BountyGoldMax" "280" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "300" 
+		"MovementTurnRate" "0.8" 
+		"FollowRange"				"800"
+		"StatusHealth" "6000" 
+		"StatusHealthRegen" "5" 
+		"StatusMana" "750" 
+		"StatusManaRegen" "2" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/pudge/pudge.vmdl"
+			"model" "models/heroes/pudge/leftarm.vmdl"
+			"model" "models/items/pudge/bogatyr_pudge_offhand_lv/bogatyr_pudge_offhand_lv.vmdl"
+			"model" "models/items/pudge/bogatyr_pudge_weapon_lv/bogatyr_pudge_weapon_lv.vmdl"
+			"model" "models/heroes/pudge/belt.vmdl"
+			"model" "models/heroes/pudge/back.vmdl"
+			"model" "models/heroes/pudge/bracer.vmdl"
+			"model" "models/heroes/pudge/hair.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "260" }
+				"Wearable2" { "ItemDef" "9456" }
+				"Wearable3" { "ItemDef" "9454" }
+				"Wearable4" { "ItemDef" "470" }
+				"Wearable5" { "ItemDef" "258" }
+				"Wearable6" { "ItemDef" "261" }
+				"Wearable7" { "ItemDef" "262" }
+			}
+		}
+	}
+	"myasnik_level_25"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"SoundSet" "Hero_Pudge" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "0.95" 
+		"Level" "25" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "bristle_creeps_bristleback" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "8" 
+		"MagicalResistance" "45" 
+		 
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "320" 
+		"AttackDamageMax" "340" 
+		"AttackRate" "0.8" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "128" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "400" 
+		"BountyGoldMin" "280" 
+		"BountyGoldMax" "300" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "300" 
+		"MovementTurnRate" "0.8" 
+	
+		"StatusHealth" "8000" 
+		"StatusHealthRegen" "5" 
+		"StatusMana" "1000" 
+		"StatusManaRegen" "2" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/pudge/pudge.vmdl"
+			"model" "models/heroes/pudge/leftarm.vmdl"
+			"model" "models/items/pudge/blackdeath_offhand_s1/blackdeath_offhand_s1.vmdl"
+			"model" "models/items/pudge/blackdeath_weapon/blackdeath_weapon.vmdl"
+			"model" "models/items/pudge/blackdeath_belt/blackdeath_belt.vmdl"
+			"model" "models/heroes/pudge/back.vmdl"
+			"model" "models/items/pudge/blackdeath_arms/blackdeath_arms.vmdl"
+			"model" "models/items/pudge/blackdeath_head/blackdeath_head.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "260" }
+				"Wearable2" { "ItemDef" "6295" }
+				"Wearable3" { "ItemDef" "6296" }
+				"Wearable4" { "ItemDef" "258" }
+				"Wearable5" { "ItemDef" "6299" }
+				"Wearable6" { "ItemDef" "6294" }
+				"Wearable7" { "ItemDef" "6293" }
+			}
+		}
+	}
+	"myasnik_level_40"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"SoundSet" "Hero_Pudge" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "1.0" 
+		"Level" "40" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "bristle_creeps_bristleback" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "8" 
+		"MagicalResistance" "45" 
+		
+		"UseNeutralCreepBehavior"    "1" 	
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "400" 
+		"AttackDamageMax" "440" 
+		"AttackRate" "0.6" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "128" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "800" 
+		"BountyGoldMin" "600" 
+		"BountyGoldMax" "640" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "310" 
+		"MovementTurnRate" "0.8" 
+	
+		"StatusHealth" "18000" 
+		"StatusHealthRegen" "10" 
+		"StatusMana" "1000" 
+		"StatusManaRegen" "6" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/pudge/pudge.vmdl"
+			"model" "models/items/pudge/blackdeath_shoulder_s1/blackdeath_shoulder_s1.vmdl"
+			"model" "models/items/pudge/blackdeath_weapon_s1/blackdeath_weapon_s1.vmdl"
+			"model" "models/items/pudge/blackdeath_offhand/blackdeath_offhand.vmdl"
+			"model" "models/items/pudge/blackdeath_head_s2/blackdeath_head_s2.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "6298" }
+				"Wearable2" { "ItemDef" "6296" }
+				"Wearable3" { "ItemDef" "6295" }
+				"Wearable4" { "ItemDef" "6293" }
+			}
+		}
+	}
+	"myasnik_level_60"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"SoundSet" "Hero_Pudge" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "1.1" 
+		"Level" "60" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "bristle_creeps_bristleback" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "10" 
+		"MagicalResistance" "45" 
+		
+		"UseNeutralCreepBehavior"    "1" 	
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "600" 
+		"AttackDamageMax" "620" 
+		"AttackRate" "0.6" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "128" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "1460" 
+		"BountyGoldMin" "820" 
+		"BountyGoldMax" "860" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "315" 
+		"MovementTurnRate" "0.8" 
+	
+		"StatusHealth" "35000" 
+		"StatusHealthRegen" "40" 
+		"StatusMana" "1200" 
+		"StatusManaRegen" "8" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/pudge/pudge.vmdl"
+			"model" "models/items/pudge/bogatyr_pudge_arms_lv/bogatyr_pudge_arms_lv.vmdl"
+			"model" "models/items/pudge/bogatyr_pudge_back_lv/bogatyr_pudge_back_lv.vmdl"
+			"model" "models/items/pudge/bogatyr_pudge_belt_lv/bogatyr_pudge_belt_lv.vmdl"
+			"model" "models/items/pudge/bogatyr_pudge_head/bogatyr_pudge_head.vmdl"
+			"model" "models/items/pudge/bogatyr_pudge_offhand_lv/bogatyr_pudge_offhand_lv.vmdl"
+			"model" "models/items/pudge/bogatyr_pudge_shoulder_lv/bogatyr_pudge_shoulder_lv.vmdl"
+			"model" "models/items/pudge/bogatyr_pudge_weapon_lv/bogatyr_pudge_weapon_lv.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "9475" }
+				"Wearable2" { "ItemDef" "9459" }
+				"Wearable3" { "ItemDef" "9472" }
+				"Wearable4" { "ItemDef" "9458" }
+				"Wearable5" { "ItemDef" "9456" }
+				"Wearable6" { "ItemDef" "9468" }
+				"Wearable7" { "ItemDef" "9454" }
+			}
+		}
+	}
+	"myasnik_level_80"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"SoundSet" "Hero_Pudge" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "1.2" 
+		"Level" "80" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "bristle_creeps_bristleback" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "12" 
+		"MagicalResistance" "45" 
+		
+		"UseNeutralCreepBehavior"    "1" 	
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "800" 
+		"AttackDamageMax" "860" 
+		"AttackRate" "0.6" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "128" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "1800" 
+		"BountyGoldMin" "1250" 
+		"BountyGoldMax" "1300" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "320" 
+		"MovementTurnRate" "0.8" 
+	
+		"StatusHealth" "58000" 
+		"StatusHealthRegen" "40" 
+		"StatusMana" "1500" 
+		"StatusManaRegen" "10" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/pudge/pudge.vmdl"
+			"model" "models/items/pudge/doomsday_ripper_arms/doomsday_ripper_arms.vmdl"
+			"model" "models/items/pudge/doomsday_ripper_back/doomsday_ripper_back.vmdl"
+			"model" "models/items/pudge/doomsday_ripper_belt/doomsday_ripper_belt.vmdl"
+			"model" "models/items/pudge/doomsday_ripper_head/doomsday_ripper_head.vmdl"
+			"model" "models/items/pudge/doomsday_ripper_off_hand/doomsday_ripper_off_hand.vmdl"
+			"model" "models/items/pudge/doomsday_ripper_shoulder/doomsday_ripper_shoulder.vmd"
+			"model" "models/items/pudge/doomsday_ripper_weapon/doomsday_ripper_weapon.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "7311" }
+				"Wearable2" { "ItemDef" "7320" }
+				"Wearable3" { "ItemDef" "7362" }
+				"Wearable4" { "ItemDef" "7363" }
+				"Wearable5" { "ItemDef" "7371" }
+				"Wearable6" { "ItemDef" "7376" }
+				"Wearable7" { "ItemDef" "7945" }
+			}
+		}
+	}
+	"myasnik_level_100"
+	{
+		"BaseClass" "npc_dota_creature" 
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"SoundSet" "Hero_Pudge" 
+		"GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+		"ModelScale" "1.4" 
+		"Level" "100" 
+		"IsNeutralUnitType"            "1"
+		
+		"AbilityLayout"				"4"
+		"Ability1" "bristle_creeps_spikes" 
+		"Ability2" "bristle_creeps_bristleback" 
+		"Ability3" "" 
+		"Ability4" "" 
+		"Ability5" "" 
+		"Ability6" "" 
+		"Ability7" "" 
+		"Ability8" "" 
+
+		"ArmorPhysical" "20" 
+		"MagicalResistance" "45" 
+		
+		"UseNeutralCreepBehavior"    "1" 	
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin" "1000" 
+		"AttackDamageMax" "1000" 
+		"AttackRate" "0.6" 
+		"AttackAnimationPoint" "0.3" 
+		"AttackAcquisitionRange" "300" 
+		"AttackRange" "128" 
+		"ProjectileModel" "" 
+		"ProjectileSpeed" ""
+		//"AttackRangeBuffer" "200" 		
+		 
+		"BountyXP" "3000" 
+		"BountyGoldMin" "2200" 
+		"BountyGoldMax" "2400" 
+		 
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+		"MovementSpeed" "320" 
+		"MovementTurnRate" "0.8" 
+	
+		"StatusHealth" "85000" 
+		"StatusHealthRegen" "40" 
+		"StatusMana" "2000" 
+		"StatusManaRegen" "16" 
+		 
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		  
+		"VisionDaytimeRange" "1000" 
+		"VisionNighttimeRange" "600" 
+	
+		"precache"
+		{
+			"model" "models/heroes/pudge/pudge.vmdl"
+			"model" "models/items/pudge/ftp_dendi_arm/ftp_dendi_arm.vmdl"
+			"model" "models/items/pudge/ftp_dendi_back/ftp_dendi_back.vmdl"
+			"model" "models/items/pudge/ftp_dendi_head/ftp_dendi_head.vmdl"
+			"model" "models/items/pudge/war_path_off_hand/war_path_off_hand.vmdl"
+			"model" "models/items/pudge/chained_snatcher/chained_snatcher.vmdl"
+		}
+		
+		"Creature"
+		{
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "6202" }
+				"Wearable2" { "ItemDef" "6115" }
+				"Wearable3" { "ItemDef" "6007" }
+				"Wearable4" { "ItemDef" "7609" }
+				"Wearable5" { "ItemDef" "4608" }
+			}
+		}
+	}
 }
