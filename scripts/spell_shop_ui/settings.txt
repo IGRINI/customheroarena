@@ -5,8 +5,8 @@
 	"_max_row"		"10"
 	"_max_column"	"8"
 	"_canOpen"		"true"
-	"_useRes"		"true"
-	"_useGold"		"false"
+	"_useRes"		"false"
+	"_useGold"		"true"
 }
 
 

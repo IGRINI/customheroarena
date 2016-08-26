@@ -8,10 +8,10 @@ If somebody read this, KILL ME PLEASE
 require('timers')
 require('spawners')
 require('tp_s')
-require('change_hero')
-require('items/shop')
+--require('change_hero')
+--require('items/shop')
 require('lib/teleport')
-require('lib/duel_lib')
+--require('lib/duel_lib')
 require('chat_listener')
 require('teleports/teleport')
 require('spell_shop_UI')
@@ -35,7 +35,7 @@ duel_start_flag 			= false
 nPlayers 					= 0
 
 _G.killLimit 				= 20 
-_G.CREEPS_LIMIT 			= 700
+_G.CREEPS_LIMIT 			= 600
 
 _G.nCOUNTDOWNTIMER 			= DUEL_INTERVAL
 
@@ -120,7 +120,6 @@ end
 function AngelArena:InitGameMode()
 	SpellShopUI:InitGameMode();
 	GameRules:GetGameModeEntity():SetThink( "OnGameStateChange", self, "GlobalThink", 2 )
-	print( "Fucked Angel Arena. Yeah bitches!" )
 	local GameMode = GameRules:GetGameModeEntity()
     self.vUserIds = {}
     
@@ -151,13 +150,6 @@ function AngelArena:InitGameMode()
     GameRules:SetSameHeroSelectionEnabled(false)
 
     
-    if GetMapName() == "map_10x10" then
-		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_GOODGUYS, 10 )
-		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_BADGUYS, 10 )
-	else
-		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_GOODGUYS, 5 )
-		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_BADGUYS, 5 )
-	end
 
 	--################################## BASE LISTENERS ############################################### --
     ListenToGameEvent("dota_player_pick_hero", 			Dynamic_Wrap(AngelArena, "OnHeroPicked"), self)
@@ -215,20 +207,6 @@ function AngelArena:InitGameMode()
 	--########################################## START FUNCS ########################################### --
 	StartAntiCampSystem()
 
-	--[[
-	--typical parsion of idiotto master :3
-	local tst = LoadKeyValues('scripts/npc/items.txt')
-	for i,x in pairs(tst) do 
-		if i and x and type(x) == "table" then
-
-			if x['ItemCost'] then
-				print('["' .. i .. '"] = '..  x['ItemCost'] .. "," ) 
-			else
-				print('["' .. i .. '"] = '..  0 .. "," ) 
-			end
-		end
-	end
-	]]
 end
 
 function AngelArena:GoldFilter(event)
@@ -533,17 +511,6 @@ function AngelArena:OnNPCSpawned(event)
 		spawnedUnit:AddNewModifier(spawnedUnit, nil, "modifier_brewmaster_spirits_lua", {})
 	end
 
-	if (unitname == "npc_dota_techies_land_mine" or unitname == "npc_dota_techies_remote_mine" or unitname == "npc_dota_techies_stasis_trap" or unitname == "npc_dota_thinker") and not DuelLibrary:IsDuelActive() then
-		local pos = spawnedUnit:GetAbsOrigin() 
-		local duel_pos1 = Entities:FindByName(nil, "RADIANT_DUEL_TELEPORT"):GetAbsOrigin();
-		local duel_pos2 = Entities:FindByName(nil, "DIRE_DUEL_TELEPORT"):GetAbsOrigin();
-
-		if math.abs((pos - duel_pos1):Length2D()) < 700 or (math.abs((pos - duel_pos2):Length2D() )  < 700 ) then
-			UTIL_Remove(spawnedUnit)
-
-		end
-	end
-
 	if spawnedUnit:IsIllusion() and spawnedUnit:IsHero() then -- is that hero or hero illusion? & is illusion
 		local originals = Entities:FindAllByName(unitname )
 		local done = false
@@ -640,7 +607,7 @@ function AngelArena:OnNPCSpawned(event)
 	end
 end
 
-function OnHeroRespawn(spawned_hero, keys)
+function OnHeroRespawn(spawned_hero)
 	local hero = spawned_hero
 	local steam_id = PlayerResource:GetSteamAccountID(hero:GetPlayerOwnerID())
 	
@@ -1009,6 +976,12 @@ function AngelArena:OnHeroPicked (event)
 	   	end
 	end
 
+	hero:SetGold(1000,true)
+	hero:SetAbilityPoints(0)
+	hero:AddAbility("SDMS")
+    hero:FindAbilityByName("SDMS"):SetLevel(1)
+
+	
 	for i=0,23 do
     	if PlayerResource:IsValidPlayer(i) then
     		local color = Constants.CustomPlayerColors[i+1]

@@ -73,4 +73,37 @@
 			}
 		}
 	}
+	"item_ultimate_scepter"
+	{
+		"ItemPurchasable"				"0"
+		"ItemDroppable"					"0"
+	}
+	"SDMS"
+  	{
+    	"BaseClass"                   	"ability_datadriven"
+	    "AbilityName"                 	"dota_ability_xp_granter"
+	    "AbilityBehavior"             	"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+	    "AbilityTextureName"          	"axe_battle_hunger"
+		"MaxLevel"               		"1"
+		"Modifiers"
+	    {
+			"SDMS_hidden"
+			{
+			
+				"IsHidden"              "1"
+				"Passive"               "1"
+				"IsPurgeable" 			"0"
+				"ThinkInterval"   		"0.05"
+					  
+				"OnIntervalThink"
+			  	{
+					"RunScript"
+				  	{
+						"ScriptFile"    "abilities/point.lua"
+						"Function"      "point"
+				  	}
+			  	}
+			}
+	    }
+  	}
 }

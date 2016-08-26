@@ -35,10 +35,7 @@ end
 function SpawnNeutrals()
 	if init == false then
 		init = true
-		if GetMapName() == "map_10x10" then
-			map_multipler = 2
-			_G.CREEPS_LIMIT = 1200
-		end
+
 		print("map multipler = " .. map_multipler)
 		SpawnAllBosses(bosses_table, Bosses)
 	end

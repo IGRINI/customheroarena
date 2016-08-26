@@ -158,3 +158,16 @@ function SpellShopUI:PlayerSellSkillpoint( player, _cost)
 	-- [IMPORTANT] Send the event when you're finished so the Flash UI properly registers it
 	FireGameEvent('spell_shop_ui_update_res', { player_ID = pID, _res = _res } )
 end
+
+--[[ test function, feel free to remove
+ function SpellShopUI:RemoveAbilities( player )
+	 local hero = player:GetAssignedHero()
+	 hero:RemoveAbility('abaddon_aphotic_shield')
+	 hero:RemoveAbility('abaddon_borrowed_time')
+	 hero:RemoveAbility('abaddon_death_coil')
+	 hero:RemoveAbility('abaddon_frostmourne')
+	 hero:AddAbility('invoker_empty1')
+	 hero:AddAbility('invoker_empty1')
+	 hero:AddAbility('invoker_empty1')
+	 hero:AddAbility('invoker_empty1')
+end]]
