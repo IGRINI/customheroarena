@@ -25,8 +25,8 @@
 	"0001" // keep this the same as the _ID, keep it unique and in "XXXX" format. it's also the order in which your spells will show up
 	{
 		"_ID"			"0001" // see comment above
-		"_name"			"abaddon_death_coil" // the name of the ability recognized by Lua
-		"_texture"		"abaddon_death_coil" // the texture of the ability inside images/spellicons/
+		"_name"			"phantom_roulette" // the name of the ability recognized by Lua
+		"_texture"		"phantom_roulette" // the texture of the ability inside images/spellicons/
 		"_isSellable"	"true" // if you can sell the ability
 		"_isOwned"		"false" // if the ability is owned by the player. you might want to set this to false
 		"_cost"			"500" // the gold cost of the ability
