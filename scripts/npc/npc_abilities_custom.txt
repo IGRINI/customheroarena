@@ -106,4 +106,64 @@
 			}
 	    }
   	}
+	
+   "phantom_roulette"
+{
+	"BaseClass"             		"ability_datadriven"
+	"AbilityTextureName"			"phantom_roulette"
+	"MaxLevel" "7"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"		"FIELD_INTEGER"
+			"reduce"		"-5 -10 -15 -20 -25 -30 -35"
+		}
+		"02"
+		{
+			"var_type"		"FIELD_INTEGER"
+			"increase"		"5 10 15 20 25 30 35"
+		}
+	}
+
+	"Modifiers"
+	{
+		"control"
+		{
+			"Passive" "1"
+			"IsHidden" "1"
+	        "ThinkInterval" ".25"
+
+			"OnIntervalThink"
+			{
+			    "RunScript"
+			  {
+				"ScriptFile"  "abilities/phantom/roulette.lua"
+				"Function"    "roulette"
+			  }
+			}
+		}
+		"modifier_dec"
+		{
+			"Passive"	"0"
+			"IsHidden" "1"
+			"Properties"
+			{
+				"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%reduce"
+			}
+		}
+		
+		"modifier_inc"
+		{
+			"Passive"	"0"
+			"IsHidden" "1"
+			"Properties"
+			{
+				"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%increase"
+			}
+		}
+	}
+}
 }
